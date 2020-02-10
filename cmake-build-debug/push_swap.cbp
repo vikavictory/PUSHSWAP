@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="push_swap"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/hdeckard/PUSH_SWAP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hdeckard/PUSH_SWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hdeckard/PUSH_SWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hdeckard/PUSH_SWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hdeckard/PUSH_SWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/hdeckard/PUSH_SWAP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hdeckard/PUSH_SWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hdeckard/PUSH_SWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hdeckard/PUSH_SWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hdeckard/PUSH_SWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/hdeckard/PUSH_SWAP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hdeckard/PUSH_SWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hdeckard/PUSH_SWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hdeckard/PUSH_SWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hdeckard/PUSH_SWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="push_swap">
+				<Option output="/Users/hdeckard/PUSH_SWAP/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hdeckard/PUSH_SWAP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hdeckard/PUSH_SWAP/libftprintf"/>
+					<Add directory="/Users/hdeckard/PUSH_SWAP/libftprintf/includes"/>
+					<Add directory="/Users/hdeckard/PUSH_SWAP/libftprintf/srcs"/>
+					<Add directory="/Users/hdeckard/PUSH_SWAP/libftprintf/srcs/libft"/>
+					<Add directory="/Users/hdeckard/PUSH_SWAP/libftprintf/srcs/libft/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hdeckard/PUSH_SWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hdeckard/PUSH_SWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hdeckard/PUSH_SWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hdeckard/PUSH_SWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="push_swap/fast">
+				<Option output="/Users/hdeckard/PUSH_SWAP/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hdeckard/PUSH_SWAP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hdeckard/PUSH_SWAP/libftprintf"/>
+					<Add directory="/Users/hdeckard/PUSH_SWAP/libftprintf/includes"/>
+					<Add directory="/Users/hdeckard/PUSH_SWAP/libftprintf/srcs"/>
+					<Add directory="/Users/hdeckard/PUSH_SWAP/libftprintf/srcs/libft"/>
+					<Add directory="/Users/hdeckard/PUSH_SWAP/libftprintf/srcs/libft/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hdeckard/PUSH_SWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hdeckard/PUSH_SWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hdeckard/PUSH_SWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hdeckard/PUSH_SWAP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/hdeckard/PUSH_SWAP/actions_pa_pb.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/PUSH_SWAP/actions_ra_rb_rr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/PUSH_SWAP/actions_rra_rrb_rrr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/PUSH_SWAP/actions_sa_sb_ss.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/PUSH_SWAP/apply_actions.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/PUSH_SWAP/checker_main.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/PUSH_SWAP/fill_stack.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/PUSH_SWAP/find_duplicates_and_min.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/PUSH_SWAP/push_swap.h">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/PUSH_SWAP/validation_check.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/PUSH_SWAP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
