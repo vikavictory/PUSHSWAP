@@ -6,47 +6,11 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/05 18:19:17 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/02/10 20:11:46 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/02/10 20:11:56 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
-
-void			clean_up(t_pushswap *head)
-{
-	t_stack *help;
-
-	while (head->begin_a)
-	{
-		help = head->begin_a->next;
-		free(head->begin_a);
-		head->begin_a = help;
-	}
-	if (head->begin_b != NULL)
-	{
-		while (head->begin_b)
-		{
-			help = head->begin_b->next;
-			free(head->begin_b);
-			head->begin_b = help;
-		}
-	}
-}
-
-void			print_stack(t_stack *stack)
-{
-	int			i;
-	t_stack		*help;
-
-	i = 0;
-	help = stack;
-	while (help)
-	{
-		ft_printf("%i = %i\n", i, help->cell);
-		help = help->next;
-		i++;
-	}
-}
 
 void			check_stack(t_stack *stack)
 {
@@ -66,19 +30,6 @@ void			check_stack(t_stack *stack)
 		help = help->next;
 	}
 	ft_printf("OK\n");
-}
-
-t_pushswap		*initialization(void)
-{
-	t_pushswap		*head;
-
-	if (!(head = (t_pushswap *)malloc(sizeof(t_pushswap))))
-		return (NULL);
-	head->begin_a = NULL;
-	head->stack_a = NULL;
-	head->stack_b = NULL;
-	head->begin_b = NULL;
-	return (head);
 }
 
 int				main(int argc, char **argv)

@@ -105,16 +105,22 @@
 		<Unit filename="/Users/hdeckard/PUSH_SWAP/apply_actions.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/hdeckard/PUSH_SWAP/checker_main.c">
-			<Option target="push_swap"/>
-		</Unit>
 		<Unit filename="/Users/hdeckard/PUSH_SWAP/fill_stack.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/hdeckard/PUSH_SWAP/find_duplicates_and_min.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/hdeckard/PUSH_SWAP/help_functions.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/PUSH_SWAP/push_swap.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/hdeckard/PUSH_SWAP/push_swap.h">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/PUSH_SWAP/sorting_algorithm.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/hdeckard/PUSH_SWAP/validation_check.c">

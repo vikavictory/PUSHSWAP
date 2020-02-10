@@ -258,33 +258,6 @@ apply_actions.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/apply_actions.c.s
 .PHONY : apply_actions.c.s
 
-checker_main.o: checker_main.c.o
-
-.PHONY : checker_main.o
-
-# target to build an object file
-checker_main.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_main.c.o
-.PHONY : checker_main.c.o
-
-checker_main.i: checker_main.c.i
-
-.PHONY : checker_main.i
-
-# target to preprocess a source file
-checker_main.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_main.c.i
-.PHONY : checker_main.c.i
-
-checker_main.s: checker_main.c.s
-
-.PHONY : checker_main.s
-
-# target to generate assembly for a file
-checker_main.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_main.c.s
-.PHONY : checker_main.c.s
-
 fill_stack.o: fill_stack.c.o
 
 .PHONY : fill_stack.o
@@ -339,6 +312,87 @@ find_duplicates_and_min.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_duplicates_and_min.c.s
 .PHONY : find_duplicates_and_min.c.s
 
+help_functions.o: help_functions.c.o
+
+.PHONY : help_functions.o
+
+# target to build an object file
+help_functions.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/help_functions.c.o
+.PHONY : help_functions.c.o
+
+help_functions.i: help_functions.c.i
+
+.PHONY : help_functions.i
+
+# target to preprocess a source file
+help_functions.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/help_functions.c.i
+.PHONY : help_functions.c.i
+
+help_functions.s: help_functions.c.s
+
+.PHONY : help_functions.s
+
+# target to generate assembly for a file
+help_functions.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/help_functions.c.s
+.PHONY : help_functions.c.s
+
+push_swap.o: push_swap.c.o
+
+.PHONY : push_swap.o
+
+# target to build an object file
+push_swap.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap.c.o
+.PHONY : push_swap.c.o
+
+push_swap.i: push_swap.c.i
+
+.PHONY : push_swap.i
+
+# target to preprocess a source file
+push_swap.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap.c.i
+.PHONY : push_swap.c.i
+
+push_swap.s: push_swap.c.s
+
+.PHONY : push_swap.s
+
+# target to generate assembly for a file
+push_swap.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap.c.s
+.PHONY : push_swap.c.s
+
+sorting_algorithm.o: sorting_algorithm.c.o
+
+.PHONY : sorting_algorithm.o
+
+# target to build an object file
+sorting_algorithm.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sorting_algorithm.c.o
+.PHONY : sorting_algorithm.c.o
+
+sorting_algorithm.i: sorting_algorithm.c.i
+
+.PHONY : sorting_algorithm.i
+
+# target to preprocess a source file
+sorting_algorithm.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sorting_algorithm.c.i
+.PHONY : sorting_algorithm.c.i
+
+sorting_algorithm.s: sorting_algorithm.c.s
+
+.PHONY : sorting_algorithm.s
+
+# target to generate assembly for a file
+sorting_algorithm.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sorting_algorithm.c.s
+.PHONY : sorting_algorithm.c.s
+
 validation_check.o: validation_check.c.o
 
 .PHONY : validation_check.o
@@ -390,15 +444,21 @@ help:
 	@echo "... apply_actions.o"
 	@echo "... apply_actions.i"
 	@echo "... apply_actions.s"
-	@echo "... checker_main.o"
-	@echo "... checker_main.i"
-	@echo "... checker_main.s"
 	@echo "... fill_stack.o"
 	@echo "... fill_stack.i"
 	@echo "... fill_stack.s"
 	@echo "... find_duplicates_and_min.o"
 	@echo "... find_duplicates_and_min.i"
 	@echo "... find_duplicates_and_min.s"
+	@echo "... help_functions.o"
+	@echo "... help_functions.i"
+	@echo "... help_functions.s"
+	@echo "... push_swap.o"
+	@echo "... push_swap.i"
+	@echo "... push_swap.s"
+	@echo "... sorting_algorithm.o"
+	@echo "... sorting_algorithm.i"
+	@echo "... sorting_algorithm.s"
 	@echo "... validation_check.o"
 	@echo "... validation_check.i"
 	@echo "... validation_check.s"
