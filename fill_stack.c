@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/10 15:45:12 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/02/10 20:03:34 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/02/11 19:26:22 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,7 @@ int				fill_stack(t_pushswap *head, char **argv)
 		return (0);
 	head->stack_a = new_element(ft_atoi(argv[i]));
 	head->begin_a = head->stack_a;
+	head->i_action = head->count_of_elements + 1;
 	while (++i <= head->count_of_elements)
 	{
 		if (check_argv(argv[i]) == -1)

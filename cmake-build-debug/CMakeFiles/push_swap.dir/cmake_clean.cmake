@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/apply_actions.c.o"
   "CMakeFiles/push_swap.dir/help_functions.c.o"
   "CMakeFiles/push_swap.dir/sorting_algorithm.c.o"
+  "CMakeFiles/push_swap.dir/m1_.c.o"
+  "CMakeFiles/push_swap.dir/m2.c.o"
   "push_swap.pdb"
   "push_swap"
 )

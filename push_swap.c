@@ -49,9 +49,9 @@ int				main(int argc, char **argv)
 			free(head);
 			return (0);
 		}
-		print_stack(head->stack_a);
+		//print_stack(head->stack_a);
 		sorting_algorithm(head);
-		print_stack(head->stack_a);
+		//print_stack(head->stack_a);
 		clean_up(head);
 	}
 	return (0);

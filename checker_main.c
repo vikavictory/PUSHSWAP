@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/05 18:19:17 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/02/10 20:11:56 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/02/11 16:31:30 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,9 +47,10 @@ int				main(int argc, char **argv)
 			free(head);
 			return (0);
 		}
-		print_stack(head->stack_a);
+		//print_stack(head->stack_a);
 		how_to_sort(head, argv);
 		check_stack(head->stack_a);
+		//print_stack(head->stack_a);
 		clean_up(head);
 	}
 	return (0);

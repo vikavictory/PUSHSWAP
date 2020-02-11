@@ -123,6 +123,19 @@ push_swap/fast:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/build
 .PHONY : push_swap/fast
 
+#=============================================================================
+# Target rules for targets named checker
+
+# Build rule for target.
+checker: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 checker
+.PHONY : checker
+
+# fast build rule for target.
+checker/fast:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/build
+.PHONY : checker/fast
+
 actions_pa_pb.o: actions_pa_pb.c.o
 
 .PHONY : actions_pa_pb.o
@@ -130,6 +143,7 @@ actions_pa_pb.o: actions_pa_pb.c.o
 # target to build an object file
 actions_pa_pb.c.o:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_pa_pb.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_pa_pb.c.o
 .PHONY : actions_pa_pb.c.o
 
 actions_pa_pb.i: actions_pa_pb.c.i
@@ -139,6 +153,7 @@ actions_pa_pb.i: actions_pa_pb.c.i
 # target to preprocess a source file
 actions_pa_pb.c.i:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_pa_pb.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_pa_pb.c.i
 .PHONY : actions_pa_pb.c.i
 
 actions_pa_pb.s: actions_pa_pb.c.s
@@ -148,6 +163,7 @@ actions_pa_pb.s: actions_pa_pb.c.s
 # target to generate assembly for a file
 actions_pa_pb.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_pa_pb.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_pa_pb.c.s
 .PHONY : actions_pa_pb.c.s
 
 actions_ra_rb_rr.o: actions_ra_rb_rr.c.o
@@ -157,6 +173,7 @@ actions_ra_rb_rr.o: actions_ra_rb_rr.c.o
 # target to build an object file
 actions_ra_rb_rr.c.o:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_ra_rb_rr.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_ra_rb_rr.c.o
 .PHONY : actions_ra_rb_rr.c.o
 
 actions_ra_rb_rr.i: actions_ra_rb_rr.c.i
@@ -166,6 +183,7 @@ actions_ra_rb_rr.i: actions_ra_rb_rr.c.i
 # target to preprocess a source file
 actions_ra_rb_rr.c.i:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_ra_rb_rr.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_ra_rb_rr.c.i
 .PHONY : actions_ra_rb_rr.c.i
 
 actions_ra_rb_rr.s: actions_ra_rb_rr.c.s
@@ -175,6 +193,7 @@ actions_ra_rb_rr.s: actions_ra_rb_rr.c.s
 # target to generate assembly for a file
 actions_ra_rb_rr.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_ra_rb_rr.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_ra_rb_rr.c.s
 .PHONY : actions_ra_rb_rr.c.s
 
 actions_rra_rrb_rrr.o: actions_rra_rrb_rrr.c.o
@@ -184,6 +203,7 @@ actions_rra_rrb_rrr.o: actions_rra_rrb_rrr.c.o
 # target to build an object file
 actions_rra_rrb_rrr.c.o:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_rra_rrb_rrr.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_rra_rrb_rrr.c.o
 .PHONY : actions_rra_rrb_rrr.c.o
 
 actions_rra_rrb_rrr.i: actions_rra_rrb_rrr.c.i
@@ -193,6 +213,7 @@ actions_rra_rrb_rrr.i: actions_rra_rrb_rrr.c.i
 # target to preprocess a source file
 actions_rra_rrb_rrr.c.i:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_rra_rrb_rrr.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_rra_rrb_rrr.c.i
 .PHONY : actions_rra_rrb_rrr.c.i
 
 actions_rra_rrb_rrr.s: actions_rra_rrb_rrr.c.s
@@ -202,6 +223,7 @@ actions_rra_rrb_rrr.s: actions_rra_rrb_rrr.c.s
 # target to generate assembly for a file
 actions_rra_rrb_rrr.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_rra_rrb_rrr.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_rra_rrb_rrr.c.s
 .PHONY : actions_rra_rrb_rrr.c.s
 
 actions_sa_sb_ss.o: actions_sa_sb_ss.c.o
@@ -211,6 +233,7 @@ actions_sa_sb_ss.o: actions_sa_sb_ss.c.o
 # target to build an object file
 actions_sa_sb_ss.c.o:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_sa_sb_ss.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_sa_sb_ss.c.o
 .PHONY : actions_sa_sb_ss.c.o
 
 actions_sa_sb_ss.i: actions_sa_sb_ss.c.i
@@ -220,6 +243,7 @@ actions_sa_sb_ss.i: actions_sa_sb_ss.c.i
 # target to preprocess a source file
 actions_sa_sb_ss.c.i:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_sa_sb_ss.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_sa_sb_ss.c.i
 .PHONY : actions_sa_sb_ss.c.i
 
 actions_sa_sb_ss.s: actions_sa_sb_ss.c.s
@@ -229,6 +253,7 @@ actions_sa_sb_ss.s: actions_sa_sb_ss.c.s
 # target to generate assembly for a file
 actions_sa_sb_ss.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_sa_sb_ss.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_sa_sb_ss.c.s
 .PHONY : actions_sa_sb_ss.c.s
 
 apply_actions.o: apply_actions.c.o
@@ -238,6 +263,7 @@ apply_actions.o: apply_actions.c.o
 # target to build an object file
 apply_actions.c.o:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/apply_actions.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/apply_actions.c.o
 .PHONY : apply_actions.c.o
 
 apply_actions.i: apply_actions.c.i
@@ -247,6 +273,7 @@ apply_actions.i: apply_actions.c.i
 # target to preprocess a source file
 apply_actions.c.i:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/apply_actions.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/apply_actions.c.i
 .PHONY : apply_actions.c.i
 
 apply_actions.s: apply_actions.c.s
@@ -256,7 +283,35 @@ apply_actions.s: apply_actions.c.s
 # target to generate assembly for a file
 apply_actions.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/apply_actions.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/apply_actions.c.s
 .PHONY : apply_actions.c.s
+
+checker_main.o: checker_main.c.o
+
+.PHONY : checker_main.o
+
+# target to build an object file
+checker_main.c.o:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/checker_main.c.o
+.PHONY : checker_main.c.o
+
+checker_main.i: checker_main.c.i
+
+.PHONY : checker_main.i
+
+# target to preprocess a source file
+checker_main.c.i:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/checker_main.c.i
+.PHONY : checker_main.c.i
+
+checker_main.s: checker_main.c.s
+
+.PHONY : checker_main.s
+
+# target to generate assembly for a file
+checker_main.c.s:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/checker_main.c.s
+.PHONY : checker_main.c.s
 
 fill_stack.o: fill_stack.c.o
 
@@ -265,6 +320,7 @@ fill_stack.o: fill_stack.c.o
 # target to build an object file
 fill_stack.c.o:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/fill_stack.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/fill_stack.c.o
 .PHONY : fill_stack.c.o
 
 fill_stack.i: fill_stack.c.i
@@ -274,6 +330,7 @@ fill_stack.i: fill_stack.c.i
 # target to preprocess a source file
 fill_stack.c.i:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/fill_stack.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/fill_stack.c.i
 .PHONY : fill_stack.c.i
 
 fill_stack.s: fill_stack.c.s
@@ -283,6 +340,7 @@ fill_stack.s: fill_stack.c.s
 # target to generate assembly for a file
 fill_stack.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/fill_stack.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/fill_stack.c.s
 .PHONY : fill_stack.c.s
 
 find_duplicates_and_min.o: find_duplicates_and_min.c.o
@@ -292,6 +350,7 @@ find_duplicates_and_min.o: find_duplicates_and_min.c.o
 # target to build an object file
 find_duplicates_and_min.c.o:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_duplicates_and_min.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/find_duplicates_and_min.c.o
 .PHONY : find_duplicates_and_min.c.o
 
 find_duplicates_and_min.i: find_duplicates_and_min.c.i
@@ -301,6 +360,7 @@ find_duplicates_and_min.i: find_duplicates_and_min.c.i
 # target to preprocess a source file
 find_duplicates_and_min.c.i:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_duplicates_and_min.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/find_duplicates_and_min.c.i
 .PHONY : find_duplicates_and_min.c.i
 
 find_duplicates_and_min.s: find_duplicates_and_min.c.s
@@ -310,6 +370,7 @@ find_duplicates_and_min.s: find_duplicates_and_min.c.s
 # target to generate assembly for a file
 find_duplicates_and_min.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_duplicates_and_min.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/find_duplicates_and_min.c.s
 .PHONY : find_duplicates_and_min.c.s
 
 help_functions.o: help_functions.c.o
@@ -319,6 +380,7 @@ help_functions.o: help_functions.c.o
 # target to build an object file
 help_functions.c.o:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/help_functions.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/help_functions.c.o
 .PHONY : help_functions.c.o
 
 help_functions.i: help_functions.c.i
@@ -328,6 +390,7 @@ help_functions.i: help_functions.c.i
 # target to preprocess a source file
 help_functions.c.i:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/help_functions.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/help_functions.c.i
 .PHONY : help_functions.c.i
 
 help_functions.s: help_functions.c.s
@@ -337,7 +400,62 @@ help_functions.s: help_functions.c.s
 # target to generate assembly for a file
 help_functions.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/help_functions.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/help_functions.c.s
 .PHONY : help_functions.c.s
+
+m1_.o: m1_.c.o
+
+.PHONY : m1_.o
+
+# target to build an object file
+m1_.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/m1_.c.o
+.PHONY : m1_.c.o
+
+m1_.i: m1_.c.i
+
+.PHONY : m1_.i
+
+# target to preprocess a source file
+m1_.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/m1_.c.i
+.PHONY : m1_.c.i
+
+m1_.s: m1_.c.s
+
+.PHONY : m1_.s
+
+# target to generate assembly for a file
+m1_.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/m1_.c.s
+.PHONY : m1_.c.s
+
+m2.o: m2.c.o
+
+.PHONY : m2.o
+
+# target to build an object file
+m2.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/m2.c.o
+.PHONY : m2.c.o
+
+m2.i: m2.c.i
+
+.PHONY : m2.i
+
+# target to preprocess a source file
+m2.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/m2.c.i
+.PHONY : m2.c.i
+
+m2.s: m2.c.s
+
+.PHONY : m2.s
+
+# target to generate assembly for a file
+m2.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/m2.c.s
+.PHONY : m2.c.s
 
 push_swap.o: push_swap.c.o
 
@@ -400,6 +518,7 @@ validation_check.o: validation_check.c.o
 # target to build an object file
 validation_check.c.o:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/validation_check.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/validation_check.c.o
 .PHONY : validation_check.c.o
 
 validation_check.i: validation_check.c.i
@@ -409,6 +528,7 @@ validation_check.i: validation_check.c.i
 # target to preprocess a source file
 validation_check.c.i:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/validation_check.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/validation_check.c.i
 .PHONY : validation_check.c.i
 
 validation_check.s: validation_check.c.s
@@ -418,6 +538,7 @@ validation_check.s: validation_check.c.s
 # target to generate assembly for a file
 validation_check.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/validation_check.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/validation_check.c.s
 .PHONY : validation_check.c.s
 
 # Help Target
@@ -429,6 +550,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... push_swap"
+	@echo "... checker"
 	@echo "... actions_pa_pb.o"
 	@echo "... actions_pa_pb.i"
 	@echo "... actions_pa_pb.s"
@@ -444,6 +566,9 @@ help:
 	@echo "... apply_actions.o"
 	@echo "... apply_actions.i"
 	@echo "... apply_actions.s"
+	@echo "... checker_main.o"
+	@echo "... checker_main.i"
+	@echo "... checker_main.s"
 	@echo "... fill_stack.o"
 	@echo "... fill_stack.i"
 	@echo "... fill_stack.s"
@@ -453,6 +578,12 @@ help:
 	@echo "... help_functions.o"
 	@echo "... help_functions.i"
 	@echo "... help_functions.s"
+	@echo "... m1_.o"
+	@echo "... m1_.i"
+	@echo "... m1_.s"
+	@echo "... m2.o"
+	@echo "... m2.i"
+	@echo "... m2.s"
 	@echo "... push_swap.o"
 	@echo "... push_swap.i"
 	@echo "... push_swap.s"
