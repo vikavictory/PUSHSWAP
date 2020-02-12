@@ -31,17 +31,23 @@ CMakeFiles/push_swap.dir/apply_actions.c.o: ../libftprintf/srcs/libft/includes/l
 CMakeFiles/push_swap.dir/apply_actions.c.o: ../apply_actions.c
 CMakeFiles/push_swap.dir/apply_actions.c.o: ../push_swap.h
 
+CMakeFiles/push_swap.dir/checker_functions.c.o: ../libftprintf/includes/ft_printf.h
+CMakeFiles/push_swap.dir/checker_functions.c.o: ../libftprintf/srcs/libft/includes/get_next_line.h
+CMakeFiles/push_swap.dir/checker_functions.c.o: ../libftprintf/srcs/libft/includes/libft.h
+CMakeFiles/push_swap.dir/checker_functions.c.o: ../checker_functions.c
+CMakeFiles/push_swap.dir/checker_functions.c.o: ../push_swap.h
+
 CMakeFiles/push_swap.dir/fill_stack.c.o: ../libftprintf/includes/ft_printf.h
 CMakeFiles/push_swap.dir/fill_stack.c.o: ../libftprintf/srcs/libft/includes/get_next_line.h
 CMakeFiles/push_swap.dir/fill_stack.c.o: ../libftprintf/srcs/libft/includes/libft.h
 CMakeFiles/push_swap.dir/fill_stack.c.o: ../fill_stack.c
 CMakeFiles/push_swap.dir/fill_stack.c.o: ../push_swap.h
 
-CMakeFiles/push_swap.dir/find_duplicates_and_min.c.o: ../libftprintf/includes/ft_printf.h
-CMakeFiles/push_swap.dir/find_duplicates_and_min.c.o: ../libftprintf/srcs/libft/includes/get_next_line.h
-CMakeFiles/push_swap.dir/find_duplicates_and_min.c.o: ../libftprintf/srcs/libft/includes/libft.h
-CMakeFiles/push_swap.dir/find_duplicates_and_min.c.o: ../find_duplicates_and_min.c
-CMakeFiles/push_swap.dir/find_duplicates_and_min.c.o: ../push_swap.h
+CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o: ../libftprintf/includes/ft_printf.h
+CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o: ../libftprintf/srcs/libft/includes/get_next_line.h
+CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o: ../libftprintf/srcs/libft/includes/libft.h
+CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o: ../find_duplicates_min_and_max.c
+CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o: ../push_swap.h
 
 CMakeFiles/push_swap.dir/help_functions.c.o: ../libftprintf/includes/ft_printf.h
 CMakeFiles/push_swap.dir/help_functions.c.o: ../libftprintf/srcs/libft/includes/get_next_line.h

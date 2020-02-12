@@ -162,6 +162,10 @@
 			<Option target="push_swap"/>
 			<Option target="checker"/>
 		</Unit>
+		<Unit filename="/Users/hdeckard/PUSH_SWAP/checker_functions.c">
+			<Option target="push_swap"/>
+			<Option target="checker"/>
+		</Unit>
 		<Unit filename="/Users/hdeckard/PUSH_SWAP/checker_main.c">
 			<Option target="checker"/>
 		</Unit>
@@ -169,19 +173,13 @@
 			<Option target="push_swap"/>
 			<Option target="checker"/>
 		</Unit>
-		<Unit filename="/Users/hdeckard/PUSH_SWAP/find_duplicates_and_min.c">
+		<Unit filename="/Users/hdeckard/PUSH_SWAP/find_duplicates_min_and_max.c">
 			<Option target="push_swap"/>
 			<Option target="checker"/>
 		</Unit>
 		<Unit filename="/Users/hdeckard/PUSH_SWAP/help_functions.c">
 			<Option target="push_swap"/>
 			<Option target="checker"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/PUSH_SWAP/m1 .c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/PUSH_SWAP/m2.c">
-			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/hdeckard/PUSH_SWAP/push_swap.c">
 			<Option target="push_swap"/>

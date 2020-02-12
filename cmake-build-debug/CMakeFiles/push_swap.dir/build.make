@@ -148,18 +148,18 @@ CMakeFiles/push_swap.dir/fill_stack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/fill_stack.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hdeckard/PUSH_SWAP/fill_stack.c -o CMakeFiles/push_swap.dir/fill_stack.c.s
 
-CMakeFiles/push_swap.dir/find_duplicates_and_min.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/find_duplicates_and_min.c.o: ../find_duplicates_and_min.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/push_swap.dir/find_duplicates_and_min.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/find_duplicates_and_min.c.o   -c /Users/hdeckard/PUSH_SWAP/find_duplicates_and_min.c
+CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o: ../find_duplicates_min_and_max.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o   -c /Users/hdeckard/PUSH_SWAP/find_duplicates_min_and_max.c
 
-CMakeFiles/push_swap.dir/find_duplicates_and_min.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/find_duplicates_and_min.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hdeckard/PUSH_SWAP/find_duplicates_and_min.c > CMakeFiles/push_swap.dir/find_duplicates_and_min.c.i
+CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hdeckard/PUSH_SWAP/find_duplicates_min_and_max.c > CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.i
 
-CMakeFiles/push_swap.dir/find_duplicates_and_min.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/find_duplicates_and_min.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hdeckard/PUSH_SWAP/find_duplicates_and_min.c -o CMakeFiles/push_swap.dir/find_duplicates_and_min.c.s
+CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hdeckard/PUSH_SWAP/find_duplicates_min_and_max.c -o CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.s
 
 CMakeFiles/push_swap.dir/apply_actions.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/apply_actions.c.o: ../apply_actions.c
@@ -200,31 +200,18 @@ CMakeFiles/push_swap.dir/sorting_algorithm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sorting_algorithm.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hdeckard/PUSH_SWAP/sorting_algorithm.c -o CMakeFiles/push_swap.dir/sorting_algorithm.c.s
 
-CMakeFiles/push_swap.dir/m1_.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/m1_.c.o: ../m1\ .c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/push_swap.dir/m1_.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/m1_.c.o   -c "/Users/hdeckard/PUSH_SWAP/m1 .c"
+CMakeFiles/push_swap.dir/checker_functions.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/checker_functions.c.o: ../checker_functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/push_swap.dir/checker_functions.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/checker_functions.c.o   -c /Users/hdeckard/PUSH_SWAP/checker_functions.c
 
-CMakeFiles/push_swap.dir/m1_.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/m1_.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/hdeckard/PUSH_SWAP/m1 .c" > CMakeFiles/push_swap.dir/m1_.c.i
+CMakeFiles/push_swap.dir/checker_functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/checker_functions.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hdeckard/PUSH_SWAP/checker_functions.c > CMakeFiles/push_swap.dir/checker_functions.c.i
 
-CMakeFiles/push_swap.dir/m1_.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/m1_.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/hdeckard/PUSH_SWAP/m1 .c" -o CMakeFiles/push_swap.dir/m1_.c.s
-
-CMakeFiles/push_swap.dir/m2.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/m2.c.o: ../m2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/push_swap.dir/m2.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/m2.c.o   -c /Users/hdeckard/PUSH_SWAP/m2.c
-
-CMakeFiles/push_swap.dir/m2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/m2.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hdeckard/PUSH_SWAP/m2.c > CMakeFiles/push_swap.dir/m2.c.i
-
-CMakeFiles/push_swap.dir/m2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/m2.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hdeckard/PUSH_SWAP/m2.c -o CMakeFiles/push_swap.dir/m2.c.s
+CMakeFiles/push_swap.dir/checker_functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/checker_functions.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hdeckard/PUSH_SWAP/checker_functions.c -o CMakeFiles/push_swap.dir/checker_functions.c.s
 
 # Object files for target push_swap
 push_swap_OBJECTS = \
@@ -235,12 +222,11 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/actions_sa_sb_ss.c.o" \
 "CMakeFiles/push_swap.dir/actions_pa_pb.c.o" \
 "CMakeFiles/push_swap.dir/fill_stack.c.o" \
-"CMakeFiles/push_swap.dir/find_duplicates_and_min.c.o" \
+"CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o" \
 "CMakeFiles/push_swap.dir/apply_actions.c.o" \
 "CMakeFiles/push_swap.dir/help_functions.c.o" \
 "CMakeFiles/push_swap.dir/sorting_algorithm.c.o" \
-"CMakeFiles/push_swap.dir/m1_.c.o" \
-"CMakeFiles/push_swap.dir/m2.c.o"
+"CMakeFiles/push_swap.dir/checker_functions.c.o"
 
 # External object files for target push_swap
 push_swap_EXTERNAL_OBJECTS =
@@ -252,15 +238,14 @@ push_swap: CMakeFiles/push_swap.dir/actions_ra_rb_rr.c.o
 push_swap: CMakeFiles/push_swap.dir/actions_sa_sb_ss.c.o
 push_swap: CMakeFiles/push_swap.dir/actions_pa_pb.c.o
 push_swap: CMakeFiles/push_swap.dir/fill_stack.c.o
-push_swap: CMakeFiles/push_swap.dir/find_duplicates_and_min.c.o
+push_swap: CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o
 push_swap: CMakeFiles/push_swap.dir/apply_actions.c.o
 push_swap: CMakeFiles/push_swap.dir/help_functions.c.o
 push_swap: CMakeFiles/push_swap.dir/sorting_algorithm.c.o
-push_swap: CMakeFiles/push_swap.dir/m1_.c.o
-push_swap: CMakeFiles/push_swap.dir/m2.c.o
+push_swap: CMakeFiles/push_swap.dir/checker_functions.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
 push_swap: CMakeFiles/push_swap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C executable push_swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C executable push_swap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/push_swap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

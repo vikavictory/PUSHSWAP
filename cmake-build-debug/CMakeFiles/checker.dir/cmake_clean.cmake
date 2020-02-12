@@ -6,9 +6,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/checker.dir/actions_sa_sb_ss.c.o"
   "CMakeFiles/checker.dir/actions_pa_pb.c.o"
   "CMakeFiles/checker.dir/fill_stack.c.o"
-  "CMakeFiles/checker.dir/find_duplicates_and_min.c.o"
+  "CMakeFiles/checker.dir/find_duplicates_min_and_max.c.o"
   "CMakeFiles/checker.dir/apply_actions.c.o"
   "CMakeFiles/checker.dir/help_functions.c.o"
+  "CMakeFiles/checker.dir/checker_functions.c.o"
   "checker.pdb"
   "checker"
 )

@@ -31,17 +31,23 @@ CMakeFiles/push_swap.dir/apply_actions.c.o
  ../libftprintf/srcs/libft/includes/libft.h
  /Users/hdeckard/PUSH_SWAP/apply_actions.c
  /Users/hdeckard/PUSH_SWAP/push_swap.h
+CMakeFiles/push_swap.dir/checker_functions.c.o
+ ../libftprintf/includes/ft_printf.h
+ ../libftprintf/srcs/libft/includes/get_next_line.h
+ ../libftprintf/srcs/libft/includes/libft.h
+ /Users/hdeckard/PUSH_SWAP/checker_functions.c
+ /Users/hdeckard/PUSH_SWAP/push_swap.h
 CMakeFiles/push_swap.dir/fill_stack.c.o
  ../libftprintf/includes/ft_printf.h
  ../libftprintf/srcs/libft/includes/get_next_line.h
  ../libftprintf/srcs/libft/includes/libft.h
  /Users/hdeckard/PUSH_SWAP/fill_stack.c
  /Users/hdeckard/PUSH_SWAP/push_swap.h
-CMakeFiles/push_swap.dir/find_duplicates_and_min.c.o
+CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o
  ../libftprintf/includes/ft_printf.h
  ../libftprintf/srcs/libft/includes/get_next_line.h
  ../libftprintf/srcs/libft/includes/libft.h
- /Users/hdeckard/PUSH_SWAP/find_duplicates_and_min.c
+ /Users/hdeckard/PUSH_SWAP/find_duplicates_min_and_max.c
  /Users/hdeckard/PUSH_SWAP/push_swap.h
 CMakeFiles/push_swap.dir/help_functions.c.o
  ../libftprintf/includes/ft_printf.h

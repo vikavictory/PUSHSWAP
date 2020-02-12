@@ -286,6 +286,36 @@ apply_actions.c.s:
 	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/apply_actions.c.s
 .PHONY : apply_actions.c.s
 
+checker_functions.o: checker_functions.c.o
+
+.PHONY : checker_functions.o
+
+# target to build an object file
+checker_functions.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_functions.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/checker_functions.c.o
+.PHONY : checker_functions.c.o
+
+checker_functions.i: checker_functions.c.i
+
+.PHONY : checker_functions.i
+
+# target to preprocess a source file
+checker_functions.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_functions.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/checker_functions.c.i
+.PHONY : checker_functions.c.i
+
+checker_functions.s: checker_functions.c.s
+
+.PHONY : checker_functions.s
+
+# target to generate assembly for a file
+checker_functions.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_functions.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/checker_functions.c.s
+.PHONY : checker_functions.c.s
+
 checker_main.o: checker_main.c.o
 
 .PHONY : checker_main.o
@@ -343,35 +373,35 @@ fill_stack.c.s:
 	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/fill_stack.c.s
 .PHONY : fill_stack.c.s
 
-find_duplicates_and_min.o: find_duplicates_and_min.c.o
+find_duplicates_min_and_max.o: find_duplicates_min_and_max.c.o
 
-.PHONY : find_duplicates_and_min.o
+.PHONY : find_duplicates_min_and_max.o
 
 # target to build an object file
-find_duplicates_and_min.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_duplicates_and_min.c.o
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/find_duplicates_and_min.c.o
-.PHONY : find_duplicates_and_min.c.o
+find_duplicates_min_and_max.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/find_duplicates_min_and_max.c.o
+.PHONY : find_duplicates_min_and_max.c.o
 
-find_duplicates_and_min.i: find_duplicates_and_min.c.i
+find_duplicates_min_and_max.i: find_duplicates_min_and_max.c.i
 
-.PHONY : find_duplicates_and_min.i
+.PHONY : find_duplicates_min_and_max.i
 
 # target to preprocess a source file
-find_duplicates_and_min.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_duplicates_and_min.c.i
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/find_duplicates_and_min.c.i
-.PHONY : find_duplicates_and_min.c.i
+find_duplicates_min_and_max.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/find_duplicates_min_and_max.c.i
+.PHONY : find_duplicates_min_and_max.c.i
 
-find_duplicates_and_min.s: find_duplicates_and_min.c.s
+find_duplicates_min_and_max.s: find_duplicates_min_and_max.c.s
 
-.PHONY : find_duplicates_and_min.s
+.PHONY : find_duplicates_min_and_max.s
 
 # target to generate assembly for a file
-find_duplicates_and_min.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_duplicates_and_min.c.s
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/find_duplicates_and_min.c.s
-.PHONY : find_duplicates_and_min.c.s
+find_duplicates_min_and_max.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/find_duplicates_min_and_max.c.s
+.PHONY : find_duplicates_min_and_max.c.s
 
 help_functions.o: help_functions.c.o
 
@@ -402,60 +432,6 @@ help_functions.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/help_functions.c.s
 	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/help_functions.c.s
 .PHONY : help_functions.c.s
-
-m1_.o: m1_.c.o
-
-.PHONY : m1_.o
-
-# target to build an object file
-m1_.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/m1_.c.o
-.PHONY : m1_.c.o
-
-m1_.i: m1_.c.i
-
-.PHONY : m1_.i
-
-# target to preprocess a source file
-m1_.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/m1_.c.i
-.PHONY : m1_.c.i
-
-m1_.s: m1_.c.s
-
-.PHONY : m1_.s
-
-# target to generate assembly for a file
-m1_.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/m1_.c.s
-.PHONY : m1_.c.s
-
-m2.o: m2.c.o
-
-.PHONY : m2.o
-
-# target to build an object file
-m2.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/m2.c.o
-.PHONY : m2.c.o
-
-m2.i: m2.c.i
-
-.PHONY : m2.i
-
-# target to preprocess a source file
-m2.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/m2.c.i
-.PHONY : m2.c.i
-
-m2.s: m2.c.s
-
-.PHONY : m2.s
-
-# target to generate assembly for a file
-m2.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/m2.c.s
-.PHONY : m2.c.s
 
 push_swap.o: push_swap.c.o
 
@@ -566,24 +542,21 @@ help:
 	@echo "... apply_actions.o"
 	@echo "... apply_actions.i"
 	@echo "... apply_actions.s"
+	@echo "... checker_functions.o"
+	@echo "... checker_functions.i"
+	@echo "... checker_functions.s"
 	@echo "... checker_main.o"
 	@echo "... checker_main.i"
 	@echo "... checker_main.s"
 	@echo "... fill_stack.o"
 	@echo "... fill_stack.i"
 	@echo "... fill_stack.s"
-	@echo "... find_duplicates_and_min.o"
-	@echo "... find_duplicates_and_min.i"
-	@echo "... find_duplicates_and_min.s"
+	@echo "... find_duplicates_min_and_max.o"
+	@echo "... find_duplicates_min_and_max.i"
+	@echo "... find_duplicates_min_and_max.s"
 	@echo "... help_functions.o"
 	@echo "... help_functions.i"
 	@echo "... help_functions.s"
-	@echo "... m1_.o"
-	@echo "... m1_.i"
-	@echo "... m1_.s"
-	@echo "... m2.o"
-	@echo "... m2.i"
-	@echo "... m2.s"
 	@echo "... push_swap.o"
 	@echo "... push_swap.i"
 	@echo "... push_swap.s"

@@ -148,18 +148,18 @@ CMakeFiles/checker.dir/fill_stack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/fill_stack.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hdeckard/PUSH_SWAP/fill_stack.c -o CMakeFiles/checker.dir/fill_stack.c.s
 
-CMakeFiles/checker.dir/find_duplicates_and_min.c.o: CMakeFiles/checker.dir/flags.make
-CMakeFiles/checker.dir/find_duplicates_and_min.c.o: ../find_duplicates_and_min.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/checker.dir/find_duplicates_and_min.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/find_duplicates_and_min.c.o   -c /Users/hdeckard/PUSH_SWAP/find_duplicates_and_min.c
+CMakeFiles/checker.dir/find_duplicates_min_and_max.c.o: CMakeFiles/checker.dir/flags.make
+CMakeFiles/checker.dir/find_duplicates_min_and_max.c.o: ../find_duplicates_min_and_max.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/checker.dir/find_duplicates_min_and_max.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/find_duplicates_min_and_max.c.o   -c /Users/hdeckard/PUSH_SWAP/find_duplicates_min_and_max.c
 
-CMakeFiles/checker.dir/find_duplicates_and_min.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/find_duplicates_and_min.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hdeckard/PUSH_SWAP/find_duplicates_and_min.c > CMakeFiles/checker.dir/find_duplicates_and_min.c.i
+CMakeFiles/checker.dir/find_duplicates_min_and_max.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/find_duplicates_min_and_max.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hdeckard/PUSH_SWAP/find_duplicates_min_and_max.c > CMakeFiles/checker.dir/find_duplicates_min_and_max.c.i
 
-CMakeFiles/checker.dir/find_duplicates_and_min.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/find_duplicates_and_min.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hdeckard/PUSH_SWAP/find_duplicates_and_min.c -o CMakeFiles/checker.dir/find_duplicates_and_min.c.s
+CMakeFiles/checker.dir/find_duplicates_min_and_max.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/find_duplicates_min_and_max.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hdeckard/PUSH_SWAP/find_duplicates_min_and_max.c -o CMakeFiles/checker.dir/find_duplicates_min_and_max.c.s
 
 CMakeFiles/checker.dir/apply_actions.c.o: CMakeFiles/checker.dir/flags.make
 CMakeFiles/checker.dir/apply_actions.c.o: ../apply_actions.c
@@ -187,6 +187,19 @@ CMakeFiles/checker.dir/help_functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/help_functions.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hdeckard/PUSH_SWAP/help_functions.c -o CMakeFiles/checker.dir/help_functions.c.s
 
+CMakeFiles/checker.dir/checker_functions.c.o: CMakeFiles/checker.dir/flags.make
+CMakeFiles/checker.dir/checker_functions.c.o: ../checker_functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/checker.dir/checker_functions.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/checker_functions.c.o   -c /Users/hdeckard/PUSH_SWAP/checker_functions.c
+
+CMakeFiles/checker.dir/checker_functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/checker_functions.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hdeckard/PUSH_SWAP/checker_functions.c > CMakeFiles/checker.dir/checker_functions.c.i
+
+CMakeFiles/checker.dir/checker_functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/checker_functions.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hdeckard/PUSH_SWAP/checker_functions.c -o CMakeFiles/checker.dir/checker_functions.c.s
+
 # Object files for target checker
 checker_OBJECTS = \
 "CMakeFiles/checker.dir/checker_main.c.o" \
@@ -196,9 +209,10 @@ checker_OBJECTS = \
 "CMakeFiles/checker.dir/actions_sa_sb_ss.c.o" \
 "CMakeFiles/checker.dir/actions_pa_pb.c.o" \
 "CMakeFiles/checker.dir/fill_stack.c.o" \
-"CMakeFiles/checker.dir/find_duplicates_and_min.c.o" \
+"CMakeFiles/checker.dir/find_duplicates_min_and_max.c.o" \
 "CMakeFiles/checker.dir/apply_actions.c.o" \
-"CMakeFiles/checker.dir/help_functions.c.o"
+"CMakeFiles/checker.dir/help_functions.c.o" \
+"CMakeFiles/checker.dir/checker_functions.c.o"
 
 # External object files for target checker
 checker_EXTERNAL_OBJECTS =
@@ -210,12 +224,13 @@ checker: CMakeFiles/checker.dir/actions_ra_rb_rr.c.o
 checker: CMakeFiles/checker.dir/actions_sa_sb_ss.c.o
 checker: CMakeFiles/checker.dir/actions_pa_pb.c.o
 checker: CMakeFiles/checker.dir/fill_stack.c.o
-checker: CMakeFiles/checker.dir/find_duplicates_and_min.c.o
+checker: CMakeFiles/checker.dir/find_duplicates_min_and_max.c.o
 checker: CMakeFiles/checker.dir/apply_actions.c.o
 checker: CMakeFiles/checker.dir/help_functions.c.o
+checker: CMakeFiles/checker.dir/checker_functions.c.o
 checker: CMakeFiles/checker.dir/build.make
 checker: CMakeFiles/checker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable checker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable checker"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/checker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

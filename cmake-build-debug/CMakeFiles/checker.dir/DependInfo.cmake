@@ -9,9 +9,10 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/hdeckard/PUSH_SWAP/actions_rra_rrb_rrr.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/actions_rra_rrb_rrr.c.o"
   "/Users/hdeckard/PUSH_SWAP/actions_sa_sb_ss.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/actions_sa_sb_ss.c.o"
   "/Users/hdeckard/PUSH_SWAP/apply_actions.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/apply_actions.c.o"
+  "/Users/hdeckard/PUSH_SWAP/checker_functions.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/checker_functions.c.o"
   "/Users/hdeckard/PUSH_SWAP/checker_main.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/checker_main.c.o"
   "/Users/hdeckard/PUSH_SWAP/fill_stack.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/fill_stack.c.o"
-  "/Users/hdeckard/PUSH_SWAP/find_duplicates_and_min.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/find_duplicates_and_min.c.o"
+  "/Users/hdeckard/PUSH_SWAP/find_duplicates_min_and_max.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/find_duplicates_min_and_max.c.o"
   "/Users/hdeckard/PUSH_SWAP/help_functions.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/help_functions.c.o"
   "/Users/hdeckard/PUSH_SWAP/validation_check.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/validation_check.c.o"
   )
