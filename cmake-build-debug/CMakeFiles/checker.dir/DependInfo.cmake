@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/hdeckard/PUSH_SWAP/find_duplicates_min_and_max.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/find_duplicates_min_and_max.c.o"
   "/Users/hdeckard/PUSH_SWAP/help_functions.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/help_functions.c.o"
   "/Users/hdeckard/PUSH_SWAP/validation_check.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/validation_check.c.o"
+  "/Users/hdeckard/PUSH_SWAP/visualization.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/visualization.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

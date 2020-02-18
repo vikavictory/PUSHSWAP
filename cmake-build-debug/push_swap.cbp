@@ -195,6 +195,9 @@
 			<Option target="push_swap"/>
 			<Option target="checker"/>
 		</Unit>
+		<Unit filename="/Users/hdeckard/PUSH_SWAP/visualization.c">
+			<Option target="checker"/>
+		</Unit>
 		<Unit filename="/Users/hdeckard/PUSH_SWAP/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

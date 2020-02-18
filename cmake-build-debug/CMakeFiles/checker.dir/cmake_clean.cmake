@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/checker.dir/apply_actions.c.o"
   "CMakeFiles/checker.dir/help_functions.c.o"
   "CMakeFiles/checker.dir/checker_functions.c.o"
+  "CMakeFiles/checker.dir/visualization.c.o"
   "checker.pdb"
   "checker"
 )

@@ -517,6 +517,33 @@ validation_check.c.s:
 	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/validation_check.c.s
 .PHONY : validation_check.c.s
 
+visualization.o: visualization.c.o
+
+.PHONY : visualization.o
+
+# target to build an object file
+visualization.c.o:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/visualization.c.o
+.PHONY : visualization.c.o
+
+visualization.i: visualization.c.i
+
+.PHONY : visualization.i
+
+# target to preprocess a source file
+visualization.c.i:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/visualization.c.i
+.PHONY : visualization.c.i
+
+visualization.s: visualization.c.s
+
+.PHONY : visualization.s
+
+# target to generate assembly for a file
+visualization.c.s:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/visualization.c.s
+.PHONY : visualization.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -566,6 +593,9 @@ help:
 	@echo "... validation_check.o"
 	@echo "... validation_check.i"
 	@echo "... validation_check.s"
+	@echo "... visualization.o"
+	@echo "... visualization.i"
+	@echo "... visualization.s"
 .PHONY : help
 
 
