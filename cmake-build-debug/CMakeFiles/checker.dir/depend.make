@@ -67,3 +67,9 @@ CMakeFiles/checker.dir/validation_check.c.o: ../libftprintf/srcs/libft/includes/
 CMakeFiles/checker.dir/validation_check.c.o: ../push_swap.h
 CMakeFiles/checker.dir/validation_check.c.o: ../validation_check.c
 
+CMakeFiles/checker.dir/visualization.c.o: ../libftprintf/includes/ft_printf.h
+CMakeFiles/checker.dir/visualization.c.o: ../libftprintf/srcs/libft/includes/get_next_line.h
+CMakeFiles/checker.dir/visualization.c.o: ../libftprintf/srcs/libft/includes/libft.h
+CMakeFiles/checker.dir/visualization.c.o: ../push_swap.h
+CMakeFiles/checker.dir/visualization.c.o: ../visualization.c
+

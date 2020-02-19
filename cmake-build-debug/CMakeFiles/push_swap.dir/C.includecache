@@ -95,6 +95,14 @@ push_swap.h
 /Users/hdeckard/PUSH_SWAP/push_swap.h
 ft_printf.h
 /Users/hdeckard/PUSH_SWAP/ft_printf.h
+mlx.h
+/Users/hdeckard/PUSH_SWAP/mlx.h
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
 
 /Users/hdeckard/PUSH_SWAP/sorting_algorithm.c
 push_swap.h
