@@ -6,13 +6,13 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 16:24:15 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/02/10 20:19:37 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/02/19 16:35:19 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-t_pushswap		*initialization(void)
+t_pushswap		*initialization(int program, int argc)
 {
 	t_pushswap		*head;
 
@@ -22,6 +22,8 @@ t_pushswap		*initialization(void)
 	head->stack_a = NULL;
 	head->stack_b = NULL;
 	head->begin_b = NULL;
+	head->program = program;
+	head->count_of_elements = argc - 1;
 	return (head);
 }
 
@@ -29,11 +31,14 @@ void			clean_up(t_pushswap *head)
 {
 	t_stack *help;
 
-	while (head->begin_a)
+	if (head->begin_b != NULL)
 	{
-		help = head->begin_a->next;
-		free(head->begin_a);
-		head->begin_a = help;
+		while (head->begin_a)
+		{
+			help = head->begin_a->next;
+			free(head->begin_a);
+			head->begin_a = help;
+		}
 	}
 	if (head->begin_b != NULL)
 	{
@@ -44,6 +49,10 @@ void			clean_up(t_pushswap *head)
 			head->begin_b = help;
 		}
 	}
+	if (head->stack_a != NULL)
+		free(head->stack_a);
+	if (head->stack_b != NULL)
+		free(head->stack_b);
 }
 
 void			print_stack(t_stack *stack)

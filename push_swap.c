@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 16:24:15 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/02/10 20:51:47 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/02/19 16:35:19 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,10 +40,12 @@ int				main(int argc, char **argv)
 
 	if (argc > 1)
 	{
-		if (!(head = initialization()))
+		if (!(head = initialization(PUSH_SWAP, argc)))
 			return (0);
 		head->count_of_elements = argc - 1;
-		if (fill_stack_2(head, argv) == 0 || find_duplicates_and_min(head) == 0)
+		head->program = PUSH_SWAP;
+		head->steps = 0;
+		if (fill_stack_2(head, argv) == 0 || find_duplicates_min_and_max(head) == 0)
 		{
 			clean_up(head);
 			free(head);
@@ -53,6 +55,7 @@ int				main(int argc, char **argv)
 		sorting_algorithm(head);
 		//print_stack(head->stack_a);
 		clean_up(head);
+		free(head);
 	}
 	return (0);
 }

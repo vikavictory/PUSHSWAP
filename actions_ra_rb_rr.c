@@ -23,6 +23,8 @@ void		action_ra(t_pushswap *head)
 	transfer->next = NULL;
 	head->stack_a->next = transfer;
 	head->stack_a = head->begin_a;
+	if (head->program == PUSH_SWAP)
+		ft_printf("ra\n");
 }
 
 void		action_rb(t_pushswap *head)
@@ -38,10 +40,14 @@ void		action_rb(t_pushswap *head)
 	transfer->next = NULL;
 	head->stack_b->next = transfer;
 	head->stack_b = head->begin_b;
+	if (head->program == PUSH_SWAP)
+		ft_printf("rb\n");
 }
 
 void		action_rr(t_pushswap *head)
 {
 	action_rb(head);
 	action_ra(head);
+	if (head->program == PUSH_SWAP)
+		ft_printf("rr\n");
 }

@@ -24,6 +24,8 @@ void		action_pa(t_pushswap *head)
 	head->begin_a = transfer;
 	head->stack_a = head->begin_a;
 	head->stack_b = head->begin_b;
+	if (head->program == PUSH_SWAP)
+		ft_printf("pa\n");
 }
 
 void		action_pb(t_pushswap *head)
@@ -36,4 +38,6 @@ void		action_pb(t_pushswap *head)
 	head->begin_b = transfer;
 	head->stack_b = head->begin_b;
 	head->stack_a = head->begin_a;
+	if (head->program == PUSH_SWAP)
+		ft_printf("pb\n");
 }
