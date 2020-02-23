@@ -49,6 +49,12 @@ CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o: ../libftprintf/srcs/li
 CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o: ../find_duplicates_min_and_max.c
 CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o: ../push_swap.h
 
+CMakeFiles/push_swap.dir/functions_for_help_array.c.o: ../libftprintf/includes/ft_printf.h
+CMakeFiles/push_swap.dir/functions_for_help_array.c.o: ../libftprintf/srcs/libft/includes/get_next_line.h
+CMakeFiles/push_swap.dir/functions_for_help_array.c.o: ../libftprintf/srcs/libft/includes/libft.h
+CMakeFiles/push_swap.dir/functions_for_help_array.c.o: ../functions_for_help_array.c
+CMakeFiles/push_swap.dir/functions_for_help_array.c.o: ../push_swap.h
+
 CMakeFiles/push_swap.dir/help_functions.c.o: ../libftprintf/includes/ft_printf.h
 CMakeFiles/push_swap.dir/help_functions.c.o: ../libftprintf/srcs/libft/includes/get_next_line.h
 CMakeFiles/push_swap.dir/help_functions.c.o: ../libftprintf/srcs/libft/includes/libft.h

@@ -403,6 +403,33 @@ find_duplicates_min_and_max.c.s:
 	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/find_duplicates_min_and_max.c.s
 .PHONY : find_duplicates_min_and_max.c.s
 
+functions_for_help_array.o: functions_for_help_array.c.o
+
+.PHONY : functions_for_help_array.o
+
+# target to build an object file
+functions_for_help_array.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/functions_for_help_array.c.o
+.PHONY : functions_for_help_array.c.o
+
+functions_for_help_array.i: functions_for_help_array.c.i
+
+.PHONY : functions_for_help_array.i
+
+# target to preprocess a source file
+functions_for_help_array.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/functions_for_help_array.c.i
+.PHONY : functions_for_help_array.c.i
+
+functions_for_help_array.s: functions_for_help_array.c.s
+
+.PHONY : functions_for_help_array.s
+
+# target to generate assembly for a file
+functions_for_help_array.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/functions_for_help_array.c.s
+.PHONY : functions_for_help_array.c.s
+
 help_functions.o: help_functions.c.o
 
 .PHONY : help_functions.o
@@ -581,6 +608,9 @@ help:
 	@echo "... find_duplicates_min_and_max.o"
 	@echo "... find_duplicates_min_and_max.i"
 	@echo "... find_duplicates_min_and_max.s"
+	@echo "... functions_for_help_array.o"
+	@echo "... functions_for_help_array.i"
+	@echo "... functions_for_help_array.s"
 	@echo "... help_functions.o"
 	@echo "... help_functions.i"
 	@echo "... help_functions.s"

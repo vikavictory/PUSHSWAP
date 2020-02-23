@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/05 18:19:17 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/02/19 16:54:16 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/02/22 21:43:29 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@ int				main(int argc, char **argv)
 		{
 			clean_up(head);
 			free(head);
+			ft_printf("Error\n");
 			return (0);
 		}
 		if (head->v_flag == 1)

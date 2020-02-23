@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 16:24:15 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/02/19 16:35:19 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/02/23 20:29:49 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,13 @@ t_pushswap		*initialization(int program, int argc)
 	head->begin_b = NULL;
 	head->program = program;
 	head->count_of_elements = argc - 1;
+	head->steps = 0;
+	if (head->program == PUSH_SWAP)
+	{
+		if (!(head->help_array = (int *)malloc(sizeof(int) *
+				head->count_of_elements)))
+			return (NULL);
+	}
 	return (head);
 }
 
@@ -31,7 +38,7 @@ void			clean_up(t_pushswap *head)
 {
 	t_stack *help;
 
-	if (head->begin_b != NULL)
+	if (head->begin_a != NULL)
 	{
 		while (head->begin_a)
 		{
@@ -49,10 +56,8 @@ void			clean_up(t_pushswap *head)
 			head->begin_b = help;
 		}
 	}
-	if (head->stack_a != NULL)
-		free(head->stack_a);
-	if (head->stack_b != NULL)
-		free(head->stack_b);
+	if (head->actions != NULL)
+		free(head->actions);
 }
 
 void			print_stack(t_stack *stack)

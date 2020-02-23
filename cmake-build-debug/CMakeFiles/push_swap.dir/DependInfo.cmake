@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/hdeckard/PUSH_SWAP/checker_functions.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/checker_functions.c.o"
   "/Users/hdeckard/PUSH_SWAP/fill_stack.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/fill_stack.c.o"
   "/Users/hdeckard/PUSH_SWAP/find_duplicates_min_and_max.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o"
+  "/Users/hdeckard/PUSH_SWAP/functions_for_help_array.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/functions_for_help_array.c.o"
   "/Users/hdeckard/PUSH_SWAP/help_functions.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/help_functions.c.o"
   "/Users/hdeckard/PUSH_SWAP/push_swap.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap.c.o"
   "/Users/hdeckard/PUSH_SWAP/sorting_algorithm.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/sorting_algorithm.c.o"

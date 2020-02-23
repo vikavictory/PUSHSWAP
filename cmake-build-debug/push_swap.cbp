@@ -177,6 +177,9 @@
 			<Option target="push_swap"/>
 			<Option target="checker"/>
 		</Unit>
+		<Unit filename="/Users/hdeckard/PUSH_SWAP/functions_for_help_array.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/hdeckard/PUSH_SWAP/help_functions.c">
 			<Option target="push_swap"/>
 			<Option target="checker"/>

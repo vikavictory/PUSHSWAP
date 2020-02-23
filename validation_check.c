@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/10 15:45:12 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/02/19 21:16:41 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/02/22 21:23:53 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,22 +40,33 @@ int			check_flags(t_pushswap *head, char **argv)
 
 int			check_actions_str(char *str, int i)
 {
-	if (ft_strncmp(str + i, "sa\0", 2) == 0 ||
-	ft_strncmp(str + i, "sb\0", 2) == 0 ||
-	ft_strncmp(str + i, "ss\0", 2) == 0 ||
-	ft_strncmp(str + i, "pa\0", 2) == 0 ||
-	ft_strncmp(str + i, "pb\0", 2) == 0 ||
-	ft_strncmp(str + i, "ra\0", 2) == 0 ||
-	ft_strncmp(str + i, "rb\0", 2) == 0 ||
-	ft_strncmp(str + i, "rr\0", 2) == 0 ||
-	ft_strncmp(str + i, "rra\0", 3) == 0 ||
-	ft_strncmp(str + i, "rrb\0", 3) == 0 ||
-	ft_strncmp(str + i, "rrr\0", 3) == 0)
+	if (ft_strncmp(str + i, "sa\0",
+			ft_strlen_sym(str + i, '\n')) == 0 ||
+	ft_strncmp(str + i, "sb\0",
+			ft_strlen_sym(str + i, '\n')) == 0 ||
+	ft_strncmp(str + i, "ss\0",
+			ft_strlen_sym(str + i, '\n')) == 0 ||
+	ft_strncmp(str + i, "pa\0",
+			ft_strlen_sym(str + i, '\n')) == 0 ||
+	ft_strncmp(str + i, "pb\0",
+			ft_strlen_sym(str + i, '\n')) == 0 ||
+	ft_strncmp(str + i, "ra\0",
+			ft_strlen_sym(str + i, '\n')) == 0 ||
+	ft_strncmp(str + i, "rb\0",
+			ft_strlen_sym(str + i, '\n')) == 0 ||
+	ft_strncmp(str + i, "rr\0",
+			ft_strlen_sym(str + i, '\n')) == 0 ||
+	ft_strncmp(str + i, "rra\0",
+			ft_strlen_sym(str + i, '\n')) == 0 ||
+	ft_strncmp(str + i, "rrb\0",
+			ft_strlen_sym(str + i, '\n')) == 0 ||
+	ft_strncmp(str + i, "rrr\0",
+			ft_strlen_sym(str + i, '\n')) == 0)
 		return (0);
 	return (-1);
 }
 
-char					*reading_file()
+char		*reading_file(void)
 {
 	int				readed;
 	char			*buff;
@@ -83,17 +94,17 @@ char					*reading_file()
 	return (tmp);
 }
 
-
 int			check_actions(t_pushswap *head)
 {
 	int i;
 
 	i = 0;
-	if (!(head->actions = reading_file()))
-		return (0);
-	while (head->actions[i] != '\0')
+	head->actions = reading_file();
+	//head->actions = "sa\nrra\n\0";
+	while (head->actions != NULL && head->actions[i] != '\0')
 	{
-		if (check_actions_str(head->actions, i) == -1)
+		if (head->actions[i] == '\n' ||
+		check_actions_str(head->actions, i) == -1)
 			return (0);
 		while (head->actions[i] >= 'a' && head->actions[i] <= 'z')
 			i++;
@@ -111,6 +122,8 @@ int			check_argv(const char *str)
 	i = 0;
 	if (str[i] == '-')
 		i++;
+	if (str[0] == '-' && str[1] == '\0')
+		return (-1);
 	while (str[i] != '\0')
 	{
 		if (str[i] > '9' || str[i] < '0')

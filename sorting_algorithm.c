@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 16:24:15 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/02/18 17:17:03 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/02/23 21:30:39 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,7 @@ void		sorting_algorithm_three(t_pushswap *head)
 		head->steps++;
 	}
 }
+//*****//
 
 void		sorting_for_b(t_pushswap *head)
 {
@@ -48,51 +49,66 @@ void		sorting_for_b(t_pushswap *head)
 	}
 }
 
-//void		main_sorting(t_pushswap *head)
-//{
-//	int i;
-//
-//	i = 0;
-//	while (check_stack_common(head->stack_a, head->stack_b) == 0)
-//	{
-//		i = 0;
-//		while (i < head->count_of_elements - 3)
-//		{
-//			ft_printf("pb\n");
-//			action_pb(head);
-//			if (head->stack_b->next != NULL)
-//				sorting_for_b(head);
-//			head->steps++;
-//			i++;
-//		}
-//		sorting_algorithm_three(head);
-//		action_pa(head);
-//		if (check_stack(head->stack_a) == 0)
-//
-//			ft_printf("pa\n");
-//		head->steps++;
-//	}
-//}
+void		apply_array(t_pushswap *head, int start, int end, int compared)
+{
+	int i;
 
+	i = 0;
+	while(i < head->count_of_elements)
+	{
+		if (head->stack_a->cell <= compared)
+			action_ra(head);
+		else
+			action_pb(head);
+		i++;
+	}
+}
 
 void		main_sorting(t_pushswap *head)
 {
-	while (check_stack_common(head->stack_a, head->stack_b) == 0)
+	int compared;
+	int i_start;
+	int i_end;
+
+	i_start = 0;
+	i_end = head->count_of_elements;
+	compared = head->help_array[(i_start + i_end) / 2];
+	while (i_end >= 3)
 	{
-		get_first_second_last(head);
-		if (head->first_a > head->second_a)
-			action_sa(head);
-		else
-		{
-			action_pb(head);
-			if (head->stack_b->next != NULL)
-				sorting_for_b(head);
-		}
-		sorting_algorithm_three(head);
-		action_pa(head);
-		head->steps++;
+		apply_array(head, i_start, i_end, compared);
+		print_stack(head->stack_a);
+		ft_printf("\n");
+		print_stack(head->stack_b);
+		ft_printf("\n");
+		i_end = i_end / 2;
+		compared = head->help_array[(i_start + i_end) / 2];
 	}
+	sorting_algorithm_three(head);
+	print_stack(head->stack_a);
+	ft_printf("\n");
+	print_stack(head->stack_b);
+	ft_printf("\n");
 }
+
+//while (check_stack_common(head->stack_a, head->stack_b) == 0)
+//{
+//get_first_second_last(head);
+//
+//
+//if (head->first_a > head->second_a)
+//action_sa(head);
+//else
+//{
+//action_pb(head);
+//if (head->stack_b->next != NULL)
+//sorting_for_b(head);
+//}
+//sorting_algorithm_three(head);
+//action_pa(head);
+//head->steps++;
+//}
+
+//*****//
 
 void		sorting_algorithm(t_pushswap *head)
 {

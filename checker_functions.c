@@ -46,14 +46,14 @@ int			check_stack_minus(t_stack *stack)
 	return (1);
 }
 
-int				check_stack_common(t_stack *a, t_stack *b)
+int			check_stack_common(t_stack *a, t_stack *b)
 {
 	if (check_stack(a) == 1 && b == NULL)
 		return (1);
 	return (0);
 }
 
-void			check_stack_print(t_stack *a, t_stack *b)
+void		check_stack_print(t_stack *a, t_stack *b)
 {
 	if (check_stack_common(a, b) == 1)
 		ft_printf("OK\n");
