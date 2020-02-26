@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/05 18:03:47 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/02/25 17:03:29 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/02/26 17:21:12 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,6 +77,7 @@ t_pushswap			*initialization(int program, int argc);
 t_stack				*new_element(long long number);
 void				clean_up(t_pushswap *head);
 void				print_stack(t_stack *stack);
+void				common_print(t_pushswap *head);
 int					check_flags(t_pushswap *head, char **argv);
 int					check_actions(t_pushswap *head);
 int					check_argv(const char *str);
@@ -100,8 +101,11 @@ void				action_rrb(t_pushswap *head);
 void				action_rrr(t_pushswap *head);
 void				how_to_sort(t_pushswap *head);
 void				sorting_algorithm(t_pushswap *head);
+void				main_sorting(t_pushswap *head);
 void				sort_array(int *arr, int start, int end);
 void				print_arr(int *arr, int len);
 void				vis_initialization(t_pushswap *head);
+void				sorting_algorithm_three(t_pushswap *head);
+int					len_of_stack(t_stack *a);
 
 #endif

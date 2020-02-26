@@ -514,6 +514,33 @@ sorting_algorithm.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sorting_algorithm.c.s
 .PHONY : sorting_algorithm.c.s
 
+sorting_algorithm_2.o: sorting_algorithm_2.c.o
+
+.PHONY : sorting_algorithm_2.o
+
+# target to build an object file
+sorting_algorithm_2.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sorting_algorithm_2.c.o
+.PHONY : sorting_algorithm_2.c.o
+
+sorting_algorithm_2.i: sorting_algorithm_2.c.i
+
+.PHONY : sorting_algorithm_2.i
+
+# target to preprocess a source file
+sorting_algorithm_2.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sorting_algorithm_2.c.i
+.PHONY : sorting_algorithm_2.c.i
+
+sorting_algorithm_2.s: sorting_algorithm_2.c.s
+
+.PHONY : sorting_algorithm_2.s
+
+# target to generate assembly for a file
+sorting_algorithm_2.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sorting_algorithm_2.c.s
+.PHONY : sorting_algorithm_2.c.s
+
 validation_check.o: validation_check.c.o
 
 .PHONY : validation_check.o
@@ -620,6 +647,9 @@ help:
 	@echo "... sorting_algorithm.o"
 	@echo "... sorting_algorithm.i"
 	@echo "... sorting_algorithm.s"
+	@echo "... sorting_algorithm_2.o"
+	@echo "... sorting_algorithm_2.i"
+	@echo "... sorting_algorithm_2.s"
 	@echo "... validation_check.o"
 	@echo "... validation_check.i"
 	@echo "... validation_check.s"

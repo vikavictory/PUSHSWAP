@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 16:24:15 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/02/25 16:22:22 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/02/26 18:02:12 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,4 +75,19 @@ void			print_stack(t_stack *stack)
 		help = help->next;
 		i++;
 	}
+}
+
+int			len_of_stack(t_stack *a)
+{
+	t_stack		*help;
+	int 		i;
+
+	i = 0;
+	help = a;
+	while (help)
+	{
+		help = help->next;
+		i++;
+	}
+	return (i);
 }

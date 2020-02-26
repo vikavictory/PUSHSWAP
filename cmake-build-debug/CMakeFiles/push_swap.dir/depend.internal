@@ -73,6 +73,12 @@ CMakeFiles/push_swap.dir/sorting_algorithm.c.o
  ../libftprintf/srcs/libft/includes/libft.h
  /Users/hdeckard/PUSH_SWAP/push_swap.h
  /Users/hdeckard/PUSH_SWAP/sorting_algorithm.c
+CMakeFiles/push_swap.dir/sorting_algorithm_2.c.o
+ ../libftprintf/includes/ft_printf.h
+ ../libftprintf/srcs/libft/includes/get_next_line.h
+ ../libftprintf/srcs/libft/includes/libft.h
+ /Users/hdeckard/PUSH_SWAP/push_swap.h
+ /Users/hdeckard/PUSH_SWAP/sorting_algorithm_2.c
 CMakeFiles/push_swap.dir/validation_check.c.o
  ../libftprintf/includes/ft_printf.h
  ../libftprintf/srcs/libft/includes/get_next_line.h
