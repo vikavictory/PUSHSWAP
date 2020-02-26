@@ -36,7 +36,7 @@ void		action_rrb(t_pushswap *head)
 		return ;
 	while (head->stack_b->next->next)
 		head->stack_b = head->stack_b->next;
-	transfer = head->stack_a->next;
+	transfer = head->stack_b->next;
 	head->stack_b->next = NULL;
 	head->stack_b = head->begin_b;
 	transfer->next = head->begin_b;

@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/05 18:03:47 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/02/23 21:03:46 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/02/25 17:03:29 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,11 +53,15 @@ typedef struct		s_pushswap
 	t_stack		*stack_a;
 	t_stack		*stack_b;
 	int			*help_array;
+	int 		power_of_two;
 	int			min;
 	int			max;
+	int 		back_b;
 	int			count_of_elements;
+	int			count_of_displaced;
 	int			steps;
 	int			c_flag;
+	int 		i_array;
 	int			v_flag;
 	int			first_a;
 	int			second_a;
@@ -77,7 +81,7 @@ int					check_flags(t_pushswap *head, char **argv);
 int					check_actions(t_pushswap *head);
 int					check_argv(const char *str);
 int					check_stack(t_stack *stack);
-int					check_stack_minus(t_stack *stack);
+//int					check_stack_minus(t_stack *stack);
 void				check_stack_print(t_stack *stack, t_stack *b);
 int					check_stack_common(t_stack *stack, t_stack *b);
 int					fill_stack(t_pushswap *head, char **argv);

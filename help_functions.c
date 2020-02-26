@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 16:24:15 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/02/23 20:29:49 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/02/25 16:22:22 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,8 @@ t_pushswap		*initialization(int program, int argc)
 	head->steps = 0;
 	if (head->program == PUSH_SWAP)
 	{
+		head->power_of_two = 1;
+		head->back_b = 0;
 		if (!(head->help_array = (int *)malloc(sizeof(int) *
 				head->count_of_elements)))
 			return (NULL);
