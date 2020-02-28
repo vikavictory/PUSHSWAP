@@ -52,7 +52,11 @@ stdlib.h
 get_next_line.h
 ../libftprintf/srcs/libft/includes/get_next_line.h
 
-/Users/hdeckard/PUSH_SWAP/actions_pa_pb.c
+/Users/hdeckard/PUSH_SWAP/actions_ra_rb_rr.c
+push_swap.h
+/Users/hdeckard/PUSH_SWAP/push_swap.h
+
+/Users/hdeckard/PUSH_SWAP/actions_sa_sb_ss.c
 push_swap.h
 /Users/hdeckard/PUSH_SWAP/push_swap.h
 

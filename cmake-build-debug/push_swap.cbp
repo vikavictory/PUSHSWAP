@@ -191,6 +191,9 @@
 			<Option target="push_swap"/>
 			<Option target="checker"/>
 		</Unit>
+		<Unit filename="/Users/hdeckard/PUSH_SWAP/sort.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/hdeckard/PUSH_SWAP/sorting_algorithm.c">
 			<Option target="push_swap"/>
 		</Unit>

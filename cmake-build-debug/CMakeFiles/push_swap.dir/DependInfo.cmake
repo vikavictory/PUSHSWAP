@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/hdeckard/PUSH_SWAP/functions_for_help_array.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/functions_for_help_array.c.o"
   "/Users/hdeckard/PUSH_SWAP/help_functions.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/help_functions.c.o"
   "/Users/hdeckard/PUSH_SWAP/push_swap.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap.c.o"
+  "/Users/hdeckard/PUSH_SWAP/sort.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/sort.c.o"
   "/Users/hdeckard/PUSH_SWAP/sorting_algorithm.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/sorting_algorithm.c.o"
   "/Users/hdeckard/PUSH_SWAP/sorting_algorithm_2.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/sorting_algorithm_2.c.o"
   "/Users/hdeckard/PUSH_SWAP/validation_check.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/validation_check.c.o"
