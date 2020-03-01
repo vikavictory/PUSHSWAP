@@ -73,6 +73,12 @@ CMakeFiles/push_swap.dir/sort.c.o: ../libftprintf/srcs/libft/includes/libft.h
 CMakeFiles/push_swap.dir/sort.c.o: ../push_swap.h
 CMakeFiles/push_swap.dir/sort.c.o: ../sort.c
 
+CMakeFiles/push_swap.dir/sort_2.c.o: ../libftprintf/includes/ft_printf.h
+CMakeFiles/push_swap.dir/sort_2.c.o: ../libftprintf/srcs/libft/includes/get_next_line.h
+CMakeFiles/push_swap.dir/sort_2.c.o: ../libftprintf/srcs/libft/includes/libft.h
+CMakeFiles/push_swap.dir/sort_2.c.o: ../push_swap.h
+CMakeFiles/push_swap.dir/sort_2.c.o: ../sort_2.c
+
 CMakeFiles/push_swap.dir/sorting_algorithm.c.o: ../libftprintf/includes/ft_printf.h
 CMakeFiles/push_swap.dir/sorting_algorithm.c.o: ../libftprintf/srcs/libft/includes/get_next_line.h
 CMakeFiles/push_swap.dir/sorting_algorithm.c.o: ../libftprintf/srcs/libft/includes/libft.h

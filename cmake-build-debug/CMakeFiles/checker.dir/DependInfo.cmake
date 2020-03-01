@@ -4,18 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/hdeckard/PUSH_SWAP/actions_pa_pb.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/actions_pa_pb.c.o"
-  "/Users/hdeckard/PUSH_SWAP/actions_ra_rb_rr.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/actions_ra_rb_rr.c.o"
-  "/Users/hdeckard/PUSH_SWAP/actions_rra_rrb_rrr.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/actions_rra_rrb_rrr.c.o"
-  "/Users/hdeckard/PUSH_SWAP/actions_sa_sb_ss.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/actions_sa_sb_ss.c.o"
-  "/Users/hdeckard/PUSH_SWAP/apply_actions.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/apply_actions.c.o"
-  "/Users/hdeckard/PUSH_SWAP/checker_functions.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/checker_functions.c.o"
-  "/Users/hdeckard/PUSH_SWAP/checker_main.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/checker_main.c.o"
-  "/Users/hdeckard/PUSH_SWAP/fill_stack.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/fill_stack.c.o"
-  "/Users/hdeckard/PUSH_SWAP/find_duplicates_min_and_max.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/find_duplicates_min_and_max.c.o"
-  "/Users/hdeckard/PUSH_SWAP/help_functions.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/help_functions.c.o"
-  "/Users/hdeckard/PUSH_SWAP/validation_check.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/validation_check.c.o"
-  "/Users/hdeckard/PUSH_SWAP/visualization.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir/visualization.c.o"
+  "/Users/hdeckard/pushswap/actions_pa_pb.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/checker.dir/actions_pa_pb.c.o"
+  "/Users/hdeckard/pushswap/actions_ra_rb_rr.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/checker.dir/actions_ra_rb_rr.c.o"
+  "/Users/hdeckard/pushswap/actions_rra_rrb_rrr.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/checker.dir/actions_rra_rrb_rrr.c.o"
+  "/Users/hdeckard/pushswap/actions_sa_sb_ss.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/checker.dir/actions_sa_sb_ss.c.o"
+  "/Users/hdeckard/pushswap/apply_actions.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/checker.dir/apply_actions.c.o"
+  "/Users/hdeckard/pushswap/checker_functions.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/checker.dir/checker_functions.c.o"
+  "/Users/hdeckard/pushswap/checker_main.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/checker.dir/checker_main.c.o"
+  "/Users/hdeckard/pushswap/fill_stack.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/checker.dir/fill_stack.c.o"
+  "/Users/hdeckard/pushswap/find_duplicates_min_and_max.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/checker.dir/find_duplicates_min_and_max.c.o"
+  "/Users/hdeckard/pushswap/help_functions.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/checker.dir/help_functions.c.o"
+  "/Users/hdeckard/pushswap/validation_check.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/checker.dir/validation_check.c.o"
+  "/Users/hdeckard/pushswap/visualization.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/checker.dir/visualization.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

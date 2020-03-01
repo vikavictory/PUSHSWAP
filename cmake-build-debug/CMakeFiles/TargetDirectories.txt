@@ -1,4 +1,4 @@
-/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir
-/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/checker.dir
+/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir
+/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/checker.dir

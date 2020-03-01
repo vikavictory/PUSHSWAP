@@ -59,10 +59,10 @@ RM = /Users/hdeckard/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remov
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hdeckard/PUSH_SWAP
+CMAKE_SOURCE_DIR = /Users/hdeckard/pushswap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hdeckard/PUSH_SWAP/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/hdeckard/pushswap/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/push_swap.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /Users/hdeckard/PUSH_SWAP/cmake-build-debug
 CMakeFiles/push_swap.dir/all:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/depend
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles --progress-num=14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29 "Built target push_swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles --progress-num=14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 "Built target push_swap"
 .PHONY : CMakeFiles/push_swap.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/push_swap.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/push_swap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/push_swap.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/push_swap.dir/rule
 
 # Convenience name for target.
@@ -108,7 +108,7 @@ clean: CMakeFiles/push_swap.dir/clean
 CMakeFiles/checker.dir/all:
 	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/depend
 	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target checker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target checker"
 .PHONY : CMakeFiles/checker.dir/all
 
 # Include target in all.
@@ -118,9 +118,9 @@ all: CMakeFiles/checker.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/checker.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/checker.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/checker.dir/rule
 
 # Convenience name for target.

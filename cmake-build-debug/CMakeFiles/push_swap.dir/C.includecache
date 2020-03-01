@@ -52,19 +52,15 @@ stdlib.h
 get_next_line.h
 ../libftprintf/srcs/libft/includes/get_next_line.h
 
-/Users/hdeckard/PUSH_SWAP/actions_ra_rb_rr.c
+/Users/hdeckard/pushswap/fill_stack.c
 push_swap.h
-/Users/hdeckard/PUSH_SWAP/push_swap.h
+/Users/hdeckard/pushswap/push_swap.h
 
-/Users/hdeckard/PUSH_SWAP/actions_sa_sb_ss.c
-push_swap.h
-/Users/hdeckard/PUSH_SWAP/push_swap.h
-
-/Users/hdeckard/PUSH_SWAP/push_swap.h
+/Users/hdeckard/pushswap/push_swap.h
 ft_printf.h
-/Users/hdeckard/PUSH_SWAP/ft_printf.h
+/Users/hdeckard/pushswap/ft_printf.h
 mlx.h
-/Users/hdeckard/PUSH_SWAP/mlx.h
+/Users/hdeckard/pushswap/mlx.h
 sys/types.h
 -
 sys/stat.h

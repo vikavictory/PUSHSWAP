@@ -48,10 +48,10 @@ RM = /Users/hdeckard/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remov
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hdeckard/PUSH_SWAP
+CMAKE_SOURCE_DIR = /Users/hdeckard/pushswap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hdeckard/PUSH_SWAP/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/hdeckard/pushswap/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles /Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles /Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -514,6 +514,33 @@ sort.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort.c.s
 .PHONY : sort.c.s
 
+sort_2.o: sort_2.c.o
+
+.PHONY : sort_2.o
+
+# target to build an object file
+sort_2.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_2.c.o
+.PHONY : sort_2.c.o
+
+sort_2.i: sort_2.c.i
+
+.PHONY : sort_2.i
+
+# target to preprocess a source file
+sort_2.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_2.c.i
+.PHONY : sort_2.c.i
+
+sort_2.s: sort_2.c.s
+
+.PHONY : sort_2.s
+
+# target to generate assembly for a file
+sort_2.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_2.c.s
+.PHONY : sort_2.c.s
+
 sorting_algorithm.o: sorting_algorithm.c.o
 
 .PHONY : sorting_algorithm.o
@@ -674,6 +701,9 @@ help:
 	@echo "... sort.o"
 	@echo "... sort.i"
 	@echo "... sort.s"
+	@echo "... sort_2.o"
+	@echo "... sort_2.i"
+	@echo "... sort_2.s"
 	@echo "... sorting_algorithm.o"
 	@echo "... sorting_algorithm.i"
 	@echo "... sorting_algorithm.s"

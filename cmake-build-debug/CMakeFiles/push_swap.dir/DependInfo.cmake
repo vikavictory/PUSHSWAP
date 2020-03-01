@@ -4,21 +4,22 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/hdeckard/PUSH_SWAP/actions_pa_pb.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/actions_pa_pb.c.o"
-  "/Users/hdeckard/PUSH_SWAP/actions_ra_rb_rr.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/actions_ra_rb_rr.c.o"
-  "/Users/hdeckard/PUSH_SWAP/actions_rra_rrb_rrr.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/actions_rra_rrb_rrr.c.o"
-  "/Users/hdeckard/PUSH_SWAP/actions_sa_sb_ss.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/actions_sa_sb_ss.c.o"
-  "/Users/hdeckard/PUSH_SWAP/apply_actions.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/apply_actions.c.o"
-  "/Users/hdeckard/PUSH_SWAP/checker_functions.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/checker_functions.c.o"
-  "/Users/hdeckard/PUSH_SWAP/fill_stack.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/fill_stack.c.o"
-  "/Users/hdeckard/PUSH_SWAP/find_duplicates_min_and_max.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o"
-  "/Users/hdeckard/PUSH_SWAP/functions_for_help_array.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/functions_for_help_array.c.o"
-  "/Users/hdeckard/PUSH_SWAP/help_functions.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/help_functions.c.o"
-  "/Users/hdeckard/PUSH_SWAP/push_swap.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap.c.o"
-  "/Users/hdeckard/PUSH_SWAP/sort.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/sort.c.o"
-  "/Users/hdeckard/PUSH_SWAP/sorting_algorithm.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/sorting_algorithm.c.o"
-  "/Users/hdeckard/PUSH_SWAP/sorting_algorithm_2.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/sorting_algorithm_2.c.o"
-  "/Users/hdeckard/PUSH_SWAP/validation_check.c" "/Users/hdeckard/PUSH_SWAP/cmake-build-debug/CMakeFiles/push_swap.dir/validation_check.c.o"
+  "/Users/hdeckard/pushswap/actions_pa_pb.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/actions_pa_pb.c.o"
+  "/Users/hdeckard/pushswap/actions_ra_rb_rr.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/actions_ra_rb_rr.c.o"
+  "/Users/hdeckard/pushswap/actions_rra_rrb_rrr.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/actions_rra_rrb_rrr.c.o"
+  "/Users/hdeckard/pushswap/actions_sa_sb_ss.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/actions_sa_sb_ss.c.o"
+  "/Users/hdeckard/pushswap/apply_actions.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/apply_actions.c.o"
+  "/Users/hdeckard/pushswap/checker_functions.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/checker_functions.c.o"
+  "/Users/hdeckard/pushswap/fill_stack.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/fill_stack.c.o"
+  "/Users/hdeckard/pushswap/find_duplicates_min_and_max.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o"
+  "/Users/hdeckard/pushswap/functions_for_help_array.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/functions_for_help_array.c.o"
+  "/Users/hdeckard/pushswap/help_functions.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/help_functions.c.o"
+  "/Users/hdeckard/pushswap/push_swap.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap.c.o"
+  "/Users/hdeckard/pushswap/sort.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/sort.c.o"
+  "/Users/hdeckard/pushswap/sort_2.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/sort_2.c.o"
+  "/Users/hdeckard/pushswap/sorting_algorithm.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/sorting_algorithm.c.o"
+  "/Users/hdeckard/pushswap/sorting_algorithm_2.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/sorting_algorithm_2.c.o"
+  "/Users/hdeckard/pushswap/validation_check.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/validation_check.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
