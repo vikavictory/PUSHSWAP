@@ -225,4 +225,5 @@ void		sorting_algorithm(t_pushswap *head)
 		sorting_algorithm_three(head);
 	else
 		main_sorting(head);
+	check_stack_print(head->stack_a, head->stack_b);
 }

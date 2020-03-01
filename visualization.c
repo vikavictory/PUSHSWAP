@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 16:24:15 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/02/22 21:25:29 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/01 13:51:48 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -93,7 +93,7 @@ void		draw_stack_a(t_pushswap *head)
 				if (head->stack_a->cell < 0)
 					head->data_img[WINDOW_X * (WINDOW_Y - y - 1) + x] = 255;
 				else
-					head->data_img[WINDOW_X * (WINDOW_Y - y - 1) + x] = 995632469995;
+					head->data_img[WINDOW_X * (WINDOW_Y - y - 1) + x] = 99563245;
 				y++;
 			}
 			y = 0;
@@ -122,7 +122,7 @@ void		draw_stack_b(t_pushswap *head)
 				if (head->stack_a->cell < 0)
 					head->data_img[WINDOW_X * (31 + y - 1) + x] = 255;
 				else
-					head->data_img[WINDOW_X * (31 + y - 1) + x] = 995632469995;
+					head->data_img[WINDOW_X * (31 + y - 1) + x] = 99563245;
 				y++;
 			}
 			y = 0;
@@ -163,12 +163,14 @@ int			key_press(int button, t_pushswap *head)
 			head->play_pause = PAUSE;
 	}
 	image_creation(head);
+	return (1);
 }
 
 int		program_control(t_pushswap *head) // пробел и нажатие левой мышки будут работать одинаково
 {
 	mlx_hook(head->win, 2, 0, key_press, head);
 	//mlx_hook(head->win, 4, 0, mouse_press, head);
+	return (1);
 }
 
 void		required_values(t_pushswap *head)

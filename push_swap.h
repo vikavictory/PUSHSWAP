@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/05 18:03:47 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/02/26 17:21:12 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/01 20:03:45 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,6 +71,11 @@ typedef struct		s_pushswap
 	char		*actions;
 	int			column_width;
 	int			single_height;
+	int 		end_a;
+	int			head_a;
+	int 		i_arr;
+	int 		count_b;
+	int 		opr;
 }					t_pushswap;
 
 t_pushswap			*initialization(int program, int argc);
@@ -80,12 +85,13 @@ void				print_stack(t_stack *stack);
 void				common_print(t_pushswap *head);
 int					check_flags(t_pushswap *head, char **argv);
 int					check_actions(t_pushswap *head);
-int					check_argv(const char *str);
+int					check_argv(const char *str, char stop);
 int					check_stack(t_stack *stack);
 //int					check_stack_minus(t_stack *stack);
 void				check_stack_print(t_stack *stack, t_stack *b);
 int					check_stack_common(t_stack *stack, t_stack *b);
 int					fill_stack(t_pushswap *head, char **argv);
+int					fill_array(t_pushswap *head);
 int					fill_stack_2(t_pushswap *head, char **argv);
 int					find_duplicates_min_and_max(t_pushswap *head);
 void				action_ra(t_pushswap *head);
@@ -107,5 +113,9 @@ void				print_arr(int *arr, int len);
 void				vis_initialization(t_pushswap *head);
 void				sorting_algorithm_three(t_pushswap *head);
 int					len_of_stack(t_stack *a);
+void				from_the_top_a(t_pushswap *head, int count, int i_array);
+void				from_the_top_b(t_pushswap *head, int count, int i_array);
+void				from_the_end_of_a(t_pushswap *head, int count, int i_array);
+void				from_the_end_of_b(t_pushswap *head, int count, int i_array);
 
 #endif

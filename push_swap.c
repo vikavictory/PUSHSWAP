@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 16:24:15 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/02/25 15:38:49 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/01 15:34:20 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,7 @@ int				main(int argc, char **argv)
 	{
 		if (!(head = initialization(PUSH_SWAP, argc)))
 			return (0);
-		if (fill_stack_2(head, argv) == 0
-		|| find_duplicates_min_and_max(head) == 0)
+		if (fill_stack(head, argv) == 0)
 		{
 			clean_up(head);
 			free(head);

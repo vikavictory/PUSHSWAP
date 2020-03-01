@@ -16,7 +16,7 @@ void			how_to_sort_2(t_pushswap *head, int len, int i)
 {
 	if (ft_strncmp(head->actions + i, "rb\0", len) == 0)
 		action_rb(head);
-	else if (ft_strncmp(head->actions + i, "rr\0", len) == 0)
+	else if (len == 2 && ft_strncmp(head->actions + i, "rr\0", len) == 0)
 		action_rr(head);
 	else if (ft_strncmp(head->actions + i, "rra\0", len) == 0)
 		action_rra(head);

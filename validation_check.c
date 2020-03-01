@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/10 15:45:12 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/02/22 21:23:53 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/01 20:03:45 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -115,16 +115,16 @@ int			check_actions(t_pushswap *head)
 	return (1);
 }
 
-int			check_argv(const char *str)
+int			check_argv(const char *str, char stop)
 {
 	int i;
 
 	i = 0;
 	if (str[i] == '-')
 		i++;
-	if (str[0] == '-' && str[1] == '\0')
+	if (str[0] == '-' && (str[1] == stop || str[1] == '\0'))
 		return (-1);
-	while (str[i] != '\0')
+	while (str[i] != stop && str[i] != '\0')
 	{
 		if (str[i] > '9' || str[i] < '0')
 			return (-1);

@@ -27,11 +27,9 @@ t_pushswap		*initialization(int program, int argc)
 	head->steps = 0;
 	if (head->program == PUSH_SWAP)
 	{
+		head->opr = 0;
 		head->power_of_two = 1;
 		head->back_b = 0;
-		if (!(head->help_array = (int *)malloc(sizeof(int) *
-				head->count_of_elements)))
-			return (NULL);
 	}
 	return (head);
 }
