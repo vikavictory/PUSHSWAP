@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/05 18:03:47 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/03/01 20:03:45 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/02 17:27:59 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,16 @@
 # define START_COLOR_MINUS 16777215
 # define END_COLOR_PLUS 12399524
 # define CENTER_COLOR 255
+
+typedef struct		s_block
+{
+	char			place;
+	char 			where_to;
+	int 			start;
+	int				end;
+	int				count;
+	struct s_block *next;
+}					t_block;
 
 typedef struct		s_stack
 {

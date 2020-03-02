@@ -49,6 +49,12 @@ CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o
  ../libftprintf/srcs/libft/includes/libft.h
  /Users/hdeckard/pushswap/find_duplicates_min_and_max.c
  /Users/hdeckard/pushswap/push_swap.h
+CMakeFiles/push_swap.dir/functions_for_blocks.c.o
+ ../libftprintf/includes/ft_printf.h
+ ../libftprintf/srcs/libft/includes/get_next_line.h
+ ../libftprintf/srcs/libft/includes/libft.h
+ /Users/hdeckard/pushswap/functions_for_blocks.c
+ /Users/hdeckard/pushswap/push_swap.h
 CMakeFiles/push_swap.dir/functions_for_help_array.c.o
  ../libftprintf/includes/ft_printf.h
  ../libftprintf/srcs/libft/includes/get_next_line.h
@@ -79,6 +85,12 @@ CMakeFiles/push_swap.dir/sort_2.c.o
  ../libftprintf/srcs/libft/includes/libft.h
  /Users/hdeckard/pushswap/push_swap.h
  /Users/hdeckard/pushswap/sort_2.c
+CMakeFiles/push_swap.dir/sort_3.c.o
+ ../libftprintf/includes/ft_printf.h
+ ../libftprintf/srcs/libft/includes/get_next_line.h
+ ../libftprintf/srcs/libft/includes/libft.h
+ /Users/hdeckard/pushswap/push_swap.h
+ /Users/hdeckard/pushswap/sort_3.c
 CMakeFiles/push_swap.dir/sorting_algorithm.c.o
  ../libftprintf/includes/ft_printf.h
  ../libftprintf/srcs/libft/includes/get_next_line.h

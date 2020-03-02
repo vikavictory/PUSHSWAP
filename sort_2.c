@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 16:24:15 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/03/01 20:21:49 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/02 17:11:08 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,17 +18,16 @@ void		from_a_to_b(t_pushswap *head)
 	int 	stop;
 
 	i = 0;
-	if (head->count_of_elements > 5)
-		stop = head->help_array[head->count_of_elements - 3];
-	else
-		stop = head->help_array[2];
-	while (i < head->count_of_elements)
+	stop = head->help_array[head->count_of_elements - 3];
+	while (i < head->count_of_elements - 3)
 	{
 		if (head->stack_a->cell < stop)
+		{
 			action_pb(head);
+			i++;
+		}
 		else
 			action_ra(head);
-		i++;
 	}
 }
 
@@ -56,23 +55,23 @@ void		case_from_head_b(t_pushswap *head, int count)
 	head->end_a = 0;
 	while (i < count)
 	{
-//		if (head->stack_b->cell == head->help_array[head->i_arr - 1])
-//		{
-//			action_pa(head);
-//			head->head_a++;
-//		}
-	//	else
+		if (head->stack_b->cell == head->help_array[head->i_arr - 1])
+		{
+			action_pa(head);
+			head->head_a++;
+		}
+		else
 			action_rb(head);
 		i++;
 	}
 	action_pa(head);
-//	if (head->head_a > 0)
-//	{
-//		head->i_arr--;
-//		head->count_b--;
-//		if (head->stack_a->cell > head->stack_a->next->cell)
-//			action_sa(head);
-//	}
+	if (head->head_a > 0)
+	{
+		head->i_arr--;
+		head->count_b--;
+		if (head->stack_a->cell > head->stack_a->next->cell)
+			action_sa(head);
+	}
 }
 
 void		case_from_end_b(t_pushswap *head, int count)

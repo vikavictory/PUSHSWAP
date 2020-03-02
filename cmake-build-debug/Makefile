@@ -403,6 +403,33 @@ find_duplicates_min_and_max.c.s:
 	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/find_duplicates_min_and_max.c.s
 .PHONY : find_duplicates_min_and_max.c.s
 
+functions_for_blocks.o: functions_for_blocks.c.o
+
+.PHONY : functions_for_blocks.o
+
+# target to build an object file
+functions_for_blocks.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/functions_for_blocks.c.o
+.PHONY : functions_for_blocks.c.o
+
+functions_for_blocks.i: functions_for_blocks.c.i
+
+.PHONY : functions_for_blocks.i
+
+# target to preprocess a source file
+functions_for_blocks.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/functions_for_blocks.c.i
+.PHONY : functions_for_blocks.c.i
+
+functions_for_blocks.s: functions_for_blocks.c.s
+
+.PHONY : functions_for_blocks.s
+
+# target to generate assembly for a file
+functions_for_blocks.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/functions_for_blocks.c.s
+.PHONY : functions_for_blocks.c.s
+
 functions_for_help_array.o: functions_for_help_array.c.o
 
 .PHONY : functions_for_help_array.o
@@ -540,6 +567,33 @@ sort_2.s: sort_2.c.s
 sort_2.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_2.c.s
 .PHONY : sort_2.c.s
+
+sort_3.o: sort_3.c.o
+
+.PHONY : sort_3.o
+
+# target to build an object file
+sort_3.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_3.c.o
+.PHONY : sort_3.c.o
+
+sort_3.i: sort_3.c.i
+
+.PHONY : sort_3.i
+
+# target to preprocess a source file
+sort_3.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_3.c.i
+.PHONY : sort_3.c.i
+
+sort_3.s: sort_3.c.s
+
+.PHONY : sort_3.s
+
+# target to generate assembly for a file
+sort_3.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_3.c.s
+.PHONY : sort_3.c.s
 
 sorting_algorithm.o: sorting_algorithm.c.o
 
@@ -689,6 +743,9 @@ help:
 	@echo "... find_duplicates_min_and_max.o"
 	@echo "... find_duplicates_min_and_max.i"
 	@echo "... find_duplicates_min_and_max.s"
+	@echo "... functions_for_blocks.o"
+	@echo "... functions_for_blocks.i"
+	@echo "... functions_for_blocks.s"
 	@echo "... functions_for_help_array.o"
 	@echo "... functions_for_help_array.i"
 	@echo "... functions_for_help_array.s"
@@ -704,6 +761,9 @@ help:
 	@echo "... sort_2.o"
 	@echo "... sort_2.i"
 	@echo "... sort_2.s"
+	@echo "... sort_3.o"
+	@echo "... sort_3.i"
+	@echo "... sort_3.s"
 	@echo "... sorting_algorithm.o"
 	@echo "... sorting_algorithm.i"
 	@echo "... sorting_algorithm.s"

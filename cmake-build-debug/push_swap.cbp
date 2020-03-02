@@ -177,6 +177,9 @@
 			<Option target="push_swap"/>
 			<Option target="checker"/>
 		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/functions_for_blocks.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/hdeckard/pushswap/functions_for_help_array.c">
 			<Option target="push_swap"/>
 		</Unit>
@@ -195,6 +198,9 @@
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/hdeckard/pushswap/sort_2.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/sort_3.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/hdeckard/pushswap/sorting_algorithm.c">

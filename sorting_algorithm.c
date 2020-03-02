@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 16:24:15 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/02/26 17:06:43 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/02 18:15:17 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,11 @@ void		sorting_algorithm_three(t_pushswap *head)
 			action_sa(head);
 		head->steps++;
 	}
+}
+
+void		sorting_algorithm_four(t_pushswap *head)
+{
+	if (head->stack_a->cell == head->help_array[0])
 }
 //*****//
 
@@ -215,14 +220,15 @@ void		sorting_algorithm_three(t_pushswap *head)
 //
 //}
 
-
-
 void		sorting_algorithm(t_pushswap *head)
 {
 	if (head->count_of_elements == 1 || check_stack(head->stack_a) == 1)
 		return ;
 	else if (head->count_of_elements <= 3)
 		sorting_algorithm_three(head);
+	else if (head->count_of_elements == 4)
+		sorting_algorithm_four(head);
+
 	else
 		main_sorting(head);
 	check_stack_print(head->stack_a, head->stack_b);
