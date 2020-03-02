@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/05 18:03:47 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/03/02 17:27:59 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/02 20:35:23 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@
 typedef struct		s_block
 {
 	char			place;
-	char 			where_to;
+	char 			where_to; //мб не нужно
 	int 			start;
 	int				end;
 	int				count;
@@ -49,6 +49,7 @@ typedef struct		s_stack
 
 typedef struct		s_pushswap
 {
+	t_block		*block;
 	void		*mlx;
 	void		*win;
 	void		*image;
@@ -88,6 +89,7 @@ typedef struct		s_pushswap
 	int 		opr;
 }					t_pushswap;
 
+int 				nummod (int num);
 t_pushswap			*initialization(int program, int argc);
 t_stack				*new_element(long long number);
 void				clean_up(t_pushswap *head);
@@ -102,7 +104,6 @@ void				check_stack_print(t_stack *stack, t_stack *b);
 int					check_stack_common(t_stack *stack, t_stack *b);
 int					fill_stack(t_pushswap *head, char **argv);
 int					fill_array(t_pushswap *head);
-int					fill_stack_2(t_pushswap *head, char **argv);
 int					find_duplicates_min_and_max(t_pushswap *head);
 void				action_ra(t_pushswap *head);
 void				action_rb(t_pushswap *head);
@@ -127,5 +128,10 @@ void				from_the_top_a(t_pushswap *head, int count, int i_array);
 void				from_the_top_b(t_pushswap *head, int count, int i_array);
 void				from_the_end_of_a(t_pushswap *head, int count, int i_array);
 void				from_the_end_of_b(t_pushswap *head, int count, int i_array);
+t_block				*new_block(void);
+t_block				*add_new_block(t_block *block, t_block *new);
+t_block				*remove_one_block(t_block *block);
+void				fill_block(t_block *block, int start, int count, char place);
+void				get_block(t_pushswap *head, int start, int count, char place);
 
 #endif

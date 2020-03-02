@@ -47,10 +47,10 @@ void		sorting_algorithm_three(t_pushswap *head)
 	}
 }
 
-void		sorting_algorithm_four(t_pushswap *head)
-{
-	if (head->stack_a->cell == head->help_array[0])
-}
+//void		sorting_algorithm_four(t_pushswap *head)
+//{
+//	if (head->stack_a->cell == head->help_array[0])
+//}
 //*****//
 
 //void		apply_array(t_pushswap *head, int compared, int a)
@@ -226,9 +226,8 @@ void		sorting_algorithm(t_pushswap *head)
 		return ;
 	else if (head->count_of_elements <= 3)
 		sorting_algorithm_three(head);
-	else if (head->count_of_elements == 4)
-		sorting_algorithm_four(head);
-
+//	else if (head->count_of_elements == 4)
+//		sorting_algorithm_four(head);
 	else
 		main_sorting(head);
 	check_stack_print(head->stack_a, head->stack_b);
