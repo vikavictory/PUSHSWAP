@@ -200,6 +200,9 @@
 		<Unit filename="/Users/hdeckard/pushswap/sort_2.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/sort_2_2.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/hdeckard/pushswap/sort_3.c">
 			<Option target="push_swap"/>
 		</Unit>

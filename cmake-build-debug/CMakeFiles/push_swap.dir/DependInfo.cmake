@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/hdeckard/pushswap/push_swap.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap.c.o"
   "/Users/hdeckard/pushswap/sort.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/sort.c.o"
   "/Users/hdeckard/pushswap/sort_2.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/sort_2.c.o"
+  "/Users/hdeckard/pushswap/sort_2_2.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/sort_2_2.c.o"
   "/Users/hdeckard/pushswap/sort_3.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/sort_3.c.o"
   "/Users/hdeckard/pushswap/sorting_algorithm.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/sorting_algorithm.c.o"
   "/Users/hdeckard/pushswap/sorting_algorithm_2.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/sorting_algorithm_2.c.o"

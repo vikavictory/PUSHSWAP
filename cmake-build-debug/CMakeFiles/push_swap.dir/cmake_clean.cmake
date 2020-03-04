@@ -17,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/sort_2.c.o"
   "CMakeFiles/push_swap.dir/sort_3.c.o"
   "CMakeFiles/push_swap.dir/functions_for_blocks.c.o"
+  "CMakeFiles/push_swap.dir/sort_2_2.c.o"
   "push_swap.pdb"
   "push_swap"
 )

@@ -6,12 +6,12 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 16:24:15 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/03/02 21:38:50 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/04 17:05:30 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "push_swap.h"
-
+//
+//#include "push_swap.h"
+//
 //void		from_the_top_a(t_pushswap *head, int count, int i_array)
 //{
 //	int i;
@@ -55,6 +55,13 @@
 //	i = 0; // указатель на начало отсеченного участка
 //	while (count > 3)
 //	{
+//		if (count_2 > 4)
+//		{
+//			get_block(head, i, count_2 / 2, 'D');
+//			get_block(head, i + count_2 / 2, nummod(count_2), 'B');
+//		}
+//		else
+//			get_block(head, i, count_2, 'B');
 //		from_the_top_a(head, count_2, i);
 //		i = i + count_2;
 //		count = count - count_2;
@@ -63,24 +70,24 @@
 //	}
 //}
 //
-////void		from_a_to_b(t_pushswap *head)
-////{
-////	int		i;
-////	int 	stop;
-////
-////	i = 0;
-////	stop = head->help_array[head->count_of_elements - 3];
-////	while (i < head->count_of_elements - 3)
-////	{
-////		if (head->stack_a->cell < stop)
-////		{
-////			action_pb(head);
-////			i++;
-////		}
-////		else
-////			action_ra(head);
-////	}
-////}
+//void		from_a_to_b(t_pushswap *head)
+//{
+//	int		i;
+//	int 	stop;
+//
+//	i = 0;
+//	stop = head->help_array[head->count_of_elements - 3];
+//	while (i < head->count_of_elements - 3)
+//	{
+//		if (head->stack_a->cell < stop)
+//		{
+//			action_pb(head);
+//			i++;
+//		}
+//		else
+//			action_ra(head);
+//	}
+//}
 //
 //int 		get_place_of_number(t_pushswap *head, int num)
 //{
@@ -106,7 +113,14 @@
 //	head->end_a = 0;
 //	while (i < count)
 //	{
-//		if (head->stack_b->cell == head->help_array[head->i_arr - 1])
+//		if (head->stack_b->cell == head->help_array[head->back_a])
+//		{
+//			action_pa(head);
+//			action_ra(head);
+//			head->back_a++;
+//			head->count_b--;
+//		}
+//		else if (head->stack_b->cell == head->help_array[head->i_arr - 1])
 //		{
 //			action_pa(head);
 //			head->head_a++;
@@ -135,7 +149,14 @@
 //	while (i < count + 1)
 //	{
 //		action_rrb(head);
-//		if (head->stack_b->cell == head->help_array[head->i_arr - 1])
+//		if (head->stack_b->cell == head->help_array[head->back_a])
+//		{
+//			action_pa(head);
+//			action_ra(head);
+//			head->back_a++;
+//			head->count_b--;
+//		}
+//		else if (head->stack_b->cell == head->help_array[head->i_arr - 1])
 //		{
 //			action_pa(head);
 //			head->head_a++;
@@ -159,7 +180,7 @@
 //
 //	head->i_arr = head->count_of_elements - len_of_stack(head->stack_a) - 1;
 //	head->count_b = head->count_of_elements - len_of_stack(head->stack_a);
-//	while (head->i_arr > 0)
+//	while (head->i_arr >= head->back_a)
 //	{
 //		num = head->help_array[head->i_arr];
 //		i = get_place_of_number(head, num);
@@ -174,14 +195,25 @@
 //	if (head->i_arr == 0)
 //		action_pa(head);
 //}
+//void		from_end_of_a(t_pushswap *head)
+//{
+//	int i;
 //
+//	i = 0;
+//	while (i < head->back_a)
+//	{
+//		action_rra(head);
+//		i++;
+//	}
+//}
 //
 //void		main_sorting(t_pushswap *head)
 //{
-//	//from_a_to_b(head);
-//	from_stack_a_to_b(head); // при 20 числах снизилось с 86 до 72 команд по сравнению с использованием функции выше
+//	head->back_a = 0;
+//	from_stack_a_to_b(head);
 //	sorting_algorithm_three(head);
 //	from_b_to_a(head);
-//	ft_printf("\ncount = %d\n", head->opr);
+//	from_end_of_a(head);
 //	common_print(head);
+//	ft_printf("\ncount = %d\n", head->opr);
 //}

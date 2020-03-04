@@ -568,6 +568,33 @@ sort_2.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_2.c.s
 .PHONY : sort_2.c.s
 
+sort_2_2.o: sort_2_2.c.o
+
+.PHONY : sort_2_2.o
+
+# target to build an object file
+sort_2_2.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_2_2.c.o
+.PHONY : sort_2_2.c.o
+
+sort_2_2.i: sort_2_2.c.i
+
+.PHONY : sort_2_2.i
+
+# target to preprocess a source file
+sort_2_2.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_2_2.c.i
+.PHONY : sort_2_2.c.i
+
+sort_2_2.s: sort_2_2.c.s
+
+.PHONY : sort_2_2.s
+
+# target to generate assembly for a file
+sort_2_2.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_2_2.c.s
+.PHONY : sort_2_2.c.s
+
 sort_3.o: sort_3.c.o
 
 .PHONY : sort_3.o
@@ -761,6 +788,9 @@ help:
 	@echo "... sort_2.o"
 	@echo "... sort_2.i"
 	@echo "... sort_2.s"
+	@echo "... sort_2_2.o"
+	@echo "... sort_2_2.i"
+	@echo "... sort_2_2.s"
 	@echo "... sort_3.o"
 	@echo "... sort_3.i"
 	@echo "... sort_3.s"

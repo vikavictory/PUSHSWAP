@@ -29,14 +29,13 @@ t_block			*add_new_block(t_block *block, t_block *new)
 	return (block);
 }
 
-t_block			*remove_one_block(t_block *block)
+void			remove_one_block(t_pushswap *head)
 {
 	t_block *help;
 
-	help = block->next;
-	free(block);
-	block = help;
-	return (block);
+	help = head->block->next;
+	free(head->block);
+	head->block = help;
 }
 
 void			fill_block(t_block *block, int start, int count, char place)

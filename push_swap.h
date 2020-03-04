@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/05 18:03:47 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/03/02 20:35:23 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/04 16:38:45 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,6 +87,8 @@ typedef struct		s_pushswap
 	int 		i_arr;
 	int 		count_b;
 	int 		opr;
+	int 		back_a;
+
 }					t_pushswap;
 
 int 				nummod (int num);
@@ -130,7 +132,7 @@ void				from_the_end_of_a(t_pushswap *head, int count, int i_array);
 void				from_the_end_of_b(t_pushswap *head, int count, int i_array);
 t_block				*new_block(void);
 t_block				*add_new_block(t_block *block, t_block *new);
-t_block				*remove_one_block(t_block *block);
+void				remove_one_block(t_pushswap *head);
 void				fill_block(t_block *block, int start, int count, char place);
 void				get_block(t_pushswap *head, int start, int count, char place);
 
