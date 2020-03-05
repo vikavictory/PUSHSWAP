@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/10 15:45:12 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/03/01 20:30:32 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/05 17:38:14 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,7 +85,10 @@ int 			fill_stack(t_pushswap *head, char **argv)
 		return (0);
 	if (find_duplicates_min_and_max(head) == 0)
 		return (0);
-	if (head->program == PUSH_SWAP && fill_array(head) == 0)
-		return (0);
+//	if (head->program == PUSH_SWAP)
+//	{
+//		if (fill_array(head) == 0)
+//			return (0);
+//	}
 	return (1);
 }

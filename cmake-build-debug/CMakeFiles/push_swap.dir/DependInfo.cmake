@@ -22,6 +22,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/hdeckard/pushswap/sort_3.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/sort_3.c.o"
   "/Users/hdeckard/pushswap/sorting_algorithm.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/sorting_algorithm.c.o"
   "/Users/hdeckard/pushswap/sorting_algorithm_2.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/sorting_algorithm_2.c.o"
+  "/Users/hdeckard/pushswap/stack_a_functions.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/stack_a_functions.c.o"
+  "/Users/hdeckard/pushswap/stack_b_functions.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/stack_b_functions.c.o"
   "/Users/hdeckard/pushswap/validation_check.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/validation_check.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

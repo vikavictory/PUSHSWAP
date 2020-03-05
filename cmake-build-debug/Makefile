@@ -676,6 +676,60 @@ sorting_algorithm_2.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sorting_algorithm_2.c.s
 .PHONY : sorting_algorithm_2.c.s
 
+stack_a_functions.o: stack_a_functions.c.o
+
+.PHONY : stack_a_functions.o
+
+# target to build an object file
+stack_a_functions.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/stack_a_functions.c.o
+.PHONY : stack_a_functions.c.o
+
+stack_a_functions.i: stack_a_functions.c.i
+
+.PHONY : stack_a_functions.i
+
+# target to preprocess a source file
+stack_a_functions.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/stack_a_functions.c.i
+.PHONY : stack_a_functions.c.i
+
+stack_a_functions.s: stack_a_functions.c.s
+
+.PHONY : stack_a_functions.s
+
+# target to generate assembly for a file
+stack_a_functions.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/stack_a_functions.c.s
+.PHONY : stack_a_functions.c.s
+
+stack_b_functions.o: stack_b_functions.c.o
+
+.PHONY : stack_b_functions.o
+
+# target to build an object file
+stack_b_functions.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/stack_b_functions.c.o
+.PHONY : stack_b_functions.c.o
+
+stack_b_functions.i: stack_b_functions.c.i
+
+.PHONY : stack_b_functions.i
+
+# target to preprocess a source file
+stack_b_functions.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/stack_b_functions.c.i
+.PHONY : stack_b_functions.c.i
+
+stack_b_functions.s: stack_b_functions.c.s
+
+.PHONY : stack_b_functions.s
+
+# target to generate assembly for a file
+stack_b_functions.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/stack_b_functions.c.s
+.PHONY : stack_b_functions.c.s
+
 validation_check.o: validation_check.c.o
 
 .PHONY : validation_check.o
@@ -800,6 +854,12 @@ help:
 	@echo "... sorting_algorithm_2.o"
 	@echo "... sorting_algorithm_2.i"
 	@echo "... sorting_algorithm_2.s"
+	@echo "... stack_a_functions.o"
+	@echo "... stack_a_functions.i"
+	@echo "... stack_a_functions.s"
+	@echo "... stack_b_functions.o"
+	@echo "... stack_b_functions.i"
+	@echo "... stack_b_functions.s"
 	@echo "... validation_check.o"
 	@echo "... validation_check.i"
 	@echo "... validation_check.s"

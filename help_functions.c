@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 16:24:15 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/03/02 20:09:41 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/05 16:37:50 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,8 +28,8 @@ t_pushswap		*initialization(int program, int argc)
 	if (head->program == PUSH_SWAP)
 	{
 		head->opr = 0;
-		head->power_of_two = 1;
-		head->back_b = 0;
+		//head->power_of_two = 1;
+		//head->back_b = 0;
 		head->block = NULL;
 	}
 	return (head);
@@ -94,4 +94,12 @@ int			len_of_stack(t_stack *a)
 int 		nummod(int num) // перенести в библиотеку
 {
 	return (num / 2 + num % 2);
+}
+
+void		common_print(t_pushswap *head)
+{
+	print_stack(head->stack_a);
+	ft_printf("\n");
+	print_stack(head->stack_b);
+	ft_printf("\n");
 }

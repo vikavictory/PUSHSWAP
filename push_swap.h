@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/05 18:03:47 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/03/04 16:38:45 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/05 17:29:40 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,8 +33,6 @@
 
 typedef struct		s_block
 {
-	char			place;
-	char 			where_to; //мб не нужно
 	int 			start;
 	int				end;
 	int				count;
@@ -64,15 +62,11 @@ typedef struct		s_pushswap
 	t_stack		*stack_a;
 	t_stack		*stack_b;
 	int			*help_array;
-	int 		power_of_two;
 	int			min;
 	int			max;
-	int 		back_b;
 	int			count_of_elements;
-	int			count_of_displaced;
 	int			steps;
 	int			c_flag;
-	int 		i_array;
 	int			v_flag;
 	int			first_a;
 	int			second_a;
@@ -82,7 +76,6 @@ typedef struct		s_pushswap
 	char		*actions;
 	int			column_width;
 	int			single_height;
-	int 		end_a;
 	int			head_a;
 	int 		i_arr;
 	int 		count_b;
@@ -101,7 +94,6 @@ int					check_flags(t_pushswap *head, char **argv);
 int					check_actions(t_pushswap *head);
 int					check_argv(const char *str, char stop);
 int					check_stack(t_stack *stack);
-//int					check_stack_minus(t_stack *stack);
 void				check_stack_print(t_stack *stack, t_stack *b);
 int					check_stack_common(t_stack *stack, t_stack *b);
 int					fill_stack(t_pushswap *head, char **argv);
@@ -120,20 +112,29 @@ void				action_rrb(t_pushswap *head);
 void				action_rrr(t_pushswap *head);
 void				how_to_sort(t_pushswap *head);
 void				sorting_algorithm(t_pushswap *head);
-void				main_sorting(t_pushswap *head);
+//void				main_sorting(t_pushswap *head);
 void				sort_array(int *arr, int start, int end);
 void				print_arr(int *arr, int len);
 void				vis_initialization(t_pushswap *head);
 void				sorting_algorithm_three(t_pushswap *head);
 int					len_of_stack(t_stack *a);
-void				from_the_top_a(t_pushswap *head, int count, int i_array);
-void				from_the_top_b(t_pushswap *head, int count, int i_array);
-void				from_the_end_of_a(t_pushswap *head, int count, int i_array);
-void				from_the_end_of_b(t_pushswap *head, int count, int i_array);
 t_block				*new_block(void);
 t_block				*add_new_block(t_block *block, t_block *new);
 void				remove_one_block(t_pushswap *head);
-void				fill_block(t_block *block, int start, int count, char place);
-void				get_block(t_pushswap *head, int start, int count, char place);
+void				fill_block(t_block *block, int start, int count);
+void				get_block(t_pushswap *head, int start, int count);
+void				from_stack_a_to_b_big(t_pushswap *head);
+void				from_the_top_a(t_pushswap *head, int count, int i_array);
+void				from_stack_a_to_b(t_pushswap *head);
+int 				get_place_of_number(t_pushswap *head, int num);
+void				case_from_head_b(t_pushswap *head, int count, int i);
+void				case_from_end_b(t_pushswap *head, int count, int i);
+void				from_end_of_a(t_pushswap *head);
+void				from_b_to_a(t_pushswap *head);
+
+
+
+
+
 
 #endif

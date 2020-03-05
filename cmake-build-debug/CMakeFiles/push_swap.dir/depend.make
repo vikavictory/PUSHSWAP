@@ -81,10 +81,6 @@ CMakeFiles/push_swap.dir/sort.c.o: ../sort.c
 
 CMakeFiles/push_swap.dir/sort_2.c.o: ../sort_2.c
 
-CMakeFiles/push_swap.dir/sort_2_2.c.o: ../libftprintf/includes/ft_printf.h
-CMakeFiles/push_swap.dir/sort_2_2.c.o: ../libftprintf/srcs/libft/includes/get_next_line.h
-CMakeFiles/push_swap.dir/sort_2_2.c.o: ../libftprintf/srcs/libft/includes/libft.h
-CMakeFiles/push_swap.dir/sort_2_2.c.o: ../push_swap.h
 CMakeFiles/push_swap.dir/sort_2_2.c.o: ../sort_2_2.c
 
 CMakeFiles/push_swap.dir/sort_3.c.o: ../libftprintf/includes/ft_printf.h
@@ -104,6 +100,18 @@ CMakeFiles/push_swap.dir/sorting_algorithm_2.c.o: ../libftprintf/srcs/libft/incl
 CMakeFiles/push_swap.dir/sorting_algorithm_2.c.o: ../libftprintf/srcs/libft/includes/libft.h
 CMakeFiles/push_swap.dir/sorting_algorithm_2.c.o: ../push_swap.h
 CMakeFiles/push_swap.dir/sorting_algorithm_2.c.o: ../sorting_algorithm_2.c
+
+CMakeFiles/push_swap.dir/stack_a_functions.c.o: ../libftprintf/includes/ft_printf.h
+CMakeFiles/push_swap.dir/stack_a_functions.c.o: ../libftprintf/srcs/libft/includes/get_next_line.h
+CMakeFiles/push_swap.dir/stack_a_functions.c.o: ../libftprintf/srcs/libft/includes/libft.h
+CMakeFiles/push_swap.dir/stack_a_functions.c.o: ../push_swap.h
+CMakeFiles/push_swap.dir/stack_a_functions.c.o: ../stack_a_functions.c
+
+CMakeFiles/push_swap.dir/stack_b_functions.c.o: ../libftprintf/includes/ft_printf.h
+CMakeFiles/push_swap.dir/stack_b_functions.c.o: ../libftprintf/srcs/libft/includes/get_next_line.h
+CMakeFiles/push_swap.dir/stack_b_functions.c.o: ../libftprintf/srcs/libft/includes/libft.h
+CMakeFiles/push_swap.dir/stack_b_functions.c.o: ../push_swap.h
+CMakeFiles/push_swap.dir/stack_b_functions.c.o: ../stack_b_functions.c
 
 CMakeFiles/push_swap.dir/validation_check.c.o: ../libftprintf/includes/ft_printf.h
 CMakeFiles/push_swap.dir/validation_check.c.o: ../libftprintf/srcs/libft/includes/get_next_line.h

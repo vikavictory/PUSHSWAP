@@ -34,7 +34,7 @@ int				main(int argc, char **argv)
 		{
 			how_to_sort(head);
 			check_stack_print(head->stack_a, head->stack_b);
-			print_stack(head->stack_a);
+		//	print_stack(head->stack_a);
 			clean_up(head);
 			free(head);
 		}

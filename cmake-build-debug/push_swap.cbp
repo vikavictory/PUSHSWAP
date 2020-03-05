@@ -212,6 +212,12 @@
 		<Unit filename="/Users/hdeckard/pushswap/sorting_algorithm_2.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/stack_a_functions.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/stack_b_functions.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/hdeckard/pushswap/validation_check.c">
 			<Option target="push_swap"/>
 			<Option target="checker"/>

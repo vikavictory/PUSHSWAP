@@ -38,16 +38,14 @@ void			remove_one_block(t_pushswap *head)
 	head->block = help;
 }
 
-void			fill_block(t_block *block, int start, int count, char place)
+void			fill_block(t_block *block, int start, int count)
 {
-	block->place = place;
-	block->where_to = 'u';
 	block->start = start;
 	block->end = start + count - 1;
 	block->count = count;
 }
 
-void			get_block(t_pushswap *head, int start, int count, char place)
+void			get_block(t_pushswap *head, int start, int count)
 {
 	t_block		*new;
 
@@ -56,7 +54,7 @@ void			get_block(t_pushswap *head, int start, int count, char place)
 		head->block = add_new_block(head->block, new);
 	else
 		head->block = new;
-	fill_block(head->block, start, count, place);
+	fill_block(head->block, start, count);
 }
 
 
