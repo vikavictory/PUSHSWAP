@@ -14,17 +14,15 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/hdeckard/pushswap/find_duplicates_min_and_max.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o"
   "/Users/hdeckard/pushswap/functions_for_blocks.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/functions_for_blocks.c.o"
   "/Users/hdeckard/pushswap/functions_for_help_array.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/functions_for_help_array.c.o"
+  "/Users/hdeckard/pushswap/functions_for_image.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/functions_for_image.c.o"
   "/Users/hdeckard/pushswap/help_functions.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/help_functions.c.o"
+  "/Users/hdeckard/pushswap/program_control.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/program_control.c.o"
   "/Users/hdeckard/pushswap/push_swap.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap.c.o"
-  "/Users/hdeckard/pushswap/sort.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/sort.c.o"
-  "/Users/hdeckard/pushswap/sort_2.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/sort_2.c.o"
-  "/Users/hdeckard/pushswap/sort_2_2.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/sort_2_2.c.o"
-  "/Users/hdeckard/pushswap/sort_3.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/sort_3.c.o"
   "/Users/hdeckard/pushswap/sorting_algorithm.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/sorting_algorithm.c.o"
-  "/Users/hdeckard/pushswap/sorting_algorithm_2.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/sorting_algorithm_2.c.o"
   "/Users/hdeckard/pushswap/stack_a_functions.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/stack_a_functions.c.o"
   "/Users/hdeckard/pushswap/stack_b_functions.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/stack_b_functions.c.o"
   "/Users/hdeckard/pushswap/validation_check.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/validation_check.c.o"
+  "/Users/hdeckard/pushswap/visualization.c" "/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles/push_swap.dir/visualization.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

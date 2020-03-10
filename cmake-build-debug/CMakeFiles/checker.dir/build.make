@@ -213,6 +213,71 @@ CMakeFiles/checker.dir/visualization.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/visualization.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hdeckard/pushswap/visualization.c -o CMakeFiles/checker.dir/visualization.c.s
 
+CMakeFiles/checker.dir/libftprintf/srcs/libft/nummod.c.o: CMakeFiles/checker.dir/flags.make
+CMakeFiles/checker.dir/libftprintf/srcs/libft/nummod.c.o: ../libftprintf/srcs/libft/nummod.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/checker.dir/libftprintf/srcs/libft/nummod.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/libftprintf/srcs/libft/nummod.c.o   -c /Users/hdeckard/pushswap/libftprintf/srcs/libft/nummod.c
+
+CMakeFiles/checker.dir/libftprintf/srcs/libft/nummod.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/libftprintf/srcs/libft/nummod.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hdeckard/pushswap/libftprintf/srcs/libft/nummod.c > CMakeFiles/checker.dir/libftprintf/srcs/libft/nummod.c.i
+
+CMakeFiles/checker.dir/libftprintf/srcs/libft/nummod.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/libftprintf/srcs/libft/nummod.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hdeckard/pushswap/libftprintf/srcs/libft/nummod.c -o CMakeFiles/checker.dir/libftprintf/srcs/libft/nummod.c.s
+
+CMakeFiles/checker.dir/functions_for_help_array.c.o: CMakeFiles/checker.dir/flags.make
+CMakeFiles/checker.dir/functions_for_help_array.c.o: ../functions_for_help_array.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/checker.dir/functions_for_help_array.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/functions_for_help_array.c.o   -c /Users/hdeckard/pushswap/functions_for_help_array.c
+
+CMakeFiles/checker.dir/functions_for_help_array.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/functions_for_help_array.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hdeckard/pushswap/functions_for_help_array.c > CMakeFiles/checker.dir/functions_for_help_array.c.i
+
+CMakeFiles/checker.dir/functions_for_help_array.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/functions_for_help_array.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hdeckard/pushswap/functions_for_help_array.c -o CMakeFiles/checker.dir/functions_for_help_array.c.s
+
+CMakeFiles/checker.dir/functions_for_image.c.o: CMakeFiles/checker.dir/flags.make
+CMakeFiles/checker.dir/functions_for_image.c.o: ../functions_for_image.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/checker.dir/functions_for_image.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/functions_for_image.c.o   -c /Users/hdeckard/pushswap/functions_for_image.c
+
+CMakeFiles/checker.dir/functions_for_image.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/functions_for_image.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hdeckard/pushswap/functions_for_image.c > CMakeFiles/checker.dir/functions_for_image.c.i
+
+CMakeFiles/checker.dir/functions_for_image.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/functions_for_image.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hdeckard/pushswap/functions_for_image.c -o CMakeFiles/checker.dir/functions_for_image.c.s
+
+CMakeFiles/checker.dir/program_control.c.o: CMakeFiles/checker.dir/flags.make
+CMakeFiles/checker.dir/program_control.c.o: ../program_control.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/checker.dir/program_control.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/program_control.c.o   -c /Users/hdeckard/pushswap/program_control.c
+
+CMakeFiles/checker.dir/program_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/program_control.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hdeckard/pushswap/program_control.c > CMakeFiles/checker.dir/program_control.c.i
+
+CMakeFiles/checker.dir/program_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/program_control.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hdeckard/pushswap/program_control.c -o CMakeFiles/checker.dir/program_control.c.s
+
+CMakeFiles/checker.dir/libftprintf/srcs/libft/ft_abs.c.o: CMakeFiles/checker.dir/flags.make
+CMakeFiles/checker.dir/libftprintf/srcs/libft/ft_abs.c.o: ../libftprintf/srcs/libft/ft_abs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/checker.dir/libftprintf/srcs/libft/ft_abs.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/checker.dir/libftprintf/srcs/libft/ft_abs.c.o   -c /Users/hdeckard/pushswap/libftprintf/srcs/libft/ft_abs.c
+
+CMakeFiles/checker.dir/libftprintf/srcs/libft/ft_abs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/checker.dir/libftprintf/srcs/libft/ft_abs.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hdeckard/pushswap/libftprintf/srcs/libft/ft_abs.c > CMakeFiles/checker.dir/libftprintf/srcs/libft/ft_abs.c.i
+
+CMakeFiles/checker.dir/libftprintf/srcs/libft/ft_abs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/checker.dir/libftprintf/srcs/libft/ft_abs.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hdeckard/pushswap/libftprintf/srcs/libft/ft_abs.c -o CMakeFiles/checker.dir/libftprintf/srcs/libft/ft_abs.c.s
+
 # Object files for target checker
 checker_OBJECTS = \
 "CMakeFiles/checker.dir/checker_main.c.o" \
@@ -226,7 +291,12 @@ checker_OBJECTS = \
 "CMakeFiles/checker.dir/apply_actions.c.o" \
 "CMakeFiles/checker.dir/help_functions.c.o" \
 "CMakeFiles/checker.dir/checker_functions.c.o" \
-"CMakeFiles/checker.dir/visualization.c.o"
+"CMakeFiles/checker.dir/visualization.c.o" \
+"CMakeFiles/checker.dir/libftprintf/srcs/libft/nummod.c.o" \
+"CMakeFiles/checker.dir/functions_for_help_array.c.o" \
+"CMakeFiles/checker.dir/functions_for_image.c.o" \
+"CMakeFiles/checker.dir/program_control.c.o" \
+"CMakeFiles/checker.dir/libftprintf/srcs/libft/ft_abs.c.o"
 
 # External object files for target checker
 checker_EXTERNAL_OBJECTS =
@@ -243,9 +313,14 @@ checker: CMakeFiles/checker.dir/apply_actions.c.o
 checker: CMakeFiles/checker.dir/help_functions.c.o
 checker: CMakeFiles/checker.dir/checker_functions.c.o
 checker: CMakeFiles/checker.dir/visualization.c.o
+checker: CMakeFiles/checker.dir/libftprintf/srcs/libft/nummod.c.o
+checker: CMakeFiles/checker.dir/functions_for_help_array.c.o
+checker: CMakeFiles/checker.dir/functions_for_image.c.o
+checker: CMakeFiles/checker.dir/program_control.c.o
+checker: CMakeFiles/checker.dir/libftprintf/srcs/libft/ft_abs.c.o
 checker: CMakeFiles/checker.dir/build.make
 checker: CMakeFiles/checker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C executable checker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hdeckard/pushswap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking C executable checker"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/checker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

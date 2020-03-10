@@ -56,6 +56,3 @@ void			get_block(t_pushswap *head, int start, int count)
 		head->block = new;
 	fill_block(head->block, start, count);
 }
-
-
-

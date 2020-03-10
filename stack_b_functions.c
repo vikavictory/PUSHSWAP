@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 16:24:15 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/03/05 17:05:33 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/09 14:39:06 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ void			case_from_head_b(t_pushswap *head, int count, int i)
 	}
 }
 
-void		case_from_end_b(t_pushswap *head, int count, int i)
+void			case_from_end_b(t_pushswap *head, int count, int i)
 {
 	head->head_a = 0;
 	while (i < count + 1)
@@ -73,10 +73,10 @@ void		case_from_end_b(t_pushswap *head, int count, int i)
 	}
 }
 
-void		from_b_to_a(t_pushswap *head)
+void			from_b_to_a(t_pushswap *head)
 {
 	int		num;
-	int 	place;
+	int		place;
 
 	head->count_b = head->count_of_elements - len_of_stack(head->stack_a);
 	while (head->block != NULL)

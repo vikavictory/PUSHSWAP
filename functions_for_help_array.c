@@ -6,13 +6,13 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 16:24:15 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/03/01 20:19:33 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/09 13:43:21 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-static void			*swap_numbers(int *a, int *b)
+static void		*swap_numbers(int *a, int *b)
 {
 	int	c;
 
@@ -21,20 +21,7 @@ static void			*swap_numbers(int *a, int *b)
 	*b = c;
 }
 
-void				print_arr(int *arr, int len)
-{
-	int i;
-
-	i = 0;
-	while (i < len)
-	{
-		ft_printf("%d ", arr[i]);
-		i++;
-	}
-	ft_printf("\n");
-}
-
-void				sort_array(int *arr, int start, int end)
+void			sort_array(int *arr, int start, int end)
 {
 	int compared;
 	int i_end;
@@ -68,7 +55,7 @@ int				fill_array(t_pushswap *head)
 
 	i = 0;
 	if (!(head->help_array = (int *)malloc(sizeof(int) *
-										   head->count_of_elements)))
+			head->count_of_elements)))
 		return (0);
 	while (i < head->count_of_elements)
 	{

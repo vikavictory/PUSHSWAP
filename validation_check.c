@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/10 15:45:12 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/03/01 20:03:45 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/09 14:20:56 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -100,7 +100,6 @@ int			check_actions(t_pushswap *head)
 
 	i = 0;
 	head->actions = reading_file();
-	//head->actions = "sa\nrra\n\0";
 	while (head->actions != NULL && head->actions[i] != '\0')
 	{
 		if (head->actions[i] == '\n' ||

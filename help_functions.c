@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 16:24:15 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/03/05 16:37:50 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/10 19:52:47 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,13 +25,11 @@ t_pushswap		*initialization(int program, int argc)
 	head->program = program;
 	head->count_of_elements = argc - 1;
 	head->steps = 0;
-	if (head->program == PUSH_SWAP)
-	{
-		head->opr = 0;
-		//head->power_of_two = 1;
-		//head->back_b = 0;
-		head->block = NULL;
-	}
+	head->opr = 0;
+	head->block = NULL;
+	head->print = 1;
+	head->i_str = 0;
+	head->play_pause = PLAY;
 	return (head);
 }
 
@@ -61,6 +59,21 @@ void			clean_up(t_pushswap *head)
 		free(head->actions);
 }
 
+int				len_of_stack(t_stack *a)
+{
+	t_stack		*help;
+	int			i;
+
+	i = 0;
+	help = a;
+	while (help)
+	{
+		help = help->next;
+		i++;
+	}
+	return (i);
+}
+
 void			print_stack(t_stack *stack)
 {
 	int			i;
@@ -76,27 +89,7 @@ void			print_stack(t_stack *stack)
 	}
 }
 
-int			len_of_stack(t_stack *a)
-{
-	t_stack		*help;
-	int 		i;
-
-	i = 0;
-	help = a;
-	while (help)
-	{
-		help = help->next;
-		i++;
-	}
-	return (i);
-}
-
-int 		nummod(int num) // перенести в библиотеку
-{
-	return (num / 2 + num % 2);
-}
-
-void		common_print(t_pushswap *head)
+void			common_print(t_pushswap *head)
 {
 	print_stack(head->stack_a);
 	ft_printf("\n");

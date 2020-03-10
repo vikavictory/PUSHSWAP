@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/05 19:09:18 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/03/01 17:58:57 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/10 16:33:48 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void		action_rra(t_pushswap *head)
 {
 	t_stack		*transfer;
 
+	if (head->begin_a == NULL || head->begin_a->next == NULL)
+		return ;
 	while (head->stack_a->next->next)
 		head->stack_a = head->stack_a->next;
 	transfer = head->stack_a->next;
@@ -25,7 +27,7 @@ void		action_rra(t_pushswap *head)
 	head->begin_a = transfer;
 	head->stack_a = head->begin_a;
 	head->opr++;
-	if (head->program == PUSH_SWAP)
+	if (head->program == PUSH_SWAP && head->print == 1)
 		ft_printf("rra\n");
 }
 
@@ -44,15 +46,17 @@ void		action_rrb(t_pushswap *head)
 	head->begin_b = transfer;
 	head->stack_b = head->begin_b;
 	head->opr++;
-	if (head->program == PUSH_SWAP)
+	if (head->program == PUSH_SWAP && head->print == 1)
 		ft_printf("rrb\n");
 }
 
 void		action_rrr(t_pushswap *head)
 {
+	head->print = 0;
 	action_rra(head);
 	head->opr--;
 	action_rrb(head);
+	head->print = 1;
 	if (head->program == PUSH_SWAP)
 		ft_printf("rrr\n");
 }

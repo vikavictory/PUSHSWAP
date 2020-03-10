@@ -64,7 +64,7 @@ sys/stat.h
 fcntl.h
 -
 
-/Users/hdeckard/pushswap/sorting_algorithm.c
+/Users/hdeckard/pushswap/stack_b_functions.c
 push_swap.h
 /Users/hdeckard/pushswap/push_swap.h
 

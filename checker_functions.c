@@ -29,23 +29,6 @@ int			check_stack(t_stack *stack)
 	return (1);
 }
 
-int			check_stack_minus(t_stack *stack)
-{
-	int			i;
-	t_stack		*help;
-
-	help = stack;
-	i = help->cell;
-	while (help->next)
-	{
-		if (i < help->next->cell)
-			return (0);
-		i = help->next->cell;
-		help = help->next;
-	}
-	return (1);
-}
-
 int			check_stack_common(t_stack *a, t_stack *b)
 {
 	if (check_stack(a) == 1 && b == NULL)

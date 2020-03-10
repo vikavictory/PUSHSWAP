@@ -55,11 +55,35 @@ CMakeFiles/checker.dir/find_duplicates_min_and_max.c.o: ../libftprintf/srcs/libf
 CMakeFiles/checker.dir/find_duplicates_min_and_max.c.o: ../find_duplicates_min_and_max.c
 CMakeFiles/checker.dir/find_duplicates_min_and_max.c.o: ../push_swap.h
 
+CMakeFiles/checker.dir/functions_for_help_array.c.o: ../libftprintf/includes/ft_printf.h
+CMakeFiles/checker.dir/functions_for_help_array.c.o: ../libftprintf/srcs/libft/includes/get_next_line.h
+CMakeFiles/checker.dir/functions_for_help_array.c.o: ../libftprintf/srcs/libft/includes/libft.h
+CMakeFiles/checker.dir/functions_for_help_array.c.o: ../functions_for_help_array.c
+CMakeFiles/checker.dir/functions_for_help_array.c.o: ../push_swap.h
+
+CMakeFiles/checker.dir/functions_for_image.c.o: ../libftprintf/includes/ft_printf.h
+CMakeFiles/checker.dir/functions_for_image.c.o: ../libftprintf/srcs/libft/includes/get_next_line.h
+CMakeFiles/checker.dir/functions_for_image.c.o: ../libftprintf/srcs/libft/includes/libft.h
+CMakeFiles/checker.dir/functions_for_image.c.o: ../functions_for_image.c
+CMakeFiles/checker.dir/functions_for_image.c.o: ../push_swap.h
+
 CMakeFiles/checker.dir/help_functions.c.o: ../libftprintf/includes/ft_printf.h
 CMakeFiles/checker.dir/help_functions.c.o: ../libftprintf/srcs/libft/includes/get_next_line.h
 CMakeFiles/checker.dir/help_functions.c.o: ../libftprintf/srcs/libft/includes/libft.h
 CMakeFiles/checker.dir/help_functions.c.o: ../help_functions.c
 CMakeFiles/checker.dir/help_functions.c.o: ../push_swap.h
+
+CMakeFiles/checker.dir/libftprintf/srcs/libft/ft_abs.c.o: ../libftprintf/srcs/libft/includes/get_next_line.h
+CMakeFiles/checker.dir/libftprintf/srcs/libft/ft_abs.c.o: ../libftprintf/srcs/libft/includes/libft.h
+CMakeFiles/checker.dir/libftprintf/srcs/libft/ft_abs.c.o: ../libftprintf/srcs/libft/ft_abs.c
+
+CMakeFiles/checker.dir/libftprintf/srcs/libft/nummod.c.o: ../libftprintf/srcs/libft/nummod.c
+
+CMakeFiles/checker.dir/program_control.c.o: ../libftprintf/includes/ft_printf.h
+CMakeFiles/checker.dir/program_control.c.o: ../libftprintf/srcs/libft/includes/get_next_line.h
+CMakeFiles/checker.dir/program_control.c.o: ../libftprintf/srcs/libft/includes/libft.h
+CMakeFiles/checker.dir/program_control.c.o: ../program_control.c
+CMakeFiles/checker.dir/program_control.c.o: ../push_swap.h
 
 CMakeFiles/checker.dir/validation_check.c.o: ../libftprintf/includes/ft_printf.h
 CMakeFiles/checker.dir/validation_check.c.o: ../libftprintf/srcs/libft/includes/get_next_line.h

@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/05 19:09:18 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/02/10 19:41:59 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/10 16:33:48 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ void		action_sa(t_pushswap *head)
 	t_stack		*transfer;
 	t_stack		*transfer_next;
 
+	if (head->begin_a == NULL || head->begin_a->next == NULL)
+		return ;
 	head->begin_a = head->stack_a->next;
 	transfer = head->stack_a;
 	head->stack_a = head->stack_a->next;
@@ -25,7 +27,7 @@ void		action_sa(t_pushswap *head)
 	transfer->next = transfer_next;
 	head->stack_a = head->begin_a;
 	head->opr++;
-	if (head->program == PUSH_SWAP)
+	if (head->program == PUSH_SWAP && head->print == 1)
 		ft_printf("sa\n");
 }
 
@@ -34,7 +36,7 @@ void		action_sb(t_pushswap *head)
 	t_stack		*transfer;
 	t_stack		*transfer_next;
 
-	if (head->begin_b == NULL)
+	if (head->begin_b == NULL || head->begin_b->next == NULL)
 		return ;
 	head->begin_b = head->stack_b->next;
 	transfer = head->stack_b;
@@ -44,15 +46,17 @@ void		action_sb(t_pushswap *head)
 	transfer->next = transfer_next;
 	head->stack_b = head->begin_b;
 	head->opr++;
-	if (head->program == PUSH_SWAP)
+	if (head->program == PUSH_SWAP && head->print == 1)
 		ft_printf("sb\n");
 }
 
 void		action_ss(t_pushswap *head)
 {
+	head->print = 0;
 	action_sa(head);
 	head->opr--;
 	action_sb(head);
+	head->print = 1;
 	if (head->program == PUSH_SWAP)
 		ft_printf("ss\n");
 }

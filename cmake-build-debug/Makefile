@@ -437,6 +437,7 @@ functions_for_help_array.o: functions_for_help_array.c.o
 # target to build an object file
 functions_for_help_array.c.o:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/functions_for_help_array.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/functions_for_help_array.c.o
 .PHONY : functions_for_help_array.c.o
 
 functions_for_help_array.i: functions_for_help_array.c.i
@@ -446,6 +447,7 @@ functions_for_help_array.i: functions_for_help_array.c.i
 # target to preprocess a source file
 functions_for_help_array.c.i:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/functions_for_help_array.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/functions_for_help_array.c.i
 .PHONY : functions_for_help_array.c.i
 
 functions_for_help_array.s: functions_for_help_array.c.s
@@ -455,7 +457,38 @@ functions_for_help_array.s: functions_for_help_array.c.s
 # target to generate assembly for a file
 functions_for_help_array.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/functions_for_help_array.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/functions_for_help_array.c.s
 .PHONY : functions_for_help_array.c.s
+
+functions_for_image.o: functions_for_image.c.o
+
+.PHONY : functions_for_image.o
+
+# target to build an object file
+functions_for_image.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/functions_for_image.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/functions_for_image.c.o
+.PHONY : functions_for_image.c.o
+
+functions_for_image.i: functions_for_image.c.i
+
+.PHONY : functions_for_image.i
+
+# target to preprocess a source file
+functions_for_image.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/functions_for_image.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/functions_for_image.c.i
+.PHONY : functions_for_image.c.i
+
+functions_for_image.s: functions_for_image.c.s
+
+.PHONY : functions_for_image.s
+
+# target to generate assembly for a file
+functions_for_image.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/functions_for_image.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/functions_for_image.c.s
+.PHONY : functions_for_image.c.s
 
 help_functions.o: help_functions.c.o
 
@@ -487,6 +520,90 @@ help_functions.c.s:
 	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/help_functions.c.s
 .PHONY : help_functions.c.s
 
+libftprintf/srcs/libft/ft_abs.o: libftprintf/srcs/libft/ft_abs.c.o
+
+.PHONY : libftprintf/srcs/libft/ft_abs.o
+
+# target to build an object file
+libftprintf/srcs/libft/ft_abs.c.o:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/libftprintf/srcs/libft/ft_abs.c.o
+.PHONY : libftprintf/srcs/libft/ft_abs.c.o
+
+libftprintf/srcs/libft/ft_abs.i: libftprintf/srcs/libft/ft_abs.c.i
+
+.PHONY : libftprintf/srcs/libft/ft_abs.i
+
+# target to preprocess a source file
+libftprintf/srcs/libft/ft_abs.c.i:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/libftprintf/srcs/libft/ft_abs.c.i
+.PHONY : libftprintf/srcs/libft/ft_abs.c.i
+
+libftprintf/srcs/libft/ft_abs.s: libftprintf/srcs/libft/ft_abs.c.s
+
+.PHONY : libftprintf/srcs/libft/ft_abs.s
+
+# target to generate assembly for a file
+libftprintf/srcs/libft/ft_abs.c.s:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/libftprintf/srcs/libft/ft_abs.c.s
+.PHONY : libftprintf/srcs/libft/ft_abs.c.s
+
+libftprintf/srcs/libft/nummod.o: libftprintf/srcs/libft/nummod.c.o
+
+.PHONY : libftprintf/srcs/libft/nummod.o
+
+# target to build an object file
+libftprintf/srcs/libft/nummod.c.o:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/libftprintf/srcs/libft/nummod.c.o
+.PHONY : libftprintf/srcs/libft/nummod.c.o
+
+libftprintf/srcs/libft/nummod.i: libftprintf/srcs/libft/nummod.c.i
+
+.PHONY : libftprintf/srcs/libft/nummod.i
+
+# target to preprocess a source file
+libftprintf/srcs/libft/nummod.c.i:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/libftprintf/srcs/libft/nummod.c.i
+.PHONY : libftprintf/srcs/libft/nummod.c.i
+
+libftprintf/srcs/libft/nummod.s: libftprintf/srcs/libft/nummod.c.s
+
+.PHONY : libftprintf/srcs/libft/nummod.s
+
+# target to generate assembly for a file
+libftprintf/srcs/libft/nummod.c.s:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/libftprintf/srcs/libft/nummod.c.s
+.PHONY : libftprintf/srcs/libft/nummod.c.s
+
+program_control.o: program_control.c.o
+
+.PHONY : program_control.o
+
+# target to build an object file
+program_control.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/program_control.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/program_control.c.o
+.PHONY : program_control.c.o
+
+program_control.i: program_control.c.i
+
+.PHONY : program_control.i
+
+# target to preprocess a source file
+program_control.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/program_control.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/program_control.c.i
+.PHONY : program_control.c.i
+
+program_control.s: program_control.c.s
+
+.PHONY : program_control.s
+
+# target to generate assembly for a file
+program_control.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/program_control.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/program_control.c.s
+.PHONY : program_control.c.s
+
 push_swap.o: push_swap.c.o
 
 .PHONY : push_swap.o
@@ -514,114 +631,6 @@ push_swap.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap.c.s
 .PHONY : push_swap.c.s
 
-sort.o: sort.c.o
-
-.PHONY : sort.o
-
-# target to build an object file
-sort.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort.c.o
-.PHONY : sort.c.o
-
-sort.i: sort.c.i
-
-.PHONY : sort.i
-
-# target to preprocess a source file
-sort.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort.c.i
-.PHONY : sort.c.i
-
-sort.s: sort.c.s
-
-.PHONY : sort.s
-
-# target to generate assembly for a file
-sort.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort.c.s
-.PHONY : sort.c.s
-
-sort_2.o: sort_2.c.o
-
-.PHONY : sort_2.o
-
-# target to build an object file
-sort_2.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_2.c.o
-.PHONY : sort_2.c.o
-
-sort_2.i: sort_2.c.i
-
-.PHONY : sort_2.i
-
-# target to preprocess a source file
-sort_2.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_2.c.i
-.PHONY : sort_2.c.i
-
-sort_2.s: sort_2.c.s
-
-.PHONY : sort_2.s
-
-# target to generate assembly for a file
-sort_2.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_2.c.s
-.PHONY : sort_2.c.s
-
-sort_2_2.o: sort_2_2.c.o
-
-.PHONY : sort_2_2.o
-
-# target to build an object file
-sort_2_2.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_2_2.c.o
-.PHONY : sort_2_2.c.o
-
-sort_2_2.i: sort_2_2.c.i
-
-.PHONY : sort_2_2.i
-
-# target to preprocess a source file
-sort_2_2.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_2_2.c.i
-.PHONY : sort_2_2.c.i
-
-sort_2_2.s: sort_2_2.c.s
-
-.PHONY : sort_2_2.s
-
-# target to generate assembly for a file
-sort_2_2.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_2_2.c.s
-.PHONY : sort_2_2.c.s
-
-sort_3.o: sort_3.c.o
-
-.PHONY : sort_3.o
-
-# target to build an object file
-sort_3.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_3.c.o
-.PHONY : sort_3.c.o
-
-sort_3.i: sort_3.c.i
-
-.PHONY : sort_3.i
-
-# target to preprocess a source file
-sort_3.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_3.c.i
-.PHONY : sort_3.c.i
-
-sort_3.s: sort_3.c.s
-
-.PHONY : sort_3.s
-
-# target to generate assembly for a file
-sort_3.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_3.c.s
-.PHONY : sort_3.c.s
-
 sorting_algorithm.o: sorting_algorithm.c.o
 
 .PHONY : sorting_algorithm.o
@@ -648,33 +657,6 @@ sorting_algorithm.s: sorting_algorithm.c.s
 sorting_algorithm.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sorting_algorithm.c.s
 .PHONY : sorting_algorithm.c.s
-
-sorting_algorithm_2.o: sorting_algorithm_2.c.o
-
-.PHONY : sorting_algorithm_2.o
-
-# target to build an object file
-sorting_algorithm_2.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sorting_algorithm_2.c.o
-.PHONY : sorting_algorithm_2.c.o
-
-sorting_algorithm_2.i: sorting_algorithm_2.c.i
-
-.PHONY : sorting_algorithm_2.i
-
-# target to preprocess a source file
-sorting_algorithm_2.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sorting_algorithm_2.c.i
-.PHONY : sorting_algorithm_2.c.i
-
-sorting_algorithm_2.s: sorting_algorithm_2.c.s
-
-.PHONY : sorting_algorithm_2.s
-
-# target to generate assembly for a file
-sorting_algorithm_2.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sorting_algorithm_2.c.s
-.PHONY : sorting_algorithm_2.c.s
 
 stack_a_functions.o: stack_a_functions.c.o
 
@@ -766,6 +748,7 @@ visualization.o: visualization.c.o
 
 # target to build an object file
 visualization.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/visualization.c.o
 	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/visualization.c.o
 .PHONY : visualization.c.o
 
@@ -775,6 +758,7 @@ visualization.i: visualization.c.i
 
 # target to preprocess a source file
 visualization.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/visualization.c.i
 	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/visualization.c.i
 .PHONY : visualization.c.i
 
@@ -784,6 +768,7 @@ visualization.s: visualization.c.s
 
 # target to generate assembly for a file
 visualization.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/visualization.c.s
 	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/visualization.c.s
 .PHONY : visualization.c.s
 
@@ -830,30 +815,27 @@ help:
 	@echo "... functions_for_help_array.o"
 	@echo "... functions_for_help_array.i"
 	@echo "... functions_for_help_array.s"
+	@echo "... functions_for_image.o"
+	@echo "... functions_for_image.i"
+	@echo "... functions_for_image.s"
 	@echo "... help_functions.o"
 	@echo "... help_functions.i"
 	@echo "... help_functions.s"
+	@echo "... libftprintf/srcs/libft/ft_abs.o"
+	@echo "... libftprintf/srcs/libft/ft_abs.i"
+	@echo "... libftprintf/srcs/libft/ft_abs.s"
+	@echo "... libftprintf/srcs/libft/nummod.o"
+	@echo "... libftprintf/srcs/libft/nummod.i"
+	@echo "... libftprintf/srcs/libft/nummod.s"
+	@echo "... program_control.o"
+	@echo "... program_control.i"
+	@echo "... program_control.s"
 	@echo "... push_swap.o"
 	@echo "... push_swap.i"
 	@echo "... push_swap.s"
-	@echo "... sort.o"
-	@echo "... sort.i"
-	@echo "... sort.s"
-	@echo "... sort_2.o"
-	@echo "... sort_2.i"
-	@echo "... sort_2.s"
-	@echo "... sort_2_2.o"
-	@echo "... sort_2_2.i"
-	@echo "... sort_2_2.s"
-	@echo "... sort_3.o"
-	@echo "... sort_3.i"
-	@echo "... sort_3.s"
 	@echo "... sorting_algorithm.o"
 	@echo "... sorting_algorithm.i"
 	@echo "... sorting_algorithm.s"
-	@echo "... sorting_algorithm_2.o"
-	@echo "... sorting_algorithm_2.i"
-	@echo "... sorting_algorithm_2.s"
 	@echo "... stack_a_functions.o"
 	@echo "... stack_a_functions.i"
 	@echo "... stack_a_functions.s"

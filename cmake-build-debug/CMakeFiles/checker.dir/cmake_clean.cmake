@@ -11,6 +11,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/checker.dir/help_functions.c.o"
   "CMakeFiles/checker.dir/checker_functions.c.o"
   "CMakeFiles/checker.dir/visualization.c.o"
+  "CMakeFiles/checker.dir/libftprintf/srcs/libft/nummod.c.o"
+  "CMakeFiles/checker.dir/functions_for_help_array.c.o"
+  "CMakeFiles/checker.dir/functions_for_image.c.o"
+  "CMakeFiles/checker.dir/program_control.c.o"
+  "CMakeFiles/checker.dir/libftprintf/srcs/libft/ft_abs.c.o"
   "checker.pdb"
   "checker"
 )

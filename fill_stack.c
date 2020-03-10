@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/10 15:45:12 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/03/05 17:38:14 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/09 13:46:11 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,7 +75,7 @@ int				fill_stack_str(t_pushswap *head, char **argv)
 	return (1);
 }
 
-int 			fill_stack(t_pushswap *head, char **argv)
+int				fill_stack(t_pushswap *head, char **argv)
 {
 	if (head->count_of_elements > 1 &&
 	fill_stack_argv(head, argv) == 0)
@@ -85,10 +85,10 @@ int 			fill_stack(t_pushswap *head, char **argv)
 		return (0);
 	if (find_duplicates_min_and_max(head) == 0)
 		return (0);
-//	if (head->program == PUSH_SWAP)
-//	{
-//		if (fill_array(head) == 0)
-//			return (0);
-//	}
+	if (head->program == PUSH_SWAP)
+	{
+		if (fill_array(head) == 0)
+			return (0);
+	}
 	return (1);
 }

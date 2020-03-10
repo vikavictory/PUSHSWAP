@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/05 18:19:17 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/02/22 21:43:29 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/10 20:52:10 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,11 +30,9 @@ int				main(int argc, char **argv)
 		}
 		if (head->v_flag == 1)
 			vis_initialization(head);
-		else
+		if (head->v_flag == 0)
 		{
 			how_to_sort(head);
-			check_stack_print(head->stack_a, head->stack_b);
-		//	print_stack(head->stack_a);
 			clean_up(head);
 			free(head);
 		}

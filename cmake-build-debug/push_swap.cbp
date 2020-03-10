@@ -182,8 +182,23 @@
 		</Unit>
 		<Unit filename="/Users/hdeckard/pushswap/functions_for_help_array.c">
 			<Option target="push_swap"/>
+			<Option target="checker"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/functions_for_image.c">
+			<Option target="push_swap"/>
+			<Option target="checker"/>
 		</Unit>
 		<Unit filename="/Users/hdeckard/pushswap/help_functions.c">
+			<Option target="push_swap"/>
+			<Option target="checker"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/libftprintf/srcs/libft/ft_abs.c">
+			<Option target="checker"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/libftprintf/srcs/libft/nummod.c">
+			<Option target="checker"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/program_control.c">
 			<Option target="push_swap"/>
 			<Option target="checker"/>
 		</Unit>
@@ -194,22 +209,7 @@
 			<Option target="push_swap"/>
 			<Option target="checker"/>
 		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/sort.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/sort_2.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/sort_2_2.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/sort_3.c">
-			<Option target="push_swap"/>
-		</Unit>
 		<Unit filename="/Users/hdeckard/pushswap/sorting_algorithm.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/sorting_algorithm_2.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/hdeckard/pushswap/stack_a_functions.c">
@@ -223,6 +223,7 @@
 			<Option target="checker"/>
 		</Unit>
 		<Unit filename="/Users/hdeckard/pushswap/visualization.c">
+			<Option target="push_swap"/>
 			<Option target="checker"/>
 		</Unit>
 		<Unit filename="/Users/hdeckard/pushswap/CMakeLists.txt">

@@ -6,33 +6,35 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 16:24:15 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/03/10 17:12:24 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/10 20:45:19 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int				main(int argc, char **argv)
+static int			key_press(int button, t_pushswap *head)
 {
-	t_pushswap		*head;
-
-	if (argc > 1)
+	if (button == ESC_EXIT)
 	{
-		if (!(head = initialization(PUSH_SWAP, argc)))
-			return (0);
-		if (fill_stack(head, argv) == 0)
-		{
-			clean_up(head);
-			free(head);
-			ft_printf("Error\n");
-			return (0);
-		}
-		sort_array(head->help_array, 0,
-				head->count_of_elements - 1);
-		sorting_algorithm(head);
+		mlx_destroy_image(head->mlx, head->image);
+		mlx_destroy_window(head->mlx, head->win);
+		common_print(head);
 		clean_up(head);
-		free(head->help_array);
 		free(head);
+		exit(0);
 	}
-	return (0);
+	if (button == SPACE_BUTTON)
+	{
+		if (head->play_pause == PLAY)
+			head->play_pause = PAUSE;
+		else if (head->play_pause == PAUSE)
+			head->play_pause = PLAY;
+	}
+	return (1);
+}
+
+int					program_control(t_pushswap *head)
+{
+	mlx_hook(head->win, 2, 0, key_press, head);
+	return (1);
 }

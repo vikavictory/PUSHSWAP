@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/05 18:03:47 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/03/05 17:29:40 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/10 21:08:01 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,16 +27,13 @@
 # define PAUSE 2
 # define SPACE_BUTTON 49
 # define ESC_EXIT 53
-# define START_COLOR_MINUS 16777215
-# define END_COLOR_PLUS 12399524
-# define CENTER_COLOR 255
 
 typedef struct		s_block
 {
-	int 			start;
+	int				start;
 	int				end;
 	int				count;
-	struct s_block *next;
+	struct s_block	*next;
 }					t_block;
 
 typedef struct		s_stack
@@ -51,8 +48,6 @@ typedef struct		s_pushswap
 	void		*mlx;
 	void		*win;
 	void		*image;
-	void		*image_button;
-	int			*data_img_button;
 	int			*data_img;
 	int			bpp;
 	int			size_line;
@@ -77,14 +72,15 @@ typedef struct		s_pushswap
 	int			column_width;
 	int			single_height;
 	int			head_a;
-	int 		i_arr;
-	int 		count_b;
-	int 		opr;
-	int 		back_a;
-
+	int			i_arr;
+	int			count_b;
+	int			opr;
+	int			back_a;
+	int			x;
+	int			print;
+	int			i_str;
 }					t_pushswap;
 
-int 				nummod (int num);
 t_pushswap			*initialization(int program, int argc);
 t_stack				*new_element(long long number);
 void				clean_up(t_pushswap *head);
@@ -112,9 +108,7 @@ void				action_rrb(t_pushswap *head);
 void				action_rrr(t_pushswap *head);
 void				how_to_sort(t_pushswap *head);
 void				sorting_algorithm(t_pushswap *head);
-//void				main_sorting(t_pushswap *head);
 void				sort_array(int *arr, int start, int end);
-void				print_arr(int *arr, int len);
 void				vis_initialization(t_pushswap *head);
 void				sorting_algorithm_three(t_pushswap *head);
 int					len_of_stack(t_stack *a);
@@ -126,15 +120,13 @@ void				get_block(t_pushswap *head, int start, int count);
 void				from_stack_a_to_b_big(t_pushswap *head);
 void				from_the_top_a(t_pushswap *head, int count, int i_array);
 void				from_stack_a_to_b(t_pushswap *head);
-int 				get_place_of_number(t_pushswap *head, int num);
+int					get_place_of_number(t_pushswap *head, int num);
 void				case_from_head_b(t_pushswap *head, int count, int i);
 void				case_from_end_b(t_pushswap *head, int count, int i);
 void				from_end_of_a(t_pushswap *head);
 void				from_b_to_a(t_pushswap *head);
-
-
-
-
-
+void				image_creation(t_pushswap *head);
+int					program_control(t_pushswap *head);
+int					how_to_sort_mlxlh(t_pushswap *head);
 
 #endif

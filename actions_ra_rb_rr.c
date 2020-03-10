@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/05 19:09:18 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/03/01 14:07:54 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/10 16:33:48 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void		action_ra(t_pushswap *head)
 	head->stack_a->next = transfer;
 	head->stack_a = head->begin_a;
 	head->opr++;
-	if (head->program == PUSH_SWAP)
+	if (head->program == PUSH_SWAP && head->print == 1)
 		ft_printf("ra\n");
 }
 
@@ -44,15 +44,17 @@ void		action_rb(t_pushswap *head)
 	head->stack_b->next = transfer;
 	head->stack_b = head->begin_b;
 	head->opr++;
-	if (head->program == PUSH_SWAP)
+	if (head->program == PUSH_SWAP && head->print == 1)
 		ft_printf("rb\n");
 }
 
 void		action_rr(t_pushswap *head)
 {
+	head->print = 0;
 	action_rb(head);
 	head->opr--;
 	action_ra(head);
+	head->print = 1;
 	if (head->program == PUSH_SWAP)
 		ft_printf("rr\n");
 }
