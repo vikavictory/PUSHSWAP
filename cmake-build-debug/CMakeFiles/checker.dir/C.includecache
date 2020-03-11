@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+.././includes/push_swap.h
+ft_printf.h
+.././includes/ft_printf.h
+mlx.h
+.././includes/mlx.h
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+
 ../libftprintf/includes/ft_printf.h
 stdlib.h
 -
@@ -52,75 +64,65 @@ stdlib.h
 get_next_line.h
 ../libftprintf/srcs/libft/includes/get_next_line.h
 
-/Users/hdeckard/pushswap/actions_pa_pb.c
+/Users/hdeckard/pushswap/srcs/actions_pa_pb.c
 push_swap.h
-/Users/hdeckard/pushswap/push_swap.h
+/Users/hdeckard/pushswap/srcs/push_swap.h
 
-/Users/hdeckard/pushswap/actions_ra_rb_rr.c
+/Users/hdeckard/pushswap/srcs/actions_ra_rb_rr.c
 push_swap.h
-/Users/hdeckard/pushswap/push_swap.h
+/Users/hdeckard/pushswap/srcs/push_swap.h
 
-/Users/hdeckard/pushswap/actions_rra_rrb_rrr.c
+/Users/hdeckard/pushswap/srcs/actions_rra_rrb_rrr.c
 push_swap.h
-/Users/hdeckard/pushswap/push_swap.h
+/Users/hdeckard/pushswap/srcs/push_swap.h
 
-/Users/hdeckard/pushswap/actions_sa_sb_ss.c
+/Users/hdeckard/pushswap/srcs/actions_sa_sb_ss.c
 push_swap.h
-/Users/hdeckard/pushswap/push_swap.h
+/Users/hdeckard/pushswap/srcs/push_swap.h
 
-/Users/hdeckard/pushswap/apply_actions.c
+/Users/hdeckard/pushswap/srcs/apply_actions.c
 push_swap.h
-/Users/hdeckard/pushswap/push_swap.h
+/Users/hdeckard/pushswap/srcs/push_swap.h
 
-/Users/hdeckard/pushswap/checker_functions.c
+/Users/hdeckard/pushswap/srcs/checker_functions.c
 push_swap.h
-/Users/hdeckard/pushswap/push_swap.h
+/Users/hdeckard/pushswap/srcs/push_swap.h
 
-/Users/hdeckard/pushswap/checker_main.c
+/Users/hdeckard/pushswap/srcs/checker_main.c
 push_swap.h
-/Users/hdeckard/pushswap/push_swap.h
+/Users/hdeckard/pushswap/srcs/push_swap.h
 
-/Users/hdeckard/pushswap/fill_stack.c
+/Users/hdeckard/pushswap/srcs/fill_stack.c
 push_swap.h
-/Users/hdeckard/pushswap/push_swap.h
+/Users/hdeckard/pushswap/srcs/push_swap.h
 
-/Users/hdeckard/pushswap/find_duplicates_min_and_max.c
+/Users/hdeckard/pushswap/srcs/find_duplicates_min_and_max.c
 push_swap.h
-/Users/hdeckard/pushswap/push_swap.h
+/Users/hdeckard/pushswap/srcs/push_swap.h
 
-/Users/hdeckard/pushswap/functions_for_help_array.c
+/Users/hdeckard/pushswap/srcs/functions_for_help_array.c
 push_swap.h
-/Users/hdeckard/pushswap/push_swap.h
+/Users/hdeckard/pushswap/srcs/push_swap.h
 
-/Users/hdeckard/pushswap/functions_for_image.c
+/Users/hdeckard/pushswap/srcs/functions_for_image.c
 push_swap.h
-/Users/hdeckard/pushswap/push_swap.h
+/Users/hdeckard/pushswap/srcs/push_swap.h
 
-/Users/hdeckard/pushswap/help_functions.c
+/Users/hdeckard/pushswap/srcs/help_functions.c
 push_swap.h
-/Users/hdeckard/pushswap/push_swap.h
-
-/Users/hdeckard/pushswap/program_control.c
+/Users/hdeckard/pushswap/srcs/push_swap.h
 push_swap.h
-/Users/hdeckard/pushswap/push_swap.h
+/Users/hdeckard/pushswap/srcs/push_swap.h
 
-/Users/hdeckard/pushswap/push_swap.h
-ft_printf.h
-/Users/hdeckard/pushswap/ft_printf.h
-mlx.h
-/Users/hdeckard/pushswap/mlx.h
-sys/types.h
--
-sys/stat.h
--
-fcntl.h
--
-
-/Users/hdeckard/pushswap/validation_check.c
+/Users/hdeckard/pushswap/srcs/program_control.c
 push_swap.h
-/Users/hdeckard/pushswap/push_swap.h
+/Users/hdeckard/pushswap/srcs/push_swap.h
 
-/Users/hdeckard/pushswap/visualization.c
+/Users/hdeckard/pushswap/srcs/validation_check.c
 push_swap.h
-/Users/hdeckard/pushswap/push_swap.h
+/Users/hdeckard/pushswap/srcs/push_swap.h
+
+/Users/hdeckard/pushswap/srcs/visualization.c
+push_swap.h
+/Users/hdeckard/pushswap/srcs/push_swap.h
 

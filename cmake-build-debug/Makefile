@@ -136,390 +136,6 @@ checker/fast:
 	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/build
 .PHONY : checker/fast
 
-actions_pa_pb.o: actions_pa_pb.c.o
-
-.PHONY : actions_pa_pb.o
-
-# target to build an object file
-actions_pa_pb.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_pa_pb.c.o
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_pa_pb.c.o
-.PHONY : actions_pa_pb.c.o
-
-actions_pa_pb.i: actions_pa_pb.c.i
-
-.PHONY : actions_pa_pb.i
-
-# target to preprocess a source file
-actions_pa_pb.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_pa_pb.c.i
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_pa_pb.c.i
-.PHONY : actions_pa_pb.c.i
-
-actions_pa_pb.s: actions_pa_pb.c.s
-
-.PHONY : actions_pa_pb.s
-
-# target to generate assembly for a file
-actions_pa_pb.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_pa_pb.c.s
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_pa_pb.c.s
-.PHONY : actions_pa_pb.c.s
-
-actions_ra_rb_rr.o: actions_ra_rb_rr.c.o
-
-.PHONY : actions_ra_rb_rr.o
-
-# target to build an object file
-actions_ra_rb_rr.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_ra_rb_rr.c.o
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_ra_rb_rr.c.o
-.PHONY : actions_ra_rb_rr.c.o
-
-actions_ra_rb_rr.i: actions_ra_rb_rr.c.i
-
-.PHONY : actions_ra_rb_rr.i
-
-# target to preprocess a source file
-actions_ra_rb_rr.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_ra_rb_rr.c.i
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_ra_rb_rr.c.i
-.PHONY : actions_ra_rb_rr.c.i
-
-actions_ra_rb_rr.s: actions_ra_rb_rr.c.s
-
-.PHONY : actions_ra_rb_rr.s
-
-# target to generate assembly for a file
-actions_ra_rb_rr.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_ra_rb_rr.c.s
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_ra_rb_rr.c.s
-.PHONY : actions_ra_rb_rr.c.s
-
-actions_rra_rrb_rrr.o: actions_rra_rrb_rrr.c.o
-
-.PHONY : actions_rra_rrb_rrr.o
-
-# target to build an object file
-actions_rra_rrb_rrr.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_rra_rrb_rrr.c.o
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_rra_rrb_rrr.c.o
-.PHONY : actions_rra_rrb_rrr.c.o
-
-actions_rra_rrb_rrr.i: actions_rra_rrb_rrr.c.i
-
-.PHONY : actions_rra_rrb_rrr.i
-
-# target to preprocess a source file
-actions_rra_rrb_rrr.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_rra_rrb_rrr.c.i
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_rra_rrb_rrr.c.i
-.PHONY : actions_rra_rrb_rrr.c.i
-
-actions_rra_rrb_rrr.s: actions_rra_rrb_rrr.c.s
-
-.PHONY : actions_rra_rrb_rrr.s
-
-# target to generate assembly for a file
-actions_rra_rrb_rrr.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_rra_rrb_rrr.c.s
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_rra_rrb_rrr.c.s
-.PHONY : actions_rra_rrb_rrr.c.s
-
-actions_sa_sb_ss.o: actions_sa_sb_ss.c.o
-
-.PHONY : actions_sa_sb_ss.o
-
-# target to build an object file
-actions_sa_sb_ss.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_sa_sb_ss.c.o
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_sa_sb_ss.c.o
-.PHONY : actions_sa_sb_ss.c.o
-
-actions_sa_sb_ss.i: actions_sa_sb_ss.c.i
-
-.PHONY : actions_sa_sb_ss.i
-
-# target to preprocess a source file
-actions_sa_sb_ss.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_sa_sb_ss.c.i
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_sa_sb_ss.c.i
-.PHONY : actions_sa_sb_ss.c.i
-
-actions_sa_sb_ss.s: actions_sa_sb_ss.c.s
-
-.PHONY : actions_sa_sb_ss.s
-
-# target to generate assembly for a file
-actions_sa_sb_ss.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/actions_sa_sb_ss.c.s
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/actions_sa_sb_ss.c.s
-.PHONY : actions_sa_sb_ss.c.s
-
-apply_actions.o: apply_actions.c.o
-
-.PHONY : apply_actions.o
-
-# target to build an object file
-apply_actions.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/apply_actions.c.o
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/apply_actions.c.o
-.PHONY : apply_actions.c.o
-
-apply_actions.i: apply_actions.c.i
-
-.PHONY : apply_actions.i
-
-# target to preprocess a source file
-apply_actions.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/apply_actions.c.i
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/apply_actions.c.i
-.PHONY : apply_actions.c.i
-
-apply_actions.s: apply_actions.c.s
-
-.PHONY : apply_actions.s
-
-# target to generate assembly for a file
-apply_actions.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/apply_actions.c.s
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/apply_actions.c.s
-.PHONY : apply_actions.c.s
-
-checker_functions.o: checker_functions.c.o
-
-.PHONY : checker_functions.o
-
-# target to build an object file
-checker_functions.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_functions.c.o
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/checker_functions.c.o
-.PHONY : checker_functions.c.o
-
-checker_functions.i: checker_functions.c.i
-
-.PHONY : checker_functions.i
-
-# target to preprocess a source file
-checker_functions.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_functions.c.i
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/checker_functions.c.i
-.PHONY : checker_functions.c.i
-
-checker_functions.s: checker_functions.c.s
-
-.PHONY : checker_functions.s
-
-# target to generate assembly for a file
-checker_functions.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/checker_functions.c.s
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/checker_functions.c.s
-.PHONY : checker_functions.c.s
-
-checker_main.o: checker_main.c.o
-
-.PHONY : checker_main.o
-
-# target to build an object file
-checker_main.c.o:
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/checker_main.c.o
-.PHONY : checker_main.c.o
-
-checker_main.i: checker_main.c.i
-
-.PHONY : checker_main.i
-
-# target to preprocess a source file
-checker_main.c.i:
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/checker_main.c.i
-.PHONY : checker_main.c.i
-
-checker_main.s: checker_main.c.s
-
-.PHONY : checker_main.s
-
-# target to generate assembly for a file
-checker_main.c.s:
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/checker_main.c.s
-.PHONY : checker_main.c.s
-
-fill_stack.o: fill_stack.c.o
-
-.PHONY : fill_stack.o
-
-# target to build an object file
-fill_stack.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/fill_stack.c.o
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/fill_stack.c.o
-.PHONY : fill_stack.c.o
-
-fill_stack.i: fill_stack.c.i
-
-.PHONY : fill_stack.i
-
-# target to preprocess a source file
-fill_stack.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/fill_stack.c.i
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/fill_stack.c.i
-.PHONY : fill_stack.c.i
-
-fill_stack.s: fill_stack.c.s
-
-.PHONY : fill_stack.s
-
-# target to generate assembly for a file
-fill_stack.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/fill_stack.c.s
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/fill_stack.c.s
-.PHONY : fill_stack.c.s
-
-find_duplicates_min_and_max.o: find_duplicates_min_and_max.c.o
-
-.PHONY : find_duplicates_min_and_max.o
-
-# target to build an object file
-find_duplicates_min_and_max.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.o
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/find_duplicates_min_and_max.c.o
-.PHONY : find_duplicates_min_and_max.c.o
-
-find_duplicates_min_and_max.i: find_duplicates_min_and_max.c.i
-
-.PHONY : find_duplicates_min_and_max.i
-
-# target to preprocess a source file
-find_duplicates_min_and_max.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.i
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/find_duplicates_min_and_max.c.i
-.PHONY : find_duplicates_min_and_max.c.i
-
-find_duplicates_min_and_max.s: find_duplicates_min_and_max.c.s
-
-.PHONY : find_duplicates_min_and_max.s
-
-# target to generate assembly for a file
-find_duplicates_min_and_max.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_duplicates_min_and_max.c.s
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/find_duplicates_min_and_max.c.s
-.PHONY : find_duplicates_min_and_max.c.s
-
-functions_for_blocks.o: functions_for_blocks.c.o
-
-.PHONY : functions_for_blocks.o
-
-# target to build an object file
-functions_for_blocks.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/functions_for_blocks.c.o
-.PHONY : functions_for_blocks.c.o
-
-functions_for_blocks.i: functions_for_blocks.c.i
-
-.PHONY : functions_for_blocks.i
-
-# target to preprocess a source file
-functions_for_blocks.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/functions_for_blocks.c.i
-.PHONY : functions_for_blocks.c.i
-
-functions_for_blocks.s: functions_for_blocks.c.s
-
-.PHONY : functions_for_blocks.s
-
-# target to generate assembly for a file
-functions_for_blocks.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/functions_for_blocks.c.s
-.PHONY : functions_for_blocks.c.s
-
-functions_for_help_array.o: functions_for_help_array.c.o
-
-.PHONY : functions_for_help_array.o
-
-# target to build an object file
-functions_for_help_array.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/functions_for_help_array.c.o
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/functions_for_help_array.c.o
-.PHONY : functions_for_help_array.c.o
-
-functions_for_help_array.i: functions_for_help_array.c.i
-
-.PHONY : functions_for_help_array.i
-
-# target to preprocess a source file
-functions_for_help_array.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/functions_for_help_array.c.i
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/functions_for_help_array.c.i
-.PHONY : functions_for_help_array.c.i
-
-functions_for_help_array.s: functions_for_help_array.c.s
-
-.PHONY : functions_for_help_array.s
-
-# target to generate assembly for a file
-functions_for_help_array.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/functions_for_help_array.c.s
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/functions_for_help_array.c.s
-.PHONY : functions_for_help_array.c.s
-
-functions_for_image.o: functions_for_image.c.o
-
-.PHONY : functions_for_image.o
-
-# target to build an object file
-functions_for_image.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/functions_for_image.c.o
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/functions_for_image.c.o
-.PHONY : functions_for_image.c.o
-
-functions_for_image.i: functions_for_image.c.i
-
-.PHONY : functions_for_image.i
-
-# target to preprocess a source file
-functions_for_image.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/functions_for_image.c.i
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/functions_for_image.c.i
-.PHONY : functions_for_image.c.i
-
-functions_for_image.s: functions_for_image.c.s
-
-.PHONY : functions_for_image.s
-
-# target to generate assembly for a file
-functions_for_image.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/functions_for_image.c.s
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/functions_for_image.c.s
-.PHONY : functions_for_image.c.s
-
-help_functions.o: help_functions.c.o
-
-.PHONY : help_functions.o
-
-# target to build an object file
-help_functions.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/help_functions.c.o
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/help_functions.c.o
-.PHONY : help_functions.c.o
-
-help_functions.i: help_functions.c.i
-
-.PHONY : help_functions.i
-
-# target to preprocess a source file
-help_functions.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/help_functions.c.i
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/help_functions.c.i
-.PHONY : help_functions.c.i
-
-help_functions.s: help_functions.c.s
-
-.PHONY : help_functions.s
-
-# target to generate assembly for a file
-help_functions.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/help_functions.c.s
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/help_functions.c.s
-.PHONY : help_functions.c.s
-
 libftprintf/srcs/libft/ft_abs.o: libftprintf/srcs/libft/ft_abs.c.o
 
 .PHONY : libftprintf/srcs/libft/ft_abs.o
@@ -574,203 +190,587 @@ libftprintf/srcs/libft/nummod.c.s:
 	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/libftprintf/srcs/libft/nummod.c.s
 .PHONY : libftprintf/srcs/libft/nummod.c.s
 
-program_control.o: program_control.c.o
+srcs/actions_pa_pb.o: srcs/actions_pa_pb.c.o
 
-.PHONY : program_control.o
-
-# target to build an object file
-program_control.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/program_control.c.o
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/program_control.c.o
-.PHONY : program_control.c.o
-
-program_control.i: program_control.c.i
-
-.PHONY : program_control.i
-
-# target to preprocess a source file
-program_control.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/program_control.c.i
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/program_control.c.i
-.PHONY : program_control.c.i
-
-program_control.s: program_control.c.s
-
-.PHONY : program_control.s
-
-# target to generate assembly for a file
-program_control.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/program_control.c.s
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/program_control.c.s
-.PHONY : program_control.c.s
-
-push_swap.o: push_swap.c.o
-
-.PHONY : push_swap.o
+.PHONY : srcs/actions_pa_pb.o
 
 # target to build an object file
-push_swap.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap.c.o
-.PHONY : push_swap.c.o
+srcs/actions_pa_pb.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/actions_pa_pb.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/actions_pa_pb.c.o
+.PHONY : srcs/actions_pa_pb.c.o
 
-push_swap.i: push_swap.c.i
+srcs/actions_pa_pb.i: srcs/actions_pa_pb.c.i
 
-.PHONY : push_swap.i
+.PHONY : srcs/actions_pa_pb.i
 
 # target to preprocess a source file
-push_swap.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap.c.i
-.PHONY : push_swap.c.i
+srcs/actions_pa_pb.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/actions_pa_pb.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/actions_pa_pb.c.i
+.PHONY : srcs/actions_pa_pb.c.i
 
-push_swap.s: push_swap.c.s
+srcs/actions_pa_pb.s: srcs/actions_pa_pb.c.s
 
-.PHONY : push_swap.s
+.PHONY : srcs/actions_pa_pb.s
 
 # target to generate assembly for a file
-push_swap.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap.c.s
-.PHONY : push_swap.c.s
+srcs/actions_pa_pb.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/actions_pa_pb.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/actions_pa_pb.c.s
+.PHONY : srcs/actions_pa_pb.c.s
 
-sorting_algorithm.o: sorting_algorithm.c.o
+srcs/actions_ra_rb_rr.o: srcs/actions_ra_rb_rr.c.o
 
-.PHONY : sorting_algorithm.o
+.PHONY : srcs/actions_ra_rb_rr.o
 
 # target to build an object file
-sorting_algorithm.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sorting_algorithm.c.o
-.PHONY : sorting_algorithm.c.o
+srcs/actions_ra_rb_rr.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/actions_ra_rb_rr.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/actions_ra_rb_rr.c.o
+.PHONY : srcs/actions_ra_rb_rr.c.o
 
-sorting_algorithm.i: sorting_algorithm.c.i
+srcs/actions_ra_rb_rr.i: srcs/actions_ra_rb_rr.c.i
 
-.PHONY : sorting_algorithm.i
+.PHONY : srcs/actions_ra_rb_rr.i
 
 # target to preprocess a source file
-sorting_algorithm.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sorting_algorithm.c.i
-.PHONY : sorting_algorithm.c.i
+srcs/actions_ra_rb_rr.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/actions_ra_rb_rr.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/actions_ra_rb_rr.c.i
+.PHONY : srcs/actions_ra_rb_rr.c.i
 
-sorting_algorithm.s: sorting_algorithm.c.s
+srcs/actions_ra_rb_rr.s: srcs/actions_ra_rb_rr.c.s
 
-.PHONY : sorting_algorithm.s
+.PHONY : srcs/actions_ra_rb_rr.s
 
 # target to generate assembly for a file
-sorting_algorithm.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sorting_algorithm.c.s
-.PHONY : sorting_algorithm.c.s
+srcs/actions_ra_rb_rr.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/actions_ra_rb_rr.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/actions_ra_rb_rr.c.s
+.PHONY : srcs/actions_ra_rb_rr.c.s
 
-stack_a_functions.o: stack_a_functions.c.o
+srcs/actions_rra_rrb_rrr.o: srcs/actions_rra_rrb_rrr.c.o
 
-.PHONY : stack_a_functions.o
+.PHONY : srcs/actions_rra_rrb_rrr.o
 
 # target to build an object file
-stack_a_functions.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/stack_a_functions.c.o
-.PHONY : stack_a_functions.c.o
+srcs/actions_rra_rrb_rrr.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/actions_rra_rrb_rrr.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/actions_rra_rrb_rrr.c.o
+.PHONY : srcs/actions_rra_rrb_rrr.c.o
 
-stack_a_functions.i: stack_a_functions.c.i
+srcs/actions_rra_rrb_rrr.i: srcs/actions_rra_rrb_rrr.c.i
 
-.PHONY : stack_a_functions.i
+.PHONY : srcs/actions_rra_rrb_rrr.i
 
 # target to preprocess a source file
-stack_a_functions.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/stack_a_functions.c.i
-.PHONY : stack_a_functions.c.i
+srcs/actions_rra_rrb_rrr.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/actions_rra_rrb_rrr.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/actions_rra_rrb_rrr.c.i
+.PHONY : srcs/actions_rra_rrb_rrr.c.i
 
-stack_a_functions.s: stack_a_functions.c.s
+srcs/actions_rra_rrb_rrr.s: srcs/actions_rra_rrb_rrr.c.s
 
-.PHONY : stack_a_functions.s
+.PHONY : srcs/actions_rra_rrb_rrr.s
 
 # target to generate assembly for a file
-stack_a_functions.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/stack_a_functions.c.s
-.PHONY : stack_a_functions.c.s
+srcs/actions_rra_rrb_rrr.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/actions_rra_rrb_rrr.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/actions_rra_rrb_rrr.c.s
+.PHONY : srcs/actions_rra_rrb_rrr.c.s
 
-stack_b_functions.o: stack_b_functions.c.o
+srcs/actions_sa_sb_ss.o: srcs/actions_sa_sb_ss.c.o
 
-.PHONY : stack_b_functions.o
+.PHONY : srcs/actions_sa_sb_ss.o
 
 # target to build an object file
-stack_b_functions.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/stack_b_functions.c.o
-.PHONY : stack_b_functions.c.o
+srcs/actions_sa_sb_ss.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/actions_sa_sb_ss.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/actions_sa_sb_ss.c.o
+.PHONY : srcs/actions_sa_sb_ss.c.o
 
-stack_b_functions.i: stack_b_functions.c.i
+srcs/actions_sa_sb_ss.i: srcs/actions_sa_sb_ss.c.i
 
-.PHONY : stack_b_functions.i
+.PHONY : srcs/actions_sa_sb_ss.i
 
 # target to preprocess a source file
-stack_b_functions.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/stack_b_functions.c.i
-.PHONY : stack_b_functions.c.i
+srcs/actions_sa_sb_ss.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/actions_sa_sb_ss.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/actions_sa_sb_ss.c.i
+.PHONY : srcs/actions_sa_sb_ss.c.i
 
-stack_b_functions.s: stack_b_functions.c.s
+srcs/actions_sa_sb_ss.s: srcs/actions_sa_sb_ss.c.s
 
-.PHONY : stack_b_functions.s
+.PHONY : srcs/actions_sa_sb_ss.s
 
 # target to generate assembly for a file
-stack_b_functions.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/stack_b_functions.c.s
-.PHONY : stack_b_functions.c.s
+srcs/actions_sa_sb_ss.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/actions_sa_sb_ss.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/actions_sa_sb_ss.c.s
+.PHONY : srcs/actions_sa_sb_ss.c.s
 
-validation_check.o: validation_check.c.o
+srcs/apply_actions.o: srcs/apply_actions.c.o
 
-.PHONY : validation_check.o
+.PHONY : srcs/apply_actions.o
 
 # target to build an object file
-validation_check.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/validation_check.c.o
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/validation_check.c.o
-.PHONY : validation_check.c.o
+srcs/apply_actions.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/apply_actions.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/apply_actions.c.o
+.PHONY : srcs/apply_actions.c.o
 
-validation_check.i: validation_check.c.i
+srcs/apply_actions.i: srcs/apply_actions.c.i
 
-.PHONY : validation_check.i
+.PHONY : srcs/apply_actions.i
 
 # target to preprocess a source file
-validation_check.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/validation_check.c.i
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/validation_check.c.i
-.PHONY : validation_check.c.i
+srcs/apply_actions.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/apply_actions.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/apply_actions.c.i
+.PHONY : srcs/apply_actions.c.i
 
-validation_check.s: validation_check.c.s
+srcs/apply_actions.s: srcs/apply_actions.c.s
 
-.PHONY : validation_check.s
+.PHONY : srcs/apply_actions.s
 
 # target to generate assembly for a file
-validation_check.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/validation_check.c.s
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/validation_check.c.s
-.PHONY : validation_check.c.s
+srcs/apply_actions.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/apply_actions.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/apply_actions.c.s
+.PHONY : srcs/apply_actions.c.s
 
-visualization.o: visualization.c.o
+srcs/checker_functions.o: srcs/checker_functions.c.o
 
-.PHONY : visualization.o
+.PHONY : srcs/checker_functions.o
 
 # target to build an object file
-visualization.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/visualization.c.o
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/visualization.c.o
-.PHONY : visualization.c.o
+srcs/checker_functions.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/checker_functions.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/checker_functions.c.o
+.PHONY : srcs/checker_functions.c.o
 
-visualization.i: visualization.c.i
+srcs/checker_functions.i: srcs/checker_functions.c.i
 
-.PHONY : visualization.i
+.PHONY : srcs/checker_functions.i
 
 # target to preprocess a source file
-visualization.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/visualization.c.i
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/visualization.c.i
-.PHONY : visualization.c.i
+srcs/checker_functions.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/checker_functions.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/checker_functions.c.i
+.PHONY : srcs/checker_functions.c.i
 
-visualization.s: visualization.c.s
+srcs/checker_functions.s: srcs/checker_functions.c.s
 
-.PHONY : visualization.s
+.PHONY : srcs/checker_functions.s
 
 # target to generate assembly for a file
-visualization.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/visualization.c.s
-	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/visualization.c.s
-.PHONY : visualization.c.s
+srcs/checker_functions.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/checker_functions.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/checker_functions.c.s
+.PHONY : srcs/checker_functions.c.s
+
+srcs/checker_main.o: srcs/checker_main.c.o
+
+.PHONY : srcs/checker_main.o
+
+# target to build an object file
+srcs/checker_main.c.o:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/checker_main.c.o
+.PHONY : srcs/checker_main.c.o
+
+srcs/checker_main.i: srcs/checker_main.c.i
+
+.PHONY : srcs/checker_main.i
+
+# target to preprocess a source file
+srcs/checker_main.c.i:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/checker_main.c.i
+.PHONY : srcs/checker_main.c.i
+
+srcs/checker_main.s: srcs/checker_main.c.s
+
+.PHONY : srcs/checker_main.s
+
+# target to generate assembly for a file
+srcs/checker_main.c.s:
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/checker_main.c.s
+.PHONY : srcs/checker_main.c.s
+
+srcs/fill_stack.o: srcs/fill_stack.c.o
+
+.PHONY : srcs/fill_stack.o
+
+# target to build an object file
+srcs/fill_stack.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/fill_stack.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/fill_stack.c.o
+.PHONY : srcs/fill_stack.c.o
+
+srcs/fill_stack.i: srcs/fill_stack.c.i
+
+.PHONY : srcs/fill_stack.i
+
+# target to preprocess a source file
+srcs/fill_stack.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/fill_stack.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/fill_stack.c.i
+.PHONY : srcs/fill_stack.c.i
+
+srcs/fill_stack.s: srcs/fill_stack.c.s
+
+.PHONY : srcs/fill_stack.s
+
+# target to generate assembly for a file
+srcs/fill_stack.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/fill_stack.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/fill_stack.c.s
+.PHONY : srcs/fill_stack.c.s
+
+srcs/find_duplicates_min_and_max.o: srcs/find_duplicates_min_and_max.c.o
+
+.PHONY : srcs/find_duplicates_min_and_max.o
+
+# target to build an object file
+srcs/find_duplicates_min_and_max.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/find_duplicates_min_and_max.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/find_duplicates_min_and_max.c.o
+.PHONY : srcs/find_duplicates_min_and_max.c.o
+
+srcs/find_duplicates_min_and_max.i: srcs/find_duplicates_min_and_max.c.i
+
+.PHONY : srcs/find_duplicates_min_and_max.i
+
+# target to preprocess a source file
+srcs/find_duplicates_min_and_max.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/find_duplicates_min_and_max.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/find_duplicates_min_and_max.c.i
+.PHONY : srcs/find_duplicates_min_and_max.c.i
+
+srcs/find_duplicates_min_and_max.s: srcs/find_duplicates_min_and_max.c.s
+
+.PHONY : srcs/find_duplicates_min_and_max.s
+
+# target to generate assembly for a file
+srcs/find_duplicates_min_and_max.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/find_duplicates_min_and_max.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/find_duplicates_min_and_max.c.s
+.PHONY : srcs/find_duplicates_min_and_max.c.s
+
+srcs/functions_for_blocks.o: srcs/functions_for_blocks.c.o
+
+.PHONY : srcs/functions_for_blocks.o
+
+# target to build an object file
+srcs/functions_for_blocks.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/functions_for_blocks.c.o
+.PHONY : srcs/functions_for_blocks.c.o
+
+srcs/functions_for_blocks.i: srcs/functions_for_blocks.c.i
+
+.PHONY : srcs/functions_for_blocks.i
+
+# target to preprocess a source file
+srcs/functions_for_blocks.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/functions_for_blocks.c.i
+.PHONY : srcs/functions_for_blocks.c.i
+
+srcs/functions_for_blocks.s: srcs/functions_for_blocks.c.s
+
+.PHONY : srcs/functions_for_blocks.s
+
+# target to generate assembly for a file
+srcs/functions_for_blocks.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/functions_for_blocks.c.s
+.PHONY : srcs/functions_for_blocks.c.s
+
+srcs/functions_for_help_array.o: srcs/functions_for_help_array.c.o
+
+.PHONY : srcs/functions_for_help_array.o
+
+# target to build an object file
+srcs/functions_for_help_array.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/functions_for_help_array.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/functions_for_help_array.c.o
+.PHONY : srcs/functions_for_help_array.c.o
+
+srcs/functions_for_help_array.i: srcs/functions_for_help_array.c.i
+
+.PHONY : srcs/functions_for_help_array.i
+
+# target to preprocess a source file
+srcs/functions_for_help_array.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/functions_for_help_array.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/functions_for_help_array.c.i
+.PHONY : srcs/functions_for_help_array.c.i
+
+srcs/functions_for_help_array.s: srcs/functions_for_help_array.c.s
+
+.PHONY : srcs/functions_for_help_array.s
+
+# target to generate assembly for a file
+srcs/functions_for_help_array.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/functions_for_help_array.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/functions_for_help_array.c.s
+.PHONY : srcs/functions_for_help_array.c.s
+
+srcs/functions_for_image.o: srcs/functions_for_image.c.o
+
+.PHONY : srcs/functions_for_image.o
+
+# target to build an object file
+srcs/functions_for_image.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/functions_for_image.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/functions_for_image.c.o
+.PHONY : srcs/functions_for_image.c.o
+
+srcs/functions_for_image.i: srcs/functions_for_image.c.i
+
+.PHONY : srcs/functions_for_image.i
+
+# target to preprocess a source file
+srcs/functions_for_image.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/functions_for_image.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/functions_for_image.c.i
+.PHONY : srcs/functions_for_image.c.i
+
+srcs/functions_for_image.s: srcs/functions_for_image.c.s
+
+.PHONY : srcs/functions_for_image.s
+
+# target to generate assembly for a file
+srcs/functions_for_image.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/functions_for_image.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/functions_for_image.c.s
+.PHONY : srcs/functions_for_image.c.s
+
+srcs/help_functions.o: srcs/help_functions.c.o
+
+.PHONY : srcs/help_functions.o
+
+# target to build an object file
+srcs/help_functions.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/help_functions.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/help_functions.c.o
+.PHONY : srcs/help_functions.c.o
+
+srcs/help_functions.i: srcs/help_functions.c.i
+
+.PHONY : srcs/help_functions.i
+
+# target to preprocess a source file
+srcs/help_functions.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/help_functions.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/help_functions.c.i
+.PHONY : srcs/help_functions.c.i
+
+srcs/help_functions.s: srcs/help_functions.c.s
+
+.PHONY : srcs/help_functions.s
+
+# target to generate assembly for a file
+srcs/help_functions.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/help_functions.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/help_functions.c.s
+.PHONY : srcs/help_functions.c.s
+
+srcs/program_control.o: srcs/program_control.c.o
+
+.PHONY : srcs/program_control.o
+
+# target to build an object file
+srcs/program_control.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/program_control.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/program_control.c.o
+.PHONY : srcs/program_control.c.o
+
+srcs/program_control.i: srcs/program_control.c.i
+
+.PHONY : srcs/program_control.i
+
+# target to preprocess a source file
+srcs/program_control.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/program_control.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/program_control.c.i
+.PHONY : srcs/program_control.c.i
+
+srcs/program_control.s: srcs/program_control.c.s
+
+.PHONY : srcs/program_control.s
+
+# target to generate assembly for a file
+srcs/program_control.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/program_control.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/program_control.c.s
+.PHONY : srcs/program_control.c.s
+
+srcs/push_swap.o: srcs/push_swap.c.o
+
+.PHONY : srcs/push_swap.o
+
+# target to build an object file
+srcs/push_swap.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/push_swap.c.o
+.PHONY : srcs/push_swap.c.o
+
+srcs/push_swap.i: srcs/push_swap.c.i
+
+.PHONY : srcs/push_swap.i
+
+# target to preprocess a source file
+srcs/push_swap.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/push_swap.c.i
+.PHONY : srcs/push_swap.c.i
+
+srcs/push_swap.s: srcs/push_swap.c.s
+
+.PHONY : srcs/push_swap.s
+
+# target to generate assembly for a file
+srcs/push_swap.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/push_swap.c.s
+.PHONY : srcs/push_swap.c.s
+
+srcs/sorting_algorithm.o: srcs/sorting_algorithm.c.o
+
+.PHONY : srcs/sorting_algorithm.o
+
+# target to build an object file
+srcs/sorting_algorithm.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/sorting_algorithm.c.o
+.PHONY : srcs/sorting_algorithm.c.o
+
+srcs/sorting_algorithm.i: srcs/sorting_algorithm.c.i
+
+.PHONY : srcs/sorting_algorithm.i
+
+# target to preprocess a source file
+srcs/sorting_algorithm.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/sorting_algorithm.c.i
+.PHONY : srcs/sorting_algorithm.c.i
+
+srcs/sorting_algorithm.s: srcs/sorting_algorithm.c.s
+
+.PHONY : srcs/sorting_algorithm.s
+
+# target to generate assembly for a file
+srcs/sorting_algorithm.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/sorting_algorithm.c.s
+.PHONY : srcs/sorting_algorithm.c.s
+
+srcs/stack_a_functions.o: srcs/stack_a_functions.c.o
+
+.PHONY : srcs/stack_a_functions.o
+
+# target to build an object file
+srcs/stack_a_functions.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack_a_functions.c.o
+.PHONY : srcs/stack_a_functions.c.o
+
+srcs/stack_a_functions.i: srcs/stack_a_functions.c.i
+
+.PHONY : srcs/stack_a_functions.i
+
+# target to preprocess a source file
+srcs/stack_a_functions.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack_a_functions.c.i
+.PHONY : srcs/stack_a_functions.c.i
+
+srcs/stack_a_functions.s: srcs/stack_a_functions.c.s
+
+.PHONY : srcs/stack_a_functions.s
+
+# target to generate assembly for a file
+srcs/stack_a_functions.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack_a_functions.c.s
+.PHONY : srcs/stack_a_functions.c.s
+
+srcs/stack_b_functions.o: srcs/stack_b_functions.c.o
+
+.PHONY : srcs/stack_b_functions.o
+
+# target to build an object file
+srcs/stack_b_functions.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack_b_functions.c.o
+.PHONY : srcs/stack_b_functions.c.o
+
+srcs/stack_b_functions.i: srcs/stack_b_functions.c.i
+
+.PHONY : srcs/stack_b_functions.i
+
+# target to preprocess a source file
+srcs/stack_b_functions.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack_b_functions.c.i
+.PHONY : srcs/stack_b_functions.c.i
+
+srcs/stack_b_functions.s: srcs/stack_b_functions.c.s
+
+.PHONY : srcs/stack_b_functions.s
+
+# target to generate assembly for a file
+srcs/stack_b_functions.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack_b_functions.c.s
+.PHONY : srcs/stack_b_functions.c.s
+
+srcs/validation_check.o: srcs/validation_check.c.o
+
+.PHONY : srcs/validation_check.o
+
+# target to build an object file
+srcs/validation_check.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/validation_check.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/validation_check.c.o
+.PHONY : srcs/validation_check.c.o
+
+srcs/validation_check.i: srcs/validation_check.c.i
+
+.PHONY : srcs/validation_check.i
+
+# target to preprocess a source file
+srcs/validation_check.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/validation_check.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/validation_check.c.i
+.PHONY : srcs/validation_check.c.i
+
+srcs/validation_check.s: srcs/validation_check.c.s
+
+.PHONY : srcs/validation_check.s
+
+# target to generate assembly for a file
+srcs/validation_check.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/validation_check.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/validation_check.c.s
+.PHONY : srcs/validation_check.c.s
+
+srcs/visualization.o: srcs/visualization.c.o
+
+.PHONY : srcs/visualization.o
+
+# target to build an object file
+srcs/visualization.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/visualization.c.o
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/visualization.c.o
+.PHONY : srcs/visualization.c.o
+
+srcs/visualization.i: srcs/visualization.c.i
+
+.PHONY : srcs/visualization.i
+
+# target to preprocess a source file
+srcs/visualization.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/visualization.c.i
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/visualization.c.i
+.PHONY : srcs/visualization.c.i
+
+srcs/visualization.s: srcs/visualization.c.s
+
+.PHONY : srcs/visualization.s
+
+# target to generate assembly for a file
+srcs/visualization.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/visualization.c.s
+	$(MAKE) -f CMakeFiles/checker.dir/build.make CMakeFiles/checker.dir/srcs/visualization.c.s
+.PHONY : srcs/visualization.c.s
 
 # Help Target
 help:
@@ -782,72 +782,72 @@ help:
 	@echo "... edit_cache"
 	@echo "... push_swap"
 	@echo "... checker"
-	@echo "... actions_pa_pb.o"
-	@echo "... actions_pa_pb.i"
-	@echo "... actions_pa_pb.s"
-	@echo "... actions_ra_rb_rr.o"
-	@echo "... actions_ra_rb_rr.i"
-	@echo "... actions_ra_rb_rr.s"
-	@echo "... actions_rra_rrb_rrr.o"
-	@echo "... actions_rra_rrb_rrr.i"
-	@echo "... actions_rra_rrb_rrr.s"
-	@echo "... actions_sa_sb_ss.o"
-	@echo "... actions_sa_sb_ss.i"
-	@echo "... actions_sa_sb_ss.s"
-	@echo "... apply_actions.o"
-	@echo "... apply_actions.i"
-	@echo "... apply_actions.s"
-	@echo "... checker_functions.o"
-	@echo "... checker_functions.i"
-	@echo "... checker_functions.s"
-	@echo "... checker_main.o"
-	@echo "... checker_main.i"
-	@echo "... checker_main.s"
-	@echo "... fill_stack.o"
-	@echo "... fill_stack.i"
-	@echo "... fill_stack.s"
-	@echo "... find_duplicates_min_and_max.o"
-	@echo "... find_duplicates_min_and_max.i"
-	@echo "... find_duplicates_min_and_max.s"
-	@echo "... functions_for_blocks.o"
-	@echo "... functions_for_blocks.i"
-	@echo "... functions_for_blocks.s"
-	@echo "... functions_for_help_array.o"
-	@echo "... functions_for_help_array.i"
-	@echo "... functions_for_help_array.s"
-	@echo "... functions_for_image.o"
-	@echo "... functions_for_image.i"
-	@echo "... functions_for_image.s"
-	@echo "... help_functions.o"
-	@echo "... help_functions.i"
-	@echo "... help_functions.s"
 	@echo "... libftprintf/srcs/libft/ft_abs.o"
 	@echo "... libftprintf/srcs/libft/ft_abs.i"
 	@echo "... libftprintf/srcs/libft/ft_abs.s"
 	@echo "... libftprintf/srcs/libft/nummod.o"
 	@echo "... libftprintf/srcs/libft/nummod.i"
 	@echo "... libftprintf/srcs/libft/nummod.s"
-	@echo "... program_control.o"
-	@echo "... program_control.i"
-	@echo "... program_control.s"
-	@echo "... push_swap.o"
-	@echo "... push_swap.i"
-	@echo "... push_swap.s"
-	@echo "... sorting_algorithm.o"
-	@echo "... sorting_algorithm.i"
-	@echo "... sorting_algorithm.s"
-	@echo "... stack_a_functions.o"
-	@echo "... stack_a_functions.i"
-	@echo "... stack_a_functions.s"
-	@echo "... stack_b_functions.o"
-	@echo "... stack_b_functions.i"
-	@echo "... stack_b_functions.s"
-	@echo "... validation_check.o"
-	@echo "... validation_check.i"
-	@echo "... validation_check.s"
-	@echo "... visualization.o"
-	@echo "... visualization.i"
-	@echo "... visualization.s"
+	@echo "... srcs/actions_pa_pb.o"
+	@echo "... srcs/actions_pa_pb.i"
+	@echo "... srcs/actions_pa_pb.s"
+	@echo "... srcs/actions_ra_rb_rr.o"
+	@echo "... srcs/actions_ra_rb_rr.i"
+	@echo "... srcs/actions_ra_rb_rr.s"
+	@echo "... srcs/actions_rra_rrb_rrr.o"
+	@echo "... srcs/actions_rra_rrb_rrr.i"
+	@echo "... srcs/actions_rra_rrb_rrr.s"
+	@echo "... srcs/actions_sa_sb_ss.o"
+	@echo "... srcs/actions_sa_sb_ss.i"
+	@echo "... srcs/actions_sa_sb_ss.s"
+	@echo "... srcs/apply_actions.o"
+	@echo "... srcs/apply_actions.i"
+	@echo "... srcs/apply_actions.s"
+	@echo "... srcs/checker_functions.o"
+	@echo "... srcs/checker_functions.i"
+	@echo "... srcs/checker_functions.s"
+	@echo "... srcs/checker_main.o"
+	@echo "... srcs/checker_main.i"
+	@echo "... srcs/checker_main.s"
+	@echo "... srcs/fill_stack.o"
+	@echo "... srcs/fill_stack.i"
+	@echo "... srcs/fill_stack.s"
+	@echo "... srcs/find_duplicates_min_and_max.o"
+	@echo "... srcs/find_duplicates_min_and_max.i"
+	@echo "... srcs/find_duplicates_min_and_max.s"
+	@echo "... srcs/functions_for_blocks.o"
+	@echo "... srcs/functions_for_blocks.i"
+	@echo "... srcs/functions_for_blocks.s"
+	@echo "... srcs/functions_for_help_array.o"
+	@echo "... srcs/functions_for_help_array.i"
+	@echo "... srcs/functions_for_help_array.s"
+	@echo "... srcs/functions_for_image.o"
+	@echo "... srcs/functions_for_image.i"
+	@echo "... srcs/functions_for_image.s"
+	@echo "... srcs/help_functions.o"
+	@echo "... srcs/help_functions.i"
+	@echo "... srcs/help_functions.s"
+	@echo "... srcs/program_control.o"
+	@echo "... srcs/program_control.i"
+	@echo "... srcs/program_control.s"
+	@echo "... srcs/push_swap.o"
+	@echo "... srcs/push_swap.i"
+	@echo "... srcs/push_swap.s"
+	@echo "... srcs/sorting_algorithm.o"
+	@echo "... srcs/sorting_algorithm.i"
+	@echo "... srcs/sorting_algorithm.s"
+	@echo "... srcs/stack_a_functions.o"
+	@echo "... srcs/stack_a_functions.i"
+	@echo "... srcs/stack_a_functions.s"
+	@echo "... srcs/stack_b_functions.o"
+	@echo "... srcs/stack_b_functions.i"
+	@echo "... srcs/stack_b_functions.s"
+	@echo "... srcs/validation_check.o"
+	@echo "... srcs/validation_check.i"
+	@echo "... srcs/validation_check.s"
+	@echo "... srcs/visualization.o"
+	@echo "... srcs/visualization.i"
+	@echo "... srcs/visualization.s"
 .PHONY : help
 
 

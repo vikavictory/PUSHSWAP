@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu90
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/hdeckard/pushswap/libftprintf -I/Users/hdeckard/pushswap/libftprintf/includes -I/Users/hdeckard/pushswap/libftprintf/srcs -I/Users/hdeckard/pushswap/libftprintf/srcs/libft -I/Users/hdeckard/pushswap/libftprintf/srcs/libft/includes 
+C_INCLUDES = -I/Users/hdeckard/pushswap/./includes -I/Users/hdeckard/pushswap/./src -I/Users/hdeckard/pushswap/libftprintf -I/Users/hdeckard/pushswap/libftprintf/includes -I/Users/hdeckard/pushswap/libftprintf/srcs -I/Users/hdeckard/pushswap/libftprintf/srcs/libft -I/Users/hdeckard/pushswap/libftprintf/srcs/libft/includes 
 

@@ -44,6 +44,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/hdeckard/pushswap/./includes"/>
+					<Add directory="/Users/hdeckard/pushswap/./src"/>
 					<Add directory="/Users/hdeckard/pushswap/libftprintf"/>
 					<Add directory="/Users/hdeckard/pushswap/libftprintf/includes"/>
 					<Add directory="/Users/hdeckard/pushswap/libftprintf/srcs"/>
@@ -70,6 +72,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/hdeckard/pushswap/./includes"/>
+					<Add directory="/Users/hdeckard/pushswap/./src"/>
 					<Add directory="/Users/hdeckard/pushswap/libftprintf"/>
 					<Add directory="/Users/hdeckard/pushswap/libftprintf/includes"/>
 					<Add directory="/Users/hdeckard/pushswap/libftprintf/srcs"/>
@@ -96,6 +100,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/hdeckard/pushswap/./includes"/>
+					<Add directory="/Users/hdeckard/pushswap/./src"/>
 					<Add directory="/Users/hdeckard/pushswap/libftprintf"/>
 					<Add directory="/Users/hdeckard/pushswap/libftprintf/includes"/>
 					<Add directory="/Users/hdeckard/pushswap/libftprintf/srcs"/>
@@ -122,6 +128,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/hdeckard/pushswap/./includes"/>
+					<Add directory="/Users/hdeckard/pushswap/./src"/>
 					<Add directory="/Users/hdeckard/pushswap/libftprintf"/>
 					<Add directory="/Users/hdeckard/pushswap/libftprintf/includes"/>
 					<Add directory="/Users/hdeckard/pushswap/libftprintf/srcs"/>
@@ -142,53 +150,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/hdeckard/pushswap/actions_pa_pb.c">
-			<Option target="push_swap"/>
-			<Option target="checker"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/actions_ra_rb_rr.c">
-			<Option target="push_swap"/>
-			<Option target="checker"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/actions_rra_rrb_rrr.c">
-			<Option target="push_swap"/>
-			<Option target="checker"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/actions_sa_sb_ss.c">
-			<Option target="push_swap"/>
-			<Option target="checker"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/apply_actions.c">
-			<Option target="push_swap"/>
-			<Option target="checker"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/checker_functions.c">
-			<Option target="push_swap"/>
-			<Option target="checker"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/checker_main.c">
-			<Option target="checker"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/fill_stack.c">
-			<Option target="push_swap"/>
-			<Option target="checker"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/find_duplicates_min_and_max.c">
-			<Option target="push_swap"/>
-			<Option target="checker"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/functions_for_blocks.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/functions_for_help_array.c">
-			<Option target="push_swap"/>
-			<Option target="checker"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/functions_for_image.c">
-			<Option target="push_swap"/>
-			<Option target="checker"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/help_functions.c">
+		<Unit filename="/Users/hdeckard/pushswap/includes/push_swap.h">
 			<Option target="push_swap"/>
 			<Option target="checker"/>
 		</Unit>
@@ -198,31 +160,77 @@
 		<Unit filename="/Users/hdeckard/pushswap/libftprintf/srcs/libft/nummod.c">
 			<Option target="checker"/>
 		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/program_control.c">
+		<Unit filename="/Users/hdeckard/pushswap/srcs/actions_pa_pb.c">
 			<Option target="push_swap"/>
 			<Option target="checker"/>
 		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/push_swap.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/push_swap.h">
+		<Unit filename="/Users/hdeckard/pushswap/srcs/actions_ra_rb_rr.c">
 			<Option target="push_swap"/>
 			<Option target="checker"/>
 		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/sorting_algorithm.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/stack_a_functions.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/stack_b_functions.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/validation_check.c">
+		<Unit filename="/Users/hdeckard/pushswap/srcs/actions_rra_rrb_rrr.c">
 			<Option target="push_swap"/>
 			<Option target="checker"/>
 		</Unit>
-		<Unit filename="/Users/hdeckard/pushswap/visualization.c">
+		<Unit filename="/Users/hdeckard/pushswap/srcs/actions_sa_sb_ss.c">
+			<Option target="push_swap"/>
+			<Option target="checker"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/srcs/apply_actions.c">
+			<Option target="push_swap"/>
+			<Option target="checker"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/srcs/checker_functions.c">
+			<Option target="push_swap"/>
+			<Option target="checker"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/srcs/checker_main.c">
+			<Option target="checker"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/srcs/fill_stack.c">
+			<Option target="push_swap"/>
+			<Option target="checker"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/srcs/find_duplicates_min_and_max.c">
+			<Option target="push_swap"/>
+			<Option target="checker"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/srcs/functions_for_blocks.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/srcs/functions_for_help_array.c">
+			<Option target="push_swap"/>
+			<Option target="checker"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/srcs/functions_for_image.c">
+			<Option target="push_swap"/>
+			<Option target="checker"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/srcs/help_functions.c">
+			<Option target="push_swap"/>
+			<Option target="checker"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/srcs/program_control.c">
+			<Option target="push_swap"/>
+			<Option target="checker"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/srcs/push_swap.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/srcs/sorting_algorithm.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/srcs/stack_a_functions.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/srcs/stack_b_functions.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/srcs/validation_check.c">
+			<Option target="push_swap"/>
+			<Option target="checker"/>
+		</Unit>
+		<Unit filename="/Users/hdeckard/pushswap/srcs/visualization.c">
 			<Option target="push_swap"/>
 			<Option target="checker"/>
 		</Unit>
