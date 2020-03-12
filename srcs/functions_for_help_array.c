@@ -12,7 +12,7 @@
 
 #include "push_swap.h"
 
-static void		*swap_numbers(int *a, int *b)
+static void		swap_numbers(int *a, int *b)
 {
 	int	c;
 

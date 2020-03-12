@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 16:24:15 by hdeckard          #+#    #+#             */
-/*   Updated: 2020/03/11 15:39:07 by hdeckard         ###   ########.fr       */
+/*   Updated: 2020/03/12 21:44:29 by hdeckard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,8 @@ t_pushswap		*initialization(int program, int argc)
 	head->stack_a = NULL;
 	head->stack_b = NULL;
 	head->begin_b = NULL;
+	head->actions = NULL;
+	head->help_array = NULL;
 	head->program = program;
 	head->count_of_elements = argc - 1;
 	head->steps = 0;

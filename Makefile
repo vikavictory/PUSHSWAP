@@ -1,4 +1,3 @@
-
 PUSH_SWAP = push_swap
 CHECKER = checker
 
@@ -11,7 +10,8 @@ COMMON_SRC =        actions_pa_pb.c \
                     find_duplicates_min_and_max.c \
                     validation_check.c \
                     functions_for_help_array.c \
-                    help_functions.c
+                    help_functions.c \
+                    checker_functions.c \
 
 PUSH_SWAP_SRC =     push_swap.c \
                     functions_for_blocks.c \
@@ -21,57 +21,59 @@ PUSH_SWAP_SRC =     push_swap.c \
 
 CHECKER_SRC =       checker_main.c \
                     apply_actions.c \
-                    checker_functions.c \
                     visualization.c \
                     functions_for_image.c \
                     program_control.c
 
-#COMMON_OBJ = $(COMMON_SRC:.c=.o)
-#PUSH_SWAP_OBJ = $(PUSH_SWAP_SRC:.c=.o)
-#CHECKER_OBJ = $(CHECKER_SRC:.c=.o)
+PUSH_SWAP_SRC_PATH = = $(addprefix $(SRCDIR), $(PUSH_SWAP_SRC))
+CHECKER_SRC_PATH = $(addprefix $(SRCDIR), $(CHECKER_SRC))
+COMMON_SRC_PATH = $(addprefix $(SRCDIR), $(COMMON_SRC))
 
-#COMMON_OBJ = $(addprefix $(OBJDIR),$(COMMON_SRC:.c=.o))
-#PUSH_SWAP_OBJ = $(addprefix $(OBJDIR),$(PUSH_SWAP_SRC:.c=.o))
-#CHECKER_OBJ = $(addprefix $(OBJDIR),$(CHECKER_SRC:.c=.o))
-
-COMMON_OBJ = $(addprefix $(SRCDIR),$(COMMON_SRC:.c=.o))
-PUSH_SWAP_OBJ = $(addprefix $(SRCDIR),$(PUSH_SWAP_SRC:.c=.o))
-CHECKER_OBJ = $(addprefix $(SRCDIR),$(CHECKER_SRC:.c=.o))
+PUSH_SWAP_OBJ = $(addprefix $(OBJDIR), $(PUSH_SWAP_SRC:%.c=%.o))
+CHECKER_OBJ = $(addprefix $(OBJDIR), $(CHECKER_SRC:%.c=%.o))
+COMMON_OBJ = $(addprefix $(OBJDIR), $(COMMON_SRC:%.c=%.o))
 
 #directories
 SRCDIR	= ./srcs/
 INCDIR	= ./includes/
-OBJDIR	= ./obj/
+OBJDIR  = ./obj/
 
 #includes
-INCLUDES = -I./includes
-
-#library
-LIB = ./libftprintf/libftprintf.a
-LIB_DIR = ./libftprintf/
-LIB_INC = -I ./libftprintf/includes -I ./libftprintf/srcs/libft/includes/
+INC = -I ./includes
 
 #flags
 FLAGS = -Wall -Wextra -Werror
 MLX_FLAGS = -lmlx -framework OpenGL -framework AppKit
 
-#compilation
-all: $(PUSH_SWAP) $(CHECKER)
+#library
+FT		= ./libftprintf/
+FT_LIB	= $(addprefix $(FT),libftprintf.a)
+FT_INC	= -I ./libftprintf/includes -I ./libftprintf/srcs/libft/includes/
+FT_LNK	= ./libftprintf/libftprintf.a
+
+all: obj $(FT_LIB) $(PUSH_SWAP) $(CHECKER)
+
+obj:
+	mkdir -p $(OBJDIR)
+
+$(OBJDIR)%.o:$(SRCDIR)%.c
+	gcc $(FLAGS) $(FT_INC) -I $(INCDIR) -o $@ -c $<
 
 $(PUSH_SWAP): $(PUSH_SWAP_OBJ) $(COMMON_OBJ)
-	make -C $(LIB_DIR)
-	gcc -o $(PUSH_SWAP) $(FLAGS) $(INCLUDES) $(PUSH_SWAP_OBJ) $(COMMON_OBJ) $(LIB_INC) $(LIB)
+	gcc $(PUSH_SWAP_OBJ) $(COMMON_OBJ) $(FT_LNK) -o $(PUSH_SWAP)
 
 $(CHECKER): $(CHECKER_OBJ) $(COMMON_OBJ)
-	make -C $(LIB_DIR)
-	gcc -o $(CHECKER) $(FLAGS) $(CHECKER_OBJ) $(COMMON_OBJ) $(MLX_FLAGS) $(INCLUDES) $(LIB_INC) $(LIB)
+	gcc $(CHECKER_OBJ) $(COMMON_OBJ) $(MLX_FLAGS) $(FT_LNK) -o $(CHECKER)
+
+$(FT_LIB):
+	make -C $(FT)
 
 clean:
-	make clean -C $(LIB_DIR)
-	rm -f $(COMMON_OBJ) $(CHECKER_OBJ) $(PUSH_SWAP_OBJ)
+	rm -rf $(OBJDIR)
+	make -C $(FT) clean
 
 fclean: clean
-	make fclean -C $(LIB_DIR)
-	rm -f $(PUSH_SWAP) $(CHECKER)
+	rm -rf $(NAME)
+	make -C $(FT) fclean
 
 re: fclean all
